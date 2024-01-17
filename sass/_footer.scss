@@ -1,0 +1,91 @@
+.contact__card {
+    .icon { width: 2rem; 
+        img { height: 2rem; &.sm { height: 2rem; } }
+    }
+    .caption {
+        width: calc(100% - 2rem);padding-left: .5rem;
+    }
+}
+footer {     
+    padding: 3rem 0 0rem 0;
+ 
+    a { 
+        color: var(--link-color);
+        text-transform: capitalize;   
+        font-size: .937rem; 
+        font-weight: 500;
+        &:hover { 
+            text-decoration: underline;color: var(--brand);
+        } 
+    }
+    
+    .border-top { border-color: rgba(255, 255, 255, 0.3) !important;  }
+
+   .copyright__wrapp {
+        border-top: 1px solid #fff3 !important;
+    }
+ 
+}
+
+
+.social__links {
+    max-width: 112px;
+    li { 
+        a {
+            width: 2.5rem;
+            height: 2.5rem;border-radius: 3px;
+            background-color: var(--white);
+            color: var(--dark);
+
+            svg { width: 1.125rem;height: 1.125rem; 
+                path {
+                    fill: var(--dark);
+                }
+            }
+
+            &:hover, &:focus {
+                background-color: var(--brand);color: var(--white);
+            }
+        } 
+    } 
+}
+
+
+
+/*---------------------- Back to Top Css --------------*/ 
+.backTop { 
+    bottom: 3rem;
+    right: 2rem;
+    width: 3rem;min-height: auto;
+    height: 3rem; 
+    background-color: var(--brand);
+    z-index: 999; 
+    display: none;border: 2px solid var(--white); 
+ 
+    &:hover, &:focus, &:active { 
+        background-color: var(--dark); 
+    }
+    &.show {
+        display: flex;
+    }
+}
+ 
+@media (max-width: 575.99px) {
+    footer {
+        padding: 1rem 0 0rem 0;
+         
+        .logo img { max-height: 6rem;width: auto; }
+
+        .contact__list {
+            img {
+                height: auto;
+                width: 1.5rem;
+            }
+            .lead { 
+                font-size: 1.067rem !important;font-weight: 500 !important;
+            }
+        }
+    }
+}
+ 
+ 
