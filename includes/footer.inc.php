@@ -5,11 +5,11 @@
             <div class="container"> 
                 <div class="row g-3">
                     <div class="col-lg-5 text-center text-sm-start"> 
-                       <img src="assets/images/footer-logo.webp" class="img-fluid" width="" height="" alt="">
-                        <p class="text-white col-lg-10">
+                       <img src="assets/images/footer-logo.webp" class="img-fluid" width="250" height="135" alt="footer logo">
+                        <p class="text-white col-lg-10 mt-4">
                             It is important that oral hygiene be carried out on a regular basis to enable prevention of dental disease.
                         </p>
-                        <div class="">
+                        <div class="mt-4">
                             <?php $classes="footer"; include('_social-links.inc.php'); ?>
                         </div>
                     </div><!--.//col-->

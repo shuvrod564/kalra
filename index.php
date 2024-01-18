@@ -33,7 +33,7 @@
                         <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-white height" aria-label="Enquire Now">
                             APPOINTMENT
                         </button>  
-                        <a href="#" class="btn btn-outline-primary blue height" aria-label="+919987654321">
+                        <a href="#" class="btn btn-outline-white blue height" aria-label="+919987654321">
                             +91 9987 654321
                         </a>  
                     </div>
@@ -99,7 +99,7 @@
                             <div class="service__card p-3 p-xl-4">
                                 <div class="icon__box d-flex align-items-center justify-content-center">
                                     <figure class="m-0">
-                                        <img src="assets/images/icons/dantal-01.svg" width="40" height="40" class="img-fluid icon" alt="">
+                                        <img src="assets/images/icons/dantal-01.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
                                     </figure>
                                 </div>
                                 <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
@@ -113,9 +113,9 @@
                                 </p>
                             </div><!--.//card-->       
                             <div class="service__card p-3 p-xl-4">
-                                <div class="icon__box d-flex align-items-center justify-content-center">
+                                <div class="icon__box icons d-flex align-items-center justify-content-center">
                                     <figure class="m-0">
-                                        <img src="assets/images/icons/dantal-02.svg" width="40" height="40" class="img-fluid icon" alt="">
+                                        <img src="assets/images/icons/dantal-02.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
                                     </figure>
                                 </div>
                                 <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
@@ -131,7 +131,7 @@
                             <div class="service__card p-3 p-xl-4">
                                 <div class="icon__box d-flex align-items-center justify-content-center">
                                     <figure class="m-0">
-                                        <img src="assets/images/icons/dantal-03.svg" width="40" height="40" class="img-fluid icon" alt="">
+                                        <img src="assets/images/icons/dantal-03.svg" width="42" height="23" class="img-fluid icon" alt="dantal">
                                     </figure>
                                 </div>
                                 <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
@@ -222,7 +222,7 @@
                             With over twenty years of experience, Dr. Puneet Kalra has devoted his professional life to treating people and easing their dental agony. Dr. Kalra started his own dental clinic in 2000 and began an 18-year career in private practice after graduating with distinction from Rural Dental College, Pravanagar, Loni, Maharashtra, in the second year of his BDS programme in 1996. Then, in 2018, they enrolled in an MDS programme at Surendera Dental College in Sriganganagar, Rajasthan, with a focus on oral implantology and periodontology. He finished the programme in 2021, achieving distinction in the first year of study.
                         </p>
                         <div>
-                            <img src="assets/images/home/signature.webp" width="" height="" alt="signature">
+                            <img src="assets/images/home/signature.webp" width="210" height="27" alt="signature">
                         </div>
                         <h3 class="fs-5 text-dark text-center text-lg-start fw-bold mt-3">DR. PUNEET BHUSHAN KALRA</h3>
                     </div>
@@ -243,7 +243,7 @@
             sizes=""
             alt="arab-people"
             class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0 "
-            width="1739" height="594"
+            width="1320" height="341"
         />
         <div class="position-absolute top-0 start-0 w-100 h-100 z-2 bg-dark" style="opacity:.9"></div>
         <div class=" py-5 z-index">
@@ -280,7 +280,7 @@
                     <a href="#">
                         <img 
                             class="img-fluid w-100 rounded-3" 
-                            width="377" height="241" 
+                            width="419" height="176" 
                             src="assets/images/home/close-up.webp" 
                             alt="blog-img"
                         >  
@@ -288,7 +288,7 @@
                     <div class="p-3 p-lg-4"> 
                         <div class="icon__box d-flex align-items-center justify-content-center">
                             <figure class="m-0">
-                                <img src="assets/images/icons/dantal-01.svg" width="40" height="40" class="img-fluid icon" alt="">
+                                <img src="assets/images/icons/dantal-01.svg" width="40" height="53" class="img-fluid icon" alt="">
                             </figure>
                         </div>
                         <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
@@ -306,15 +306,15 @@
                     <a href="#">
                         <img 
                             class="img-fluid w-100 rounded-3" 
-                            width="377" height="241" 
-                            src="assets/images/home/close-up.webp" 
+                            width="419" height="176" 
+                            src="assets/images/home/portrait-female.webp" 
                             alt="blog-img"
                         >  
                     </a>
                     <div class="p-3 p-lg-4"> 
                         <div class="icon__box d-flex align-items-center justify-content-center">
                             <figure class="m-0">
-                                <img src="assets/images/icons/dantal-01.svg" width="40" height="40" class="img-fluid icon" alt="">
+                                <img src="assets/images/icons/dantal-02.svg" width="39" height="53" class="img-fluid icon" alt="">
                             </figure>
                         </div>
                         <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
@@ -332,7 +332,7 @@
                     <a href="#">
                         <img 
                             class="img-fluid w-100 rounded-3" 
-                            width="377" height="241" 
+                            width="419" height="176" 
                             src="assets/images/home/close-up.webp" 
                             alt="blog-img"
                         >  
@@ -340,7 +340,7 @@
                     <div class="p-3 p-lg-4"> 
                         <div class="icon__box d-flex align-items-center justify-content-center">
                             <figure class="m-0">
-                                <img src="assets/images/icons/dantal-01.svg" width="40" height="40" class="img-fluid icon" alt="">
+                                <img src="assets/images/icons/dantal-03.svg" width="53" height="29" class="img-fluid icon" alt="">
                             </figure>
                         </div>
                         <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
@@ -522,7 +522,7 @@
                         <div class="thumbnail text-center mx-auto">
                             <img 
                             class="img-fluid rounded-circle" 
-                            width="" height="" 
+                            width="100" height="101" 
                             src="assets/images/home/testimonial.webp" 
                             alt=""
                             >
@@ -557,20 +557,20 @@
                     <div class="py-5">
                         <h2 class="fs-3 pb-4 text-primary fw-bold border-bottom">Our Location</h2>
                         <div class="d-flex align-items-center gap-4 mt-4">
-                            <img src="assets/images/icons/Location.svg" alt="">
+                            <img src="assets/images/icons/Location.svg" class="img-fluid" width="30" height="35" alt="Location">
                             <p class="mb-0 col-lg-5 text-gary fw-medium">
                                 3 KA 13, Pawarnpuri Main Road, Pawanpuri, Near SBBJ Bank, Bikaner, Rajasthan - 334003
                             </p> 
                         </div>
                         <div class="d-flex align-items-center gap-4 mt-4">
-                            <img src="assets/images/icons/phone.svg" alt="">
+                            <img src="assets/images/icons/phone.svg" width="31" height="31" class="img-fluid" alt="">
                             <p class="mb-0 col-lg-5 text-gary fw-medium">
                                 +91 98291 95898 <br>
                                 +91 98291 95898
                             </p> 
                         </div>
                         <div class="d-flex align-items-center gap-4 mt-4">
-                            <img src="assets/images/icons/Page.svg" alt="">
+                            <img src="assets/images/icons/Page.svg" width="31" height="25" class="img-fluid" alt="">
                             <p class="mb-0 col-lg-5 text-gary fw-medium">
                                 enquiry@kalradentalcare.com
                             </p> 
