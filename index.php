@@ -11,7 +11,7 @@
     <!-- All Stylesheets -->
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
 </head>
-<body> 
+<body class="pt-0"> 
     
     <!-- Preloader, Main Navigation Menu --> 
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
