@@ -1,60 +1,67 @@
-     
+
+    
+    
     <!-- navigation start --> 
-    <nav class="navbar navbar-expand-lg smart-scroll postion-relative" id="mainNav">
-        <div class="container">   
-            <a href="<?php echo $base_url;?>" class="navbar-brand p-0 m-0 d-inline-block" aria-label="Kerala Cruises">
-                <img src="<?php echo $base_url;?>assets/images/logo-01.svg" width="166" height="36" class="w-auto" alt="logo">
+    <nav class="navbar navbar-expand-lg smart-scroll" id="mainNav">
+        <div class="container postion-relative">   
+            <a href="<?php echo $base_url;?>" class="navbar-brand p-0 m-0 d-inline-block" aria-label="Kalra">
+                <img src="<?php echo $base_url;?>assets/images/logo.svg" width="127" height="36" class="w-auto" alt="logo">
             </a>
-            <ul class="navbar-nav d-none d-lg-flex align-items-center">    
-                <li class="nav-item"> 
-                    <a href="about-us.php" class="nav-link">    
-                        About Us 
-                    </a>   
-                </li>         
-                <li class="nav-item dropdown ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link" id="drop1"
-                    data-bs-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false">
-                        Services 
-                    </a> 
-                    <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                        <li class="mb-2"><a href="<?php echo $base_url;?>accounting-bookkeeping.php" class="dropdown-item fw-medium">Accounting & Bookkeeping</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>business-start-up.php" class="dropdown-item fw-medium">Business Start-Up & Business Development</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>company-formation.php" class="dropdown-item fw-medium">Company Formation</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>payroll-management.php" class="dropdown-item fw-medium">Payroll Management</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php" class="dropdown-item fw-medium">Financial Analysis & Business Advisory Services</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php" class="dropdown-item fw-medium">VAT Services</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php" class="dropdown-item fw-medium">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php" class="dropdown-item fw-medium">Auditing Services</a></li> 
-                    </ul> 
-                </li>         
-                <li class="nav-item ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link"> 
-                        Your partner 
-                    </a>  
-                </li>       
-                <li class="nav-item ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link"> 
-                        Our expertise 
-                    </a>  
-                </li>       
-                <li class="nav-item ms-lg-1 ms-xl-4"> 
-                    <a href="<?php echo $base_url;?>contact-us.php" class="nav-link"> 
-                        Contact us 
-                    </a>  
-                </li>       
-            </ul>
-             
+            
             
             <div class="d-inline-flex align-items-center">
 
-                <a href="#" class="nav-link btn btn-white px-4 height rounded-pill d-none d-sm-inline-flex" aria-label="Enquiry Now">
-                    Enquiry Now
-                </a>  
-                
-                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" class="navbar-toggler rounded p-2 ms-3" type="button"><span></span><span></span><span></span></button>   
-            </div>
+                <ul class="navbar-nav d-none d-lg-flex align-items-center">    
+                    <li class="nav-item"> 
+                        <a href="about-us.php" class="nav-link">    
+                            Home 
+                        </a>   
+                    </li>         
+                    <li class="nav-item dropdown ms-lg-1 ms-xl-4"> 
+                        <a href="#" class="nav-link" id="drop1"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                            About Us 
+                        </a> 
+                        <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>accounting-bookkeeping.php" class="dropdown-item fw-medium">Accounting & Bookkeeping</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>business-start-up.php" class="dropdown-item fw-medium">Business Start-Up & Business Development</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>company-formation.php" class="dropdown-item fw-medium">Company Formation</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>payroll-management.php" class="dropdown-item fw-medium">Payroll Management</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php" class="dropdown-item fw-medium">Financial Analysis & Business Advisory Services</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php" class="dropdown-item fw-medium">VAT Services</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php" class="dropdown-item fw-medium">Tax Planning and Preparation</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php" class="dropdown-item fw-medium">Auditing Services</a></li> 
+                        </ul> 
+                    </li>             
+                    <li class="nav-item ms-lg-1 ms-xl-4"> 
+                        <a href="#" class="nav-link"> 
+                            Services 
+                        </a>  
+                    </li>       
+                    <li class="nav-item ms-lg-1 ms-xl-4"> 
+                        <a href="#" class="nav-link"> 
+                            Before After 
+                        </a>  
+                    </li>       
+                    <li class="nav-item ms-lg-1 ms-xl-4"> 
+                        <a href="<?php echo $base_url;?>contact-us.php" class="nav-link"> 
+                            Dental Tourism 
+                        </a>  
+                    </li>       
+                    <li class="nav-item ms-lg-1 ms-xl-4"> 
+                        <a href="<?php echo $base_url;?>contact-us.php" class="nav-link"> 
+                            Blog 
+                        </a>  
+                    </li>       
+                    <li class="nav-item ms-lg-1 ms-xl-4"> 
+                        <a href="<?php echo $base_url;?>contact-us.php" class="nav-link"> 
+                            Contact Us 
+                        </a>  
+                    </li>       
+                </ul>
+                 
             
             <!-- <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" class="navbar-toggler rounded p-2 d-block ms-1 ms-xl-3" type="button"><span></span><span></span><span></span></button>    -->
             <!-- <button onclick="openSideMenu()" class="navbar-toggler d-xl-none" type="button"><span></span><span></span><span></span></button>   -->

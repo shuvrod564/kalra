@@ -54,123 +54,100 @@
   border-radius: 8px;
 }
 
-.header__wraper {
-  min-height: 700px;
-  padding-top: 7rem;
-  padding-bottom: 3rem;
-}
-.header__wraper .fs-1 {
-  letter-spacing: 3px;
-  font-size: 3rem !important;
+.header__wrapper {
+  background-image: linear-gradient(rgb(51, 51, 51), rgb(0, 0, 0), rgb(75, 75, 75));
 }
 
-@media (max-width: 575px) {
-  .header__wraper {
-    min-height: 100vh;
-  }
+.provied__wraper .service__card {
+  background-color: #F2F9FF;
 }
-.scrviceTopslider .owl-stage {
-  display: flex;
+.provied__wraper .service__card .icon {
+  width: 2.6rem;
+  opacity: 1;
 }
-.scrviceTopslider .owl-stage .owl-item {
-  display: flex;
-  padding: 1px;
+.provied__wraper .service__card .icon__box {
+  width: 4.25rem;
+  height: 4.25rem;
+  background-color: rgb(0, 135, 198) !important;
+}
+.provied__wraper .service__card .card__text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 
-.service__card {
-  background-color: #FFFFFF;
-  border: 1px solid #E3E3E3;
-  border-radius: 7px !important;
-  width: 100%;
+.about__wraper {
+  background: #F4F4F4;
 }
-.service__card .icon__box::after {
-  content: "";
-  width: 3rem;
-  height: 3rem;
-  background-color: rgba(1, 158, 87, 0.1411764706);
+.about__wraper .about__card .icon__round {
+  width: 4.25rem;
+  height: 4.25rem;
   border-radius: 50%;
-  position: absolute;
-  top: -0.75rem;
-  left: -0.75rem;
-  transition: all 0.3s ease-in-out;
-}
-.service__card .icon__box .icon {
-  width: 2.5rem;
-}
-.service__card:hover {
-  background-color: rgba(1, 158, 87, 0.1411764706);
-  color: var(--dark);
-}
-.service__card:hover .icon__box::after {
-  width: 4rem;
-  height: 4rem;
+  background-color: #F0FAFE !important;
 }
 
-.brand__logo {
-  mix-blend-mode: luminosity;
-  filter: grayscale(100%);
-}
-.brand__logo:hover {
-  mix-blend-mode: normal;
-  filter: none;
-}
-
-.promo__wrapper .btn__service {
-  background-color: var(--brand);
-  color: #fff;
-  border: var(--brand);
-}
-.promo__wrapper .btn__service:hover {
-  background-color: #fff !important;
-  color: var(--brand);
+.promo__wrapper {
+  border-radius: 2.375rem;
+  overflow: hidden;
 }
 .promo__wrapper .height {
   min-height: 4.5rem;
   width: 45%;
+  border-radius: 14px;
 }
 
-@media (max-width: 575px) {
-  .promo__wrapper .height {
-    min-height: 3.5rem;
-    width: auto;
-  }
+.services__wrapper .icon__box {
+  width: 4.25rem;
+  height: 4.25rem;
+  background-color: rgb(0, 135, 198) !important;
+  margin-top: -4rem;
+  position: absolute;
 }
-.ellipsis-3 {
+.services__wrapper .card__text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 3;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
   white-space: normal;
 }
 
-.header__section {
-  min-height: 350px;
-  letter-spacing: 2px;
-  padding-top: 5rem;
+.wraper__section .card {
+  box-shadow: rgb(87, 87, 87) 0px 3px 20px;
+}
+.wraper__section .card .icon__round {
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 50%;
+  background-color: #F0FAFE !important;
+}
+.wraper__section .card .card__text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 
-@media (max-width: 575px) {
-  .header__section {
-    min-height: 281px;
-    padding-bottom: 2rem;
-  }
+.testi__card {
+  background: #FFFFFF;
+  border-radius: 1.25rem;
 }
-.btn__service {
-  background-color: var(--brand);
-  color: #fff;
-  border: var(--brand);
+.testi__card .authore__box .thumbnail {
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  border: 1px solid #00468A;
+  padding: 0.3rem;
+  margin-right: auto;
 }
-
-.form-control {
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
-  border: 1px solid #CBCBCB;
-  border-radius: 12px;
-  padding: 1.125rem 1.25rem;
-}
-.form-control::-moz-placeholder {
-  color: rgba(52, 52, 52, 0.2);
-}
-.form-control::placeholder {
-  color: rgba(52, 52, 52, 0.2);
+.testi__card .authore__box .round__box {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #0086C6;
 }/*# sourceMappingURL=style.css.map */

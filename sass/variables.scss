@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 :root { 
-    --brand: #019E57;  
-    --dark: #00272F;  
-    --grey: #7B7B7B; 
+    --brand: #0086C6;  
+    --grey: #000000; 
+    --dark: #00468A; 
     --border-color: #E3E3E3;  
     --body-text-color: #00272F; 
     --white: #ffffff; 
@@ -101,7 +101,7 @@ ul {
 .btn {  
     font-weight: 500;
     font-display: swap;
-    color: var(--dark);
+    color: var(--white);
     font-size: 1rem;   
     border-radius: var(--border-radius);
     padding: 0 1rem; 
@@ -118,10 +118,10 @@ ul {
     }  
 }
 .btn-primary {
-    background-color: var(--brand);border-color: var(--brand);color: var(--white);  
+    background-color: var(--dark);border-color: var(--dark);color: var(--white);  
 
     &:hover, &:focus, &:active {
-        background-color: var(--brand);border-color: var(--brand);
+        background-color: var(--grey);border-color: var(--brand);
     } 
 }
 .btn-outline-primary {

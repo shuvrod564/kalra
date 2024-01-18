@@ -1,96 +1,50 @@
 
     <!-- Footer Wrapper Start -->
-    <footer class="bg-dark"> 
-        <div class="border-bottom pb-4 mb-4 pb-md-5 mb-lg-5" style="border-color:#fff3 !important">
+    <footer style="background: #262626;"> 
+        <div class="pb-4 mb-4 pb-md-5 mb-lg-5">
             <div class="container"> 
                 <div class="row g-3">
-                    <div class="col-lg-8 text-center text-sm-start"> 
-                        <h2 class="fs-2 fw-semibold text-white">Contact information</h2>
-                        <p class="text-white fs-15 col-lg-8">Contact us today for a consultation, and let’s take the first step towards achieving financial success together.</p>
-                    </div>
-                    <div class="col-lg-4 contact__list">
-                        <div class="d-flex gap-3 align-items-center pb-4">
-                           <img src="assets/images/icon/email.webp" class="img-fluid" width="26" height="20" alt="email">
-                           <div class="col"> 
-                               <a class="text-white fw-semibold lead text-lowercase" href="#">hello@finteam.com</a>
-                           </div>
+                    <div class="col-lg-5 text-center text-sm-start"> 
+                       <img src="assets/images/footer-logo.webp" class="img-fluid" width="" height="" alt="">
+                        <p class="text-white col-lg-10">
+                            It is important that oral hygiene be carried out on a regular basis to enable prevention of dental disease.
+                        </p>
+                        <div class="">
+                            <?php $classes="footer"; include('_social-links.inc.php'); ?>
                         </div>
-                        <div class="d-flex gap-3 align-items-center pb-4">
-                           <img src="assets/images/icon/tell-white.webp" class="img-fluid" width="27" height="27" alt="tell">
-                           <div class="col"> 
-                               <a class="text-white fw-semibold lead" href="tel:+447872908711">+44 7872 908711</a>
-                           </div>
-                        </div>
-                        <div class="d-flex gap-3 align-items-center">
-                           <img src="assets/images/icon/location-white.webp" class="img-fluid" width="22" height="30" alt="location">
-                           <div class="col"> 
-                               <address class="text-white fw-semibold mb-0 lead-sm">4140 Parker Rd. Allentown, India 56022</address>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">  
-            <div class="row g-4">
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <p class="lead fw-bold text-white">Services</p>
-                    <ul class="links text-white">
-                        <li class="mb-2"><a href="<?php echo $base_url;?>accounting-bookkeeping.php">Accounting & Bookkeeping</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>business-start-up.php">Business Start-Up & Business Development</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>company-formation.php">Company Formation</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>payroll-management.php">Payroll Management</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php">Financial Analysis & Business Advisory Services</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php">VAT Services</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php">Auditing Services</a></li> 
-                    </ul>
-                </div><!--.//col-->
-                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
-                    <p class="lead fw-semibold text-white">Company</p>        
-                    <ul class="links text-white"> 
-                        <li class="mb-2"><a href="<?php echo $base_url;?>about-us.php">About us</a></li>
-                        <li class="mb-2"><a href="#">Careers</a></li>
-                        <li class="mb-2"><a href="#">Press</a></li>
-                        <li class="mb-2"><a href="#">News</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>contact-us.php">Contact</a></li>      
-                        
-                    </ul>
-                </div><!--.//col-->
-                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
-                    <div class="ps-lg-5"> 
-                        <p class="lead fw-semibold text-white">Resources</p>
+                    </div><!--.//col-->
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                        <p class="fs-5 fw-semibold text-white">Quick Links</p>        
                         <ul class="links text-white"> 
-                            <li class="mb-2"><a href="<?php echo $base_url;?>blog/">Blog</a></li>
-                            <li class="mb-2"><a href="#">Help</a></li>
-                            <li class="mb-2"><a href="#">center</a></li>
-                            <li class="mb-2"><a href="#">Tutorials</a></li>
-                            <li class="mb-2"><a href="#">Support</a></li>        
+                            <li class="mb-2"><a href="#">Home</a></li>
+                            <li class="mb-2"><a href="#">About Us</a></li>
+                            <li class="mb-2"><a href="#">Our team</a></li>
+                            <li class="mb-2"><a href="#">Patients Safety</a></li>
+                            <li class="mb-2"><a href="#"></a>Facilities</li>           
                         </ul>
-                    </div>
-                </div><!--.//col-->
-                <div class="col-xl-2 col-lg-3 col-6">
-                    <div class="ps-xl-5">
-                        <p class="lead fw-semibold text-white">Other Links</p>
-                        <ul class="links text-white">
-                            <li class="mb-2"><a href="#">Legal</a></li>
-                            <li class="mb-2"><a href="#">Terms</a></li>
-                            <li class="mb-2"><a href="#">Privacy</a></li>
-                            <li class="mb-2"><a href="#">Cookies</a></li>
+                    </div><!--.//col-->
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
+                        <p class="fs-5 fw-semibold text-white">Our Services</p>        
+                        <ul class="links text-white"> 
+                            <li class="mb-2"><a href="#">Deep Scaling & Curettage</a></li>
+                            <li class="mb-2"><a href="#">Tooth Extraction</a></li>     
+                            <li class="mb-2"><a href="#">Composite Filling</a></li>
+                            <li class="mb-2"><a href="#">Root Canal Treatment</a></li>
+                            <li class="mb-2"><a href="#">Bridges & Crowns</a></li>      
+                            <li class="mb-2"><a href="#">Dentures</a></li>      
                         </ul>
-                    </div>
-                </div><!--.//col-->
-                <div class="col-xl-2 col-lg-3 col-6">
-                    <div class="ps-xl-5">
-                        <p class="lead fw-semibold text-white">Social Media</p>
-                        <?php $classes="footer"; include('_social-links.inc.php'); ?>
-                    </div>
-                </div><!--.//col-->
-                    
-            </div><!--.//row--> 
-        </div><!--.//container-->
+                    </div><!--.//col-->
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
+                        <p class="fs-5 fw-semibold text-white">Other Links</p>        
+                        <ul class="links text-white"> 
+                            <li class="mb-2"><a href="#">Dental Tourism</a></li>
+                        </ul>
+                    </div><!--.//col-->
+                </div><!--.//row-->
+            </div><!--.//container-->
+        </div>
         
-        <div class="copyright__wrapp bg-dark py-3 mt-4 position-relative">
+        <div class="copyright__wrapp py-3 mt-4 position-relative" style="background: #2B2B2B;">
             <div class="container"> 
                 <div class="row g-2 align-items-center">
                     <div class="col-md-12"> 

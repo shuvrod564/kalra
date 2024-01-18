@@ -47,7 +47,7 @@ function topFunction() {
  
 
   // Bottom Section Service Slider Activaton Script (Homepage)
-  $(".scrviceTopslider").owlCarousel({
+  $(".provideSlider").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -64,13 +64,13 @@ function topFunction() {
         0: { items: 1, margin: 8 },
         576: { items: 2, margin: 10  },
         768: { items: 2, margin: 15,  },
-        992: { items: 2, margin: 15,  }, 
+        992: { items: 3, margin: 15,  }, 
         1200: { items: 3, margin: 15, }, 
-        1400: { items: 4, }, 
+        1400: { items: 3, }, 
     } 
   });
  
-  $(".logoslider").owlCarousel({
+  $(".excellenceCarousel").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -84,17 +84,17 @@ function topFunction() {
     dots: true,
     responsiveClass: true, 
     responsive: { 
-        0: { items: 2, margin: 8 },
-        576: { items: 3, margin: 10  },
-        768: { items: 4, margin: 15  },
-        992: { items: 4, margin: 15  }, 
-        1200: { items: 5, margin: 15 },  
-        1400: { items: 6, margin: 15 },  
+        0: { items: 0, margin: 8 },
+        576: { items: 1, margin: 10  },
+        768: { items: 2, margin: 15  },
+        992: { items: 3, margin: 15  }, 
+        1200: { items: 3, margin: 15 },  
+         
     } 
   });
   
   // Bottom Section Service Slider Activaton Script (Homepage)
-  $(".blogsCarousel").owlCarousel({
+  $(".testimionalSlider").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,

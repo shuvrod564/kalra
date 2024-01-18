@@ -1,9 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --brand: #019E57;
-  --dark: #00272F;
-  --grey: #7B7B7B;
+  --brand: #0086C6;
+  --grey: #000000;
+  --dark: #00468A;
   --border-color: #E3E3E3;
   --body-text-color: #00272F;
   --white: #ffffff;
@@ -160,7 +160,7 @@ ul li {
 .btn {
   font-weight: 500;
   font-display: swap;
-  color: var(--dark);
+  color: var(--white);
   font-size: 1rem;
   border-radius: var(--border-radius);
   padding: 0 1rem;
@@ -182,12 +182,12 @@ ul li {
 }
 
 .btn-primary {
-  background-color: var(--brand);
-  border-color: var(--brand);
+  background-color: var(--dark);
+  border-color: var(--dark);
   color: var(--white);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: var(--brand);
+  background-color: var(--grey);
   border-color: var(--brand);
 }
 
@@ -268,24 +268,6 @@ ul li {
   margin-bottom: 0.25rem;
 }
 
-.tooltip {
-  opacity: 1;
-}
-.tooltip .tooltip-inner {
-  padding: 0 0.5rem;
-  min-height: 1.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--dark);
-  opacity: 1;
-  line-height: 1.2;
-}
-
-.tooltip.show {
-  opacity: 1 !important;
-}
-
 .pagination .page-item {
   margin: 0.2rem;
 }
@@ -331,11 +313,6 @@ ul li {
     font-size: 0.937rem;
     padding: 0% 0.75rem;
   }
-  .btn .arrow {
-    width: 18px;
-    height: 8px;
-    background-size: contain;
-  }
   .btn.height {
     min-height: 2.5rem;
   }
@@ -360,7 +337,7 @@ ul li {
 .scrolled-up {
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
-  background-color: var(--dark);
+  background-color: rgba(250, 235, 215, 0.81);
 }
 .scrolled-up .navbar-brand img {
   max-height: 5rem;
@@ -371,7 +348,7 @@ ul li {
 }
 .navbar .nav-item .nav-link {
   font-size: 1rem;
-  color: var(--white);
+  color: var(--grey);
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -567,9 +544,6 @@ footer .copyright__wrapp {
   border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
-.social__links {
-  max-width: 112px;
-}
 .social__links li a {
   width: 2.5rem;
   height: 2.5rem;

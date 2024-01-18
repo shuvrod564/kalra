@@ -48,4 +48,139 @@
     }
 }
 
- 
+
+
+.header__wrapper{
+    background-image:linear-gradient(rgba(51, 51, 51, 1),rgba(0, 0, 0, 1),rgba(75, 75, 75, 1));
+
+}
+
+
+
+
+.provied__wraper {
+    
+    .service__card {
+        background-color: #F2F9FF;
+
+        .icon{
+            width: 2.6rem; 
+            opacity: 1;
+        }
+        .icon__box {
+             width: 4.25rem;
+             height: 4.25rem;
+             background-color: rgba(0, 135, 198, 1) !important;
+             
+         }     
+         
+         .card__text {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+        }
+    } 
+    
+}
+
+
+.about__wraper{
+    background: #F4F4F4;
+    .about__card{
+        .icon__round {
+            width: 4.25rem;
+            height: 4.25rem;
+            border-radius: 50%;
+            background-color:#F0FAFE!important;
+        }    
+
+    }
+}
+
+
+
+.promo__wrapper {
+    border-radius: 2.375rem;
+    overflow: hidden;
+
+    .height {
+        min-height: 4.5rem;
+        width: 45%;
+        border-radius: 14px;
+       
+    }
+}
+
+
+.services__wrapper{
+    .icon__box {
+        width: 4.25rem;
+        height: 4.25rem;
+        background-color: rgba(0, 135, 198, 1) !important;margin-top: -4rem;
+        position: absolute;
+        
+    }
+    .card__text {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }   
+}
+
+
+
+.wraper__section{
+
+    .card{
+        box-shadow: rgba(87, 87, 87, 1) 0px 3px 20px;
+        .icon__round {
+            width: 4.25rem;
+            height: 4.25rem;
+            border-radius: 50%;
+            background-color:#F0FAFE!important;
+        }    
+        .card__text{
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+
+         }
+         
+    }
+}
+
+
+.testi__card{
+    background: #FFFFFF;
+    border-radius: 1.25rem;
+    .authore__box{
+        
+
+        .thumbnail{
+            border-radius: 50%;
+            width: 7rem;height: 7rem;
+            border: 1px solid #00468A;
+            padding: 0.3rem;
+            margin-right: auto;
+            
+            
+        }
+        .round__box{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-color:#0086C6;
+
+        }
+        
+    }
+}
