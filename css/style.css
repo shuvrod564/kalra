@@ -143,11 +143,17 @@
   height: 7rem;
   border: 1px solid #00468A;
   padding: 0.3rem;
-  margin-right: auto;
 }
-.testi__card .authore__box .round__box {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: #0086C6;
+
+.heading {
+  font-size: 3.8rem !important;
+}
+
+.extra__btn {
+  border-bottom: 1px solid #0086C6;
+  width: 14rem;
+}
+
+.hero__thamnail {
+  background-color: rgba(0, 0, 0, 0.5137254902);
 }/*# sourceMappingURL=style.css.map */

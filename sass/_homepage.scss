@@ -159,28 +159,34 @@
 }
 
 
+
 .testi__card{
     background: #FFFFFF;
     border-radius: 1.25rem;
+    
     .authore__box{
         
-
         .thumbnail{
             border-radius: 50%;
             width: 7rem;height: 7rem;
             border: 1px solid #00468A;
             padding: 0.3rem;
-            margin-right: auto;
             
             
-        }
-        .round__box{
-            width: 3rem;
-            height: 3rem;
-            border-radius: 50%;
-            background-color:#0086C6;
-
         }
         
     }
+}
+
+.heading{
+    font-size: 3.8rem !important;
+}
+
+.extra__btn{
+    border-bottom: 1px solid #0086C6; width: 14rem ;
+}
+
+
+.hero__thamnail {
+    background-color: #00000083;
 }

@@ -15,8 +15,7 @@
     
     <!-- Preloader, Main Navigation Menu --> 
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
-    
-    
+
     
     <!-- header section start -->
     <header class="header__wrapper pt-3">
@@ -29,11 +28,11 @@
                         <span class="fs-4 fw-semibold text-white d-block">Precise, Meticulous, Human.</span>
                     </h1>
                     <p class="text-white">Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.</p>
-                    <div class="d-flex flex-wrap gap-4 justify-content-center justify-content-lg-start">
+                    <div class="d-flex flex-wrap gap-4 justify-content-center justify-content-lg-start px-4 py-3">
                         <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-white height" aria-label="Enquire Now">
                             APPOINTMENT
                         </button>  
-                        <a href="#" class="btn btn-outline-white blue height" aria-label="+919987654321">
+                        <a href="#" class="btn btn-outline-white blue height px-4 py-3" aria-label="+919987654321">
                             +91 9987 654321
                         </a>  
                     </div>
@@ -49,7 +48,7 @@
             </div><!--.//row-->
         </div><!--.//container-->
         <div class="py-5" style="background: #535353;">
-            <div class="container">
+            <div class="container text-center text-lg-start">
                 <form action="#" method="post" id="contactPageForm" class="row">
                     <div class="col-lg-3">
                         <label for="cname" class="mb-0 text-3b text-white">Full Name</label>
@@ -67,9 +66,11 @@
                         <small class="text-danger error" id="cemail_error"></small>
                     </div><!--.//col-->
                     <div class="col-lg-3 mb-0">
-                        <label for="cemail" class="text-3b mb-0"></label>
-                        <input type="text" name="email" id="cemail" class="form-control py-3">
-                        <small class="text-danger error" id="cemail_error"></small>
+                        <div class="mt-4">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-primary height py-3 rounded-2 px-5" aria-label="Enquire Now">
+                                BOOK APPOINTMENT
+                            </button>  
+                        </div>
                     </div><!--.//col-->
                 </form>
             </div>
@@ -172,7 +173,7 @@
                 <div class="col-lg-4">
                     <div class="ps-lg-4"> 
                         <div class="about__card">
-                            <div class="icon__round d-flex align-items-center justify-content-center">
+                            <div class="icon__round d-flex text-center align-items-center justify-content-center">
                                 <figure class="m-0">
                                     <img src="assets/images/icons/round.svg" width="40" height="40" class="img-fluid icon" alt="">
                                 </figure>
@@ -216,8 +217,8 @@
                     <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/home/dr-img.webp" alt="Dr">
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex align-items-center">
-                    <div class="w-100 py-lg-4"> 
-                        <h2 class="fs-2 text-dark text-center text-lg-start fw-bold mb-3">DR. PUNEET BHUSHAN KALRA</h2>
+                    <div class="py-lg-4  text-center text-lg-start"> 
+                        <h2 class="fs-2 text-dark fw-bold mb-3">DR. PUNEET BHUSHAN KALRA</h2>
                         <p class="desc fs-15">
                             With over twenty years of experience, Dr. Puneet Kalra has devoted his professional life to treating people and easing their dental agony. Dr. Kalra started his own dental clinic in 2000 and began an 18-year career in private practice after graduating with distinction from Rural Dental College, Pravanagar, Loni, Maharashtra, in the second year of his BDS programme in 1996. Then, in 2018, they enrolled in an MDS programme at Surendera Dental College in Sriganganagar, Rajasthan, with a focus on oral implantology and periodontology. He finished the programme in 2021, achieving distinction in the first year of study.
                         </p>
@@ -249,8 +250,8 @@
         <div class=" py-5 z-index">
             <div class="row g-4 g-lg-5 align-items-center">
                 <div class="col-lg-6">
-                    <h2 class="fs-2 text-white fw-bold mb-3">DENTAL TOURISM BIKANER</h2>
-                    <p class="text-white">
+                    <h2 class="fs-2 text-white text-center text-lg-start fw-bold mb-3">DENTAL TOURISM BIKANER</h2>
+                    <p class="text-white text-center text-lg-start">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                     </p>
                 </div><!--//.col-->
@@ -277,14 +278,14 @@
             <h2 class="fs-2 text-dark text-center fw-bold mb-3">CENTRE OF EXCELLENCE</h2>
             <div class="owl-carousel excellenceCarousel">
                 <div class="border bg-white rounded-3">
-                    <a href="#">
+                    <div>
                         <img 
                             class="img-fluid w-100 rounded-3" 
                             width="419" height="176" 
                             src="assets/images/home/close-up.webp" 
                             alt="blog-img"
                         >  
-                    </a>
+                    </div>
                     <div class="p-3 p-lg-4"> 
                         <div class="icon__box d-flex align-items-center justify-content-center">
                             <figure class="m-0">
@@ -303,14 +304,14 @@
                     </div>
                 </div><!--//.card-->
                 <div class="border bg-white rounded-3">
-                    <a href="#">
+                    <div>
                         <img 
                             class="img-fluid w-100 rounded-3" 
                             width="419" height="176" 
                             src="assets/images/home/portrait-female.webp" 
                             alt="blog-img"
                         >  
-                    </a>
+                    </div>
                     <div class="p-3 p-lg-4"> 
                         <div class="icon__box d-flex align-items-center justify-content-center">
                             <figure class="m-0">
@@ -329,14 +330,14 @@
                     </div>
                 </div><!--//.card-->
                 <div class="border bg-white rounded-3">
-                    <a href="#">
+                    <div>
                         <img 
                             class="img-fluid w-100 rounded-3" 
                             width="419" height="176" 
                             src="assets/images/home/close-up.webp" 
                             alt="blog-img"
                         >  
-                    </a>
+                    </div>
                     <div class="p-3 p-lg-4"> 
                         <div class="icon__box d-flex align-items-center justify-content-center">
                             <figure class="m-0">
@@ -348,6 +349,32 @@
                         </h3>
                         <p class="card__text">
                             Premium orthodontic braces procedures intended to improve and align your smile. With efficient individualised treatment programmes and an emphasis on accuracy and attention, enjoy a smile that is straighter, healthier, and has a lasting improvement in your oral health.
+                        </p>
+                        <div>
+                            <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
+                        </div>
+                    </div>
+                </div><!--//.card-->
+                <div class="border bg-white rounded-3">
+                    <div>
+                        <img 
+                            class="img-fluid w-100 rounded-3" 
+                            width="419" height="176" 
+                            src="assets/images/home/portrait-female.webp" 
+                            alt="blog-img"
+                        >  
+                    </div>
+                    <div class="p-3 p-lg-4"> 
+                        <div class="icon__box d-flex align-items-center justify-content-center">
+                            <figure class="m-0">
+                                <img src="assets/images/icons/dantal-02.svg" width="39" height="53" class="img-fluid icon" alt="">
+                            </figure>
+                        </div>
+                        <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                            DENTAL IMPLANTS
+                        </h3>
+                        <p class="card__text">
+                            Specialised dental implant treatments, state-of-the-art methods and individualised attention can restore the appearance and functionality of your smile. Using premium materials and cutting-edge technology, experience a smooth procedure from consultation to implantation.
                         </p>
                         <div>
                             <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
@@ -437,17 +464,21 @@
                     </div><!--.//werper__section--> 
                 </div><!--.//col-->
                 <div class="col-lg-6 ps-4 ps-lg-5">
-                    <p class="lead mb-0">CEREC</p>
-                    <h2 class="fs-2 text-gary fw-bold mb-3">What is CEREC?</h2>
-                    <p class="">
-                       <strong>CEREC is the short term for Chairside Economical Restoration of Esthetic Ceramics, or CEramic REConstruction.</strong></p>
-                       <p>
-                        CAD/CAM (computer aided design/computer aided manufacturing) technology to take impressions quickly and generate a precisely fitted filling so you can leave Discovery Dental sooner.
-                       </p>
-                       <div class="btns mt-3">
-                        <a href="#" class="btn__service btn btn-dark px-4 height py-3 rounded-3" aria-label="KNOW MORE">
-                            <span class="fw-semibold">KNOW MORE</span> 
-                        </a>  
+                    <div class="text-center text-lg-start pt-4">
+                        <p class="lead mb-0">CEREC</p>
+                        <h2 class="fs-2 text-gary fw-bold mb-3">What is CEREC?</h2>
+                        <p class="">
+                        <strong>CEREC is the short term for Chairside Economical Restoration of Esthetic Ceramics, or CEramic REConstruction.</strong></p>
+                        <p>
+                            CAD/CAM (computer aided design/computer aided manufacturing) technology to take impressions quickly and generate a precisely fitted filling so you can leave Discovery Dental sooner.
+                        </p>
+                        <div class="btns mt-3">
+                            <div class="mt-4">
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-dark height py-3 rounded-3 px-5" aria-label="KNOW MORE">
+                                    KNOW MORE
+                                </button>  
+                            </div>
+                        </div>  
                     </div>
                 </div><!--//.col-->
             </div><!--.//row-->        
@@ -510,7 +541,7 @@
 
 
     <!-- Testimional Section Start -->
-    <section class="py-5 position-relative" style="background-color: #F4F9FC">
+    <section class="py-5" style="background-color: #F4F9FC">
         <div class="container mb-lg-4">
             <h2 class="fs-2 text-dark text-center fw-bold mb-3">Testimonials</h2>
             <p class="col-lg-8 mx-auto text-center">
@@ -521,24 +552,28 @@
                     <div class="authore__box text-center pt-4">
                         <div class="thumbnail text-center mx-auto">
                             <img 
-                            class="img-fluid rounded-circle" 
-                            width="100" height="101" 
-                            src="assets/images/home/testimonial.webp" 
-                            alt=""
+                                class="img-fluid rounded-circle" 
+                                width="100" height="101" 
+                                src="assets/images/home/testimonial.webp" 
+                                alt=""
                             >
                         </div>
-                        <div class="caption ps-3"> 
+                        <div class="caption p-4"> 
                             <p class="">
                                 “Dude, your stuff is the bomb! Your company is truly upstanding and is behind its product 100%. Man, this thing is getting better and better as I learn more about it. Buy this now. “
                             </p>
-                            <div class="round__box d-flex align-items-center justify-content-center">
+                            <div class="round__box d-flex d-block align-items-center justify-content-center">
                                 <p class="text-white fw-semibold mb-0">5.0</p>
-                            </div> 
-                            <div class="mb-0 ps-3">
-                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.2786 7.18509C19.1266 6.68535 18.6866 6.31978 18.156 6.25239L13.1205 5.57475L11.1278 0.936245C10.8369 0.257296 10.036 -0.0633105 9.33909 0.220103C9.00685 0.355244 8.74268 0.612548 8.604 0.936206L6.61132 5.57471L1.57578 6.25235C0.82551 6.35412 0.301975 7.02909 0.406444 7.75995C0.451324 8.07403 0.609396 8.36231 0.85243 8.57326L4.64634 11.8691L3.86685 17.0409C3.7824 17.566 4.03 18.0892 4.49477 18.3677C4.95301 18.6532 5.54244 18.6425 5.98946 18.3407L9.86591 15.7726L13.7424 18.3433C14.3679 18.7569 15.2191 18.5982 15.6437 17.9889C15.8366 17.7119 15.9156 17.3745 15.865 17.0435L15.0855 11.8697L18.8794 8.57396C19.2823 8.22836 19.4387 7.68421 19.2786 7.18509Z" fill="#ED7F06"/>
-                                  </svg>
                             </div>
+                            <div class="d-flex align-items-center">
+                                <figure class="">
+                                    <img src="assets/images/home/star-logo.webp" class="img-fluid h-100" width="220" height="66" alt="star">
+                                </figure>
+                                <div>
+                                    <h3 class="fs-4 text-primary fw-bold">- Lorne V.</h3>
+                                    <p class="fs-15">Customer</p>
+                                </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -550,78 +585,86 @@
     <!--Make Appointment section Start -->
     <section class="py-3 py-xl-5">
         <div class="container py-sm-3">
-            <div class="row g-2 g-lg-3">
+            <div class="row gx-4 g-xl-5">
                 <div class="col-lg-6">
-                    <h2 class="fs-1 text-gary fw-bold mb-3">Make An Appointment</h2>
-                    <p>Now you don’t have to wait hours in line, book your appointment today. Enter your details to request an appointment.</p> 
-                    <div class="py-5">
-                        <h2 class="fs-3 pb-4 text-primary fw-bold border-bottom">Our Location</h2>
-                        <div class="d-flex align-items-center gap-4 mt-4">
-                            <img src="assets/images/icons/Location.svg" class="img-fluid" width="30" height="35" alt="Location">
-                            <p class="mb-0 col-lg-5 text-gary fw-medium">
-                                3 KA 13, Pawarnpuri Main Road, Pawanpuri, Near SBBJ Bank, Bikaner, Rajasthan - 334003
-                            </p> 
-                        </div>
-                        <div class="d-flex align-items-center gap-4 mt-4">
-                            <img src="assets/images/icons/phone.svg" width="31" height="31" class="img-fluid" alt="">
-                            <p class="mb-0 col-lg-5 text-gary fw-medium">
-                                +91 98291 95898 <br>
-                                +91 98291 95898
-                            </p> 
-                        </div>
-                        <div class="d-flex align-items-center gap-4 mt-4">
-                            <img src="assets/images/icons/Page.svg" width="31" height="25" class="img-fluid" alt="">
-                            <p class="mb-0 col-lg-5 text-gary fw-medium">
-                                enquiry@kalradentalcare.com
-                            </p> 
+                    <div class="text-center text-lg-start">
+                        <h2 class="fs-1 heading text-gary fw-bold mb-5">Make An Appointment</h2>
+                        <p class="pb-5">Now you don’t have to wait hours in line, book your appointment today. Enter your details to request an appointment.</p> 
+                        <div class="p-5 rounded-4" style="background-color: rgba(185, 185, 185, 0.1);">
+                            <div class="ps-5" style="border-color: #0086C6;">
+                                <h2 class="extra__btn fs-2 pb-4 text-primary fw-bold">Our Location</h2>
+                                <div class="d-flex align-items-center gap-4 mt-5">
+                                    <img src="assets/images/icons/Location.svg" class="img-fluid" width="30" height="35" alt="Location">
+                                    <p class="mb-0 col-lg-7 text-gary fw-medium">
+                                        3 KA 13, Pawarnpuri Main Road, Pawanpuri, Near SBBJ Bank, Bikaner, Rajasthan - 334003
+                                    </p> 
+                                </div>
+                                <div class="d-flex align-items-center gap-4 mt-5">
+                                    <img src="assets/images/icons/phone.svg" width="31" height="31" class="img-fluid" alt="">
+                                    <p class="mb-0 col-lg-5 text-gary fw-medium">
+                                        +91 98291 95898 <br>
+                                        +91 98291 95898
+                                    </p> 
+                                </div>
+                                <div class="d-flex align-items-center gap-4 mt-5">
+                                    <img src="assets/images/icons/Page.svg" width="31" height="25" class="img-fluid" alt="">
+                                    <p class="mb-0 col-lg-5 text-gary fw-medium">
+                                        enquiry@kalradentalcare.com
+                                    </p> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div><!--./col-->
                 <div class="col-lg-6">
                     <div class="row g-3 gx-lg-4">
-                        <h2 class="fs-1 text-gary fw-bold mb-3">Appointments</h2>
-                        <p>Book your next appointment effortlessly – complete this section with your details to secure your time slot.</p>  
-                        <div class="col-lg-12">
-                            <form action="http://localhost/flc/submit-contact-form.php" method="post" id="contactPageForm" class="row g-3"> 
-                                <div class="col-md-6">
-                                    <label for="cfirst name" class="form-label text-3b">First Name *</label>
-                                    <input type="text" first name="first name" id="cfirst name" class="form-control py-3" placeholder="First Name">
-                                    <small class="text-danger error" id="cfirst name_error"></small>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="cLast Name *" class="form-label text-3b">Last Name *</label>
-                                    <input type="text" name="Last Name *" id="cLast Name *" class="form-control py-3" placeholder="Last Name ">
-                                    <small class="text-danger error" id="cLast Name *_error"></small>
-                                </div> 
-                                <div class="col-md-6">
-                                    <label for="cPhone No" class="form-label text-3b">Phone No *</label>
-                                    <input type="text" name="Phone No" id="cPhone No" class="form-control py-3" placeholder=" Phone No">
-                                    <small class="text-danger error" id="cPhone No_error"></small>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="cEmail Id" class="form-label text-3b">Email Id *</label>
-                                    <input type="text" name="Email Id" id="cEmail Id" class="form-control py-3" placeholder=" Email Id">
-                                    <small class="text-danger error" id="cEmail Id_error"></small>
-                                </div>  
-                                <div class="col-md-6">
-                                    <label for="cSelect Services" class="form-label text-3b">Select Services *</label>
-                                    <input type="text" name="Select Services" id="cSelect Services" class="form-control py-3" placeholder="Select Services">
-                                    <small class="text-danger error" id="cemail_error"></small>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="cSelect Date" class="form-label text-3b">Select Date *</label>
-                                    <input type="text" name="Select Date" id="cSelect Date" class="form-control py-3" placeholder="Select Date">
-                                    <small class="text-danger error" id="cSelect Date_error"></small>
-                                </div>  
-                                <div class="col-12">
-                                    <label for="Any Messages" class="form-label text-3b">Any Messages</label>
-                                    <textarea name="Any Messages" id="Any Messages" cols="30" rows="2" class="form-control py-3" placeholder="Any Messages"></textarea>
-                                </div> 
-                                <div class="col-12">
-                                    <button type="submit" class="btn btn-dark height fs-15 text-uppercase px-4 mt-3 rounded-2">BOOK APPOINTMENT</button>
-                                </div>
-                            </form>
-                        </div><!--./col-->
+                        <div class="py-5 px-4 rounded-4 text-center text-lg-start" style="background-color: rgba(185, 185, 185, 0.1);">
+                            <h2 class="fs-1 text-gary fw-bold mb-3">Appointments</h2>
+                            <p>Book your next appointment effortlessly – complete this section with your details to secure your time slot.</p>  
+                            <div class="col-lg-12">
+                                <form action="http://localhost/flc/submit-contact-form.php" method="post" id="contactPageForm" class="row g-3"> 
+                                    <div class="col-md-6">
+                                        <label for="cfirst name" class="form-label text-3b">First Name *</label>
+                                        <input type="text" first name="first name" id="cfirst name" class="form-control py-3" placeholder="First Name">
+                                        <small class="text-danger error" id="cfirst name_error"></small>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="cLast Name *" class="form-label text-3b">Last Name *</label>
+                                        <input type="text" name="Last Name *" id="cLast Name *" class="form-control py-3" placeholder="Last Name ">
+                                        <small class="text-danger error" id="cLast Name *_error"></small>
+                                    </div> 
+                                    <div class="col-md-6">
+                                        <label for="cPhone No" class="form-label text-3b">Phone No *</label>
+                                        <input type="text" name="Phone No" id="cPhone No" class="form-control py-3" placeholder=" Phone No">
+                                        <small class="text-danger error" id="cPhone No_error"></small>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="cEmail Id" class="form-label text-3b">Email Id *</label>
+                                        <input type="text" name="Email Id" id="cEmail Id" class="form-control py-3" placeholder=" Email Id">
+                                        <small class="text-danger error" id="cEmail Id_error"></small>
+                                    </div>  
+                                    <div class="col-md-6">
+                                        <label for="cSelect Services" class="form-label text-3b">Select Services *</label>
+                                        <input type="text" name="Select Services" id="cSelect Services" class="form-control py-3" placeholder="Select Services">
+                                        <small class="text-danger error" id="cemail_error"></small>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="cSelect Date" class="form-label text-3b">Select Date *</label>
+                                        <input type="text" name="Select Date" id="cSelect Date" class="form-control py-3" placeholder="Select Date">
+                                        <small class="text-danger error" id="cSelect Date_error"></small>
+                                    </div>  
+                                    <div class="col-12">
+                                        <label for="Any Messages" class="form-label text-3b">Any Messages</label>
+                                        <textarea name="Any Messages" id="Any Messages" cols="30" rows="2" class="form-control py-3" placeholder=""></textarea>
+                                    </div> 
+                                    <div class="col-12">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-dark height py-3 rounded-3 px-5" aria-label="BOOK APPOINTMENT">
+                                            BOOK APPOINTMENT
+                                        </button> 
+                                    </div>
+                                </form>
+                            </div><!--./col-->
+                        </div>
                     </div><!--.//row-->
                 </div><!--./col--> 
             </div><!--.//row-->

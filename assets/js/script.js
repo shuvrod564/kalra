@@ -84,7 +84,7 @@ function topFunction() {
     dots: true,
     responsiveClass: true, 
     responsive: { 
-        0: { items: 0, margin: 8 },
+        0: { items: 1, margin: 8 },
         576: { items: 1, margin: 10  },
         768: { items: 2, margin: 15  },
         992: { items: 3, margin: 15  }, 

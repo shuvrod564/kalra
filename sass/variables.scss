@@ -139,10 +139,10 @@ ul {
 .btn-white {
     background-color: #fff;
     border-color: #fff;
-    color: var(--brand);
+    color: var(--grey);
     
     &:hover, &:focus {
-        background-color: var(--grey);
+        background-color: var(--brand);
         border-color: var(--dark);color: var(--white);
         svg { color: var(--white); }
     } 

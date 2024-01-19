@@ -214,10 +214,10 @@ ul li {
 .btn-white {
   background-color: #fff;
   border-color: #fff;
-  color: var(--brand);
+  color: var(--grey);
 }
 .btn-white:hover, .btn-white:focus {
-  background-color: var(--grey);
+  background-color: var(--brand);
   border-color: var(--dark);
   color: var(--white);
 }
