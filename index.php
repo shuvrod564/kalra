@@ -28,8 +28,8 @@
                         <span class="fs-4 fw-semibold text-white d-block">Precise, Meticulous, Human.</span>
                     </h1>
                     <p class="text-white">Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.</p>
-                    <div class="d-flex flex-wrap gap-4 justify-content-center justify-content-lg-start px-4 py-3">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-white height" aria-label="Enquire Now">
+                    <div class="d-flex flex-wrap gap-4 justify-content-center justify-content-lg-start py-3">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-white height px-4" aria-label="Enquire Now">
                             APPOINTMENT
                         </button>  
                         <a href="#" class="btn btn-outline-white blue height px-4 py-3" aria-label="+919987654321">
@@ -444,7 +444,7 @@
                                 </div><!--.//card--> 
                             </div><!--./col-->
                             <div class="col-lg-6">
-                                <div class="card">
+                                <div class="card tran">
                                     <div class="p-3 p-lg-4">
                                         <div class="icon__round d-flex align-items-center justify-content-center">
                                             <figure class="m-0">
