@@ -132,6 +132,9 @@
   text-overflow: ellipsis;
   white-space: normal;
 }
+.wraper__section .card:hover {
+  transform: scale(1.15);
+}
 
 .testi__card {
   background: #FFFFFF;

@@ -153,8 +153,11 @@
                 text-overflow: ellipsis;
                 white-space: normal;
 
-         }
-         
+            }
+            
+            &:hover{
+                transform: scale(1.15);
+            }
     }
 }
 

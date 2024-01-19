@@ -385,7 +385,7 @@
         </div><!--//.container-->
     </section><!-- center excellence section end -->
      
-    <!--Growing patient Section Start -->
+    <!-- What Cerec Section Start -->
     <section class="py-5"> 
         <div class="container">
             <div class="row gx-4 align-items-center">
@@ -484,7 +484,7 @@
             </div><!--.//row-->        
         </div><!--.//container-->
     </section>
-    <!--Growing patient Section End -->
+    <!-- What Cerec Section End -->
 
     <!-- Our Gallery section Start -->
     <section class="py-5">
