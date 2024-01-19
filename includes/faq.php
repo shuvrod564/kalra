@@ -1,6 +1,6 @@
     <section class="py-5">
         <div class="container"> 
-            <h2 class="fs-2 text-center text-gary fw-bold ">FAQs</h2>
+            <h2 class="fs-1 text-center text-dark fw-bold ">FAQs</h2>
             <div class="faq__wrapper mx-auto col-lg-10"> 
                 <div class="accordion accordion-flush no__icons mt-3 mt-lg-4 mx-auto" id="accordionFaq1">
                     <div class="accordion-item">

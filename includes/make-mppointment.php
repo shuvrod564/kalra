@@ -3,27 +3,27 @@
             <div class="row gx-4 g-xl-5">
                 <div class="col-lg-6">
                     <div class="text-center text-lg-start">
-                        <h2 class="fs-1 heading text-gary fw-bold mb-5">Make An Appointment</h2>
+                        <h2 class="fs-1 heading text-dark fw-bold mb-5">Make An Appointment</h2>
                         <p class="pb-5">Now you don’t have to wait hours in line, book your appointment today. Enter your details to request an appointment.</p> 
                         <div class="p-5 rounded-4" style="background-color: rgba(185, 185, 185, 0.1);">
                             <div class="ps-5" style="border-color: #0086C6;">
                                 <h2 class="extra__btn fs-2 pb-4 text-primary fw-bold">Our Location</h2>
                                 <div class="d-flex align-items-center gap-4 mt-5">
                                     <img src="assets/images/icons/Location.svg" class="img-fluid" width="30" height="35" alt="Location">
-                                    <p class="mb-0 col-lg-7 text-gary fw-medium">
+                                    <p class="mb-0 col-lg-7 text-dark fw-medium">
                                         3 KA 13, Pawarnpuri Main Road, Pawanpuri, Near SBBJ Bank, Bikaner, Rajasthan - 334003
                                     </p> 
                                 </div>
                                 <div class="d-flex align-items-center gap-4 mt-5">
                                     <img src="assets/images/icons/phone.svg" width="31" height="31" class="img-fluid" alt="">
-                                    <p class="mb-0 col-lg-5 text-gary fw-medium">
+                                    <p class="mb-0 col-lg-5 text-dark fw-medium">
                                         +91 98291 95898 <br>
                                         +91 98291 95898
                                     </p> 
                                 </div>
                                 <div class="d-flex align-items-center gap-4 mt-5">
                                     <img src="assets/images/icons/Page.svg" width="31" height="25" class="img-fluid" alt="">
-                                    <p class="mb-0 col-lg-5 text-gary fw-medium">
+                                    <p class="mb-0 col-lg-5 text-dark fw-medium">
                                         enquiry@kalradentalcare.com
                                     </p> 
                                 </div>
@@ -34,7 +34,7 @@
                 <div class="col-lg-6">
                     <div class="row g-3 gx-lg-4">
                         <div class="py-5 px-4 rounded-4 text-center text-lg-start" style="background-color: rgba(185, 185, 185, 0.1);">
-                            <h2 class="fs-1 text-gary fw-bold mb-3">Appointments</h2>
+                            <h2 class="fs-1 text-dark fw-bold mb-3">Appointments</h2>
                             <p>Book your next appointment effortlessly – complete this section with your details to secure your time slot.</p>  
                             <div class="col-lg-12">
                                 <form action="http://localhost/flc/submit-contact-form.php" method="post" id="contactPageForm" class="row g-3"> 

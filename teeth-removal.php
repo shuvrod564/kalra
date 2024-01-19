@@ -33,7 +33,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-dark fw-bold mb-1">COMPREHENSIVE TEETH REMOVAL AND SURGERY SERVICES AT KALRA DENTAL CARE</h2>
+                        <h2 class="fs-1 text-primary fw-bold mb-1">COMPREHENSIVE TEETH REMOVAL AND SURGERY SERVICES AT KALRA DENTAL CARE</h2>
                         <p class="mt-3">
                             Welcome to Kalra Dental Care, where your smile is our priority! In the realm of dental health, the decision to undergo teeth removal and surgery is significant, not just for your oral wellbeing but for your overall quality of life. Our dedicated team combines state-of-the-art techniques with a compassionate approach to guide you through this journey.
                         </p>
@@ -47,7 +47,7 @@
     <!-- Teeth Removal Section start -->
     <section class="py-2">
         <div class="container">
-            <h2 class="fs-2 text-dark fw-bold mb-4">TYPES OF TEETH REMOVAL AND ORAL SURGERY OFFERED</h2>
+            <h2 class="fs-1 text-primary fw-bold mb-4">TYPES OF TEETH REMOVAL AND ORAL SURGERY OFFERED</h2>
             <div class="owl-carousel typesCarousel">
                 <div class="others__card mb-4 mb-lg-5">
                     <div class="p-3 p-lg-4">
@@ -56,7 +56,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             Anesthesia and Sedation Options
                         </h4>
                         <p class="card__text">
@@ -71,7 +71,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             The Surgical Procedure
                         </h4>
                         <p class="card__text">
@@ -86,7 +86,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             Cost and Insurance
                         </h4>
                         <p class="card__text">
@@ -101,7 +101,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             Aftercare and Recovery
                         </h4>
                         <p class="card__text">
@@ -120,7 +120,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center ">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Preparing for Surgery</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Preparing for Surgery</h2>
                         <p class="mt-3">
                             Pre-surgery anxiety is common, but knowledge is power. Understanding what to expect and how to prepare can significantly ease your mind. We provide comprehensive guidance on pre-operative care, ensuring you step into the surgery room informed and confident.
                         </p>
@@ -146,7 +146,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             Anesthesia and Sedation Options
                         </h4>
                         <p class="card__text">
@@ -161,7 +161,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             The Surgical Procedure
                         </h4>
                         <p class="card__text">
@@ -176,7 +176,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             Cost and Insurance
                         </h4>
                         <p class="card__text">
@@ -191,7 +191,7 @@
                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h4 class="lead title text-gary mt-4  fw-medium mb-2">
+                        <h4 class="lead title text-dark mt-4  fw-medium mb-2">
                             Aftercare and Recovery
                         </h4>
                         <p class="card__text">
@@ -213,7 +213,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-dark fw-bold mb-1">Why Choose Kalra Dental Care</h2>
+                        <h2 class="fs-1 text-primary fw-bold mb-1">Why Choose Kalra Dental Care</h2>
                         <p class="mt-3">
                             At Kalra Dental Care, we blend expertise with empathy. Our patients’ testimonials reflect our commitment to excellence and care. We’re not just treating teeth; we’re nurturing smiles and confidence.
                         </p>

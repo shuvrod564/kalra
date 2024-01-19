@@ -31,8 +31,8 @@
                 <div class="col-lg-4 text-center text-lg-start">
                     <div class="mb-3 text-start text-lg-start text-md-center">
                         <span class="fw-medium lead text-primary mt-3 mb-0">ABOUT US</span>
-                        <h2 class="fs-2 text-dark text-center text-lg-start fw-bold mb-3">KALARA DENTAL CARE</h2>
-                        <span class="lead text-grey fw-semibold mt-3 mb-0">ONE VISIT , ONE SMILE , ONE LIFETIME</span>
+                        <h2 class="fs-1 text-primary text-center text-lg-start fw-bold mb-3">KALARA DENTAL CARE</h2>
+                        <span class="lead text-dark fw-semibold mt-3 mb-0">ONE VISIT , ONE SMILE , ONE LIFETIME</span>
                         <p class="text-center fw-medium text-lg-start">
                             Welcome to Kalra Dental Care, where tomorrow’s dentistry is practiced today. Driven by a commitment to providing exceptional dental services, we strive to create a comfortable and personalized experience for every patient.
                         </p>
@@ -49,7 +49,7 @@
                                     <img src="assets/images/icons/round.svg" width="40" height="40" class="img-fluid icon" alt="">
                                 </figure>
                             </div>
-                            <h4 class="title text-grey mt-4 lead fw-semibold mb-2">
+                            <h4 class="title text-dark mt-4 lead fw-semibold mb-2">
                                 Our Mission
                             </h4>
                             <p>
@@ -66,7 +66,7 @@
                                     <img src="assets/images/icons/ellipse.svg" width="40" height="40" class="img-fluid icon" alt="">
                                 </figure>
                             </div>
-                            <h4 class="title text-grey mt-4 lead fw-semibold mb-2">
+                            <h4 class="title text-dark mt-4 lead fw-semibold mb-2">
                                 Our Vision
                             </h4>
                             <p>
@@ -89,8 +89,8 @@
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex align-items-center">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-dark fw-bold mb-1">DR. PUNEET BHUSHAN KALRA</h2>
-                        <p class="lead text-grey fw-semibold mb-3">MDS, <strong>PERIODONTOLOGY AND ORAL IMPLANTOLOGY</strong></p>
+                        <h2 class="fs-1 text-primary fw-bold mb-1">DR. PUNEET BHUSHAN KALRA</h2>
+                        <p class="lead text-dark fw-semibold mb-3">MDS, <strong>PERIODONTOLOGY AND ORAL IMPLANTOLOGY</strong></p>
                         <p class="desc fs-15">
                             With over twenty years of experience, Dr. Puneet Kalra has devoted his professional life to treating people and easing their dental agony. Dr. Kalra started his own dental clinic in 2000 and began an 18-year career in private practice after graduating with distinction from Rural Dental College, Pravanagar, Loni, Maharashtra, in the second year of his BDS programme in 1996. Then, in 2018, they enrolled in an MDS programme at Surendera Dental College in Sriganganagar, Rajasthan, with a focus on oral implantology and periodontology. He finished the programme in 2021, achieving distinction in the first year of study.
                         </p>
@@ -100,7 +100,7 @@
                         <div>
                             <img src="assets/images/home/signature.webp" width="210" height="27" alt="signature">
                         </div>
-                        <h3 class="fs-5 text-dark text-center text-lg-start fw-bold mt-3">DR. PUNEET BHUSHAN KALRA</h3>
+                        <h3 class="fs-5 text-primary text-center text-lg-start fw-bold mt-3">DR. PUNEET BHUSHAN KALRA</h3>
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
@@ -153,7 +153,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center ">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-1 text-grey fw-bold mb-1">Expertise and Services</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Expertise and Services</h2>
                         <p class="mt-3">
                             Led by Dr. Puneet Bhushan Kalra, a seasoned professional in the field of dentistry, our team is dedicated to offering a comprehensive range of services. From esthetic composite restorations to advanced procedures like piezosurgery and laser dentistry, we cover a spectrum of dental needs. Our expertise extends to restorative dentistry, pediatric dentistry, cosmetic dentistry, orthodontic braces, dental implants, and more.
                         </p>
@@ -179,7 +179,7 @@
                 </div>
             </nav> 
             <div class="tab-content pt-4 pt-lg-5" id="nav-tabContent">
-                <h2 class="fs-4 text-grey fw-bold mb-4">Experience the gentle difference in our specialized services, including:</h2>
+                <h2 class="fs-4 text-dark fw-bold mb-4">Experience the gentle difference in our specialized services, including:</h2>
                 <div class="tab-pane" id="nav-tab1" role="tabpanel" aria-labelledby="nav-tab1-tab">
                     <div class="owl-carousel experienceCarousel">
                         <div class="experience__card mb-4 mb-lg-5">
@@ -454,7 +454,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-grey fw-bold mb-1">Personalized Care</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Personalized Care</h2>
                         <p class="mt-3">
                             We understand that every patient is unique, and their dental care should reflect that individuality. Experience personalized care at Kalra Dental Care, where we tailor treatments to your specific needs. Whether you’re seeking a smile makeover, orthodontic solutions, or painless root canal procedures, we are here to provide personalized solutions for your oral health.
                         </p>
@@ -471,7 +471,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center ">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-grey fw-bold mb-1">Tomorrow’s Dentistry Practiced Today</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Tomorrow’s Dentistry Practiced Today</h2>
                         <p class="mt-3">
                             Embracing the latest advancements in digital dentistry, we bring you tomorrow’s dentistry today. From guided implant surgeries to same-day crowns, we leverage technology to simplify procedures and enhance precision, ensuring you receive remarkable results.
                         </p>

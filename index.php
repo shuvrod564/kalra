@@ -102,7 +102,7 @@
                                         <img src="assets/images/icons/dantal-01.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
                                     </figure>
                                 </div>
-                                <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                                <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2">
                                     RESTORATIVE / GENERAL DENTISTRY
                                 </h3>
                                 <p class="card__text">
@@ -118,7 +118,7 @@
                                         <img src="assets/images/icons/dantal-02.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
                                     </figure>
                                 </div>
-                                <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                                <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2">
                                     COSMETIC DENTISTRY
                                 </h3>
                                 <p class="card__text">
@@ -134,7 +134,7 @@
                                         <img src="assets/images/icons/dantal-03.svg" width="42" height="23" class="img-fluid icon" alt="dantal">
                                     </figure>
                                 </div>
-                                <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                                <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2">
                                     DENTAL IMPLANT
                                 </h3>
                                 <p class="card__text">
@@ -159,8 +159,8 @@
                 <div class="col-lg-4 text-center text-lg-start">
                     <div class="mb-3 text-start text-lg-start text-md-center">
                         <span class="top__title">ABOUT US</span>
-                        <h2 class="fs-2 text-dark text-center text-lg-start fw-bold mb-3">KALARA DENTAL CARE</h2>
-                        <span class="lead text-grey fw-semibold mt-3 mb-o">ONE VISIT , ONE SMILE , ONE LIFETIME</span>
+                        <h2 class="fs-1 text-primary text-center text-lg-start fw-bold mb-3">KALARA DENTAL CARE</h2>
+                        <span class="lead text-primary fw-semibold mt-3 mb-o">ONE VISIT , ONE SMILE , ONE LIFETIME</span>
                         <p class="text-center fw-medium text-lg-start">
                             Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.
                         </p>
@@ -177,7 +177,7 @@
                                     <img src="assets/images/icons/round.svg" width="40" height="40" class="img-fluid icon" alt="">
                                 </figure>
                             </div>
-                            <h4 class="title text-grey mt-4 lead fw-semibold mb-2">
+                            <h4 class="title text-dark mt-4 lead fw-semibold mb-2">
                                 Our Mission
                             </h4>
                             <p>
@@ -194,7 +194,7 @@
                                     <img src="assets/images/icons/ellipse.svg" width="40" height="40" class="img-fluid icon" alt="">
                                 </figure>
                             </div>
-                            <h4 class="title text-grey mt-4 lead fw-semibold mb-2">
+                            <h4 class="title text-dark mt-4 lead fw-semibold mb-2">
                                 Our Vision
                             </h4>
                             <p>
@@ -217,14 +217,15 @@
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex align-items-center">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-dark fw-bold mb-3">DR. PUNEET BHUSHAN KALRA</h2>
+                        <h2 class="fs-1 text-primary fw-bold mb-3">DR. PUNEET BHUSHAN KALRA</h2>
+                        <p class="text-dark fw-semibold">MDS, PERIODONTOLOGY AND ORAL IMPLANTOLOGY</p>
                         <p class="desc fs-15">
                             With over twenty years of experience, Dr. Puneet Kalra has devoted his professional life to treating people and easing their dental agony. Dr. Kalra started his own dental clinic in 2000 and began an 18-year career in private practice after graduating with distinction from Rural Dental College, Pravanagar, Loni, Maharashtra, in the second year of his BDS programme in 1996. Then, in 2018, they enrolled in an MDS programme at Surendera Dental College in Sriganganagar, Rajasthan, with a focus on oral implantology and periodontology. He finished the programme in 2021, achieving distinction in the first year of study.
                         </p>
                         <div>
                             <img src="assets/images/home/signature.webp" width="210" height="27" alt="signature">
                         </div>
-                        <h3 class="fs-5 text-dark text-center text-lg-start fw-bold mt-3">DR. PUNEET BHUSHAN KALRA</h3>
+                        <h3 class="fs-5 text-primary text-center text-lg-start fw-bold mt-3">DR. PUNEET BHUSHAN KALRA</h3>
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
@@ -249,7 +250,7 @@
         <div class=" py-5 z-index">
             <div class="row g-4 g-lg-5 align-items-center">
                 <div class="col-lg-6">
-                    <h2 class="fs-2 text-white text-center text-lg-start fw-bold mb-3">DENTAL TOURISM BIKANER</h2>
+                    <h2 class="fs-1 text-white text-center text-lg-start fw-bold mb-3">DENTAL TOURISM BIKANER</h2>
                     <p class="text-white text-center text-lg-start">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                     </p>
@@ -274,7 +275,7 @@
     <section class="services__wrapper py-4 py-lg-5">
         <div class="container"> 
             <p class="fw-medium text-center lead text-primary mt-3 mb-0">WHAT WE DO</p>
-            <h2 class="fs-2 text-dark text-center fw-bold mb-3">CENTRE OF EXCELLENCE</h2>
+            <h2 class="fs-1 text-primary text-center fw-bold mb-3">CENTRE OF EXCELLENCE</h2>
             <div class="owl-carousel excellenceCarousel">
                 <div class="border bg-white rounded-3">
                     <div>
@@ -291,7 +292,7 @@
                                 <img src="assets/images/icons/dantal-01.svg" width="40" height="53" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                        <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2">
                             SINGLE SITTING ROOT CANAL (PAINLESS)
                         </h3>
                         <p class="card__text">
@@ -317,7 +318,7 @@
                                 <img src="assets/images/icons/dantal-02.svg" width="39" height="53" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                        <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2">
                             DENTAL IMPLANTS
                         </h3>
                         <p class="card__text">
@@ -343,7 +344,7 @@
                                 <img src="assets/images/icons/dantal-03.svg" width="53" height="29" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                        <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2">
                             ORTHODONTIC BRACES
                         </h3>
                         <p class="card__text">
@@ -369,7 +370,7 @@
                                 <img src="assets/images/icons/dantal-02.svg" width="39" height="53" class="img-fluid icon" alt="">
                             </figure>
                         </div>
-                        <h3 class="fs-6 title text-grey mt-4 lead fw-bold mb-2">
+                        <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2">
                             DENTAL IMPLANTS
                         </h3>
                         <p class="card__text">
@@ -399,7 +400,7 @@
                                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                                             </figure>
                                         </div>
-                                        <h4 class="fs-5 title text-gary mt-4  fw-medium mb-2">
+                                        <h4 class="fs-5 title text-dark mt-4  fw-medium mb-2">
                                             Growing patient satisfaction and practice image
                                         </h4>
                                         <p class="card__text s">
@@ -416,7 +417,7 @@
                                                 <img src="assets/images/icons/expansion.svg" width="40" height="40" class="img-fluid icon" alt="">
                                             </figure>
                                         </div>
-                                        <h4 class="fs-5 title text-gary mt-4  fw-medium mb-2">
+                                        <h4 class="fs-5 title text-dark mt-4  fw-medium mb-2">
                                             Expansion of the range of indications
                                         </h4>
                                         <p class="card__text s">
@@ -433,7 +434,7 @@
                                                 <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
                                             </figure>
                                         </div>
-                                        <h4 class="fs-5 title text-gary mt-4  fw-medium mb-2">
+                                        <h4 class="fs-5 title text-dark mt-4  fw-medium mb-2">
                                             Clinical safety and full quality control
                                         </h4>
                                         <p class="card__text s">
@@ -450,7 +451,7 @@
                                                 <img src="assets/images/icons/expansion.svg" width="40" height="40" class="img-fluid icon" alt="">
                                             </figure>
                                         </div>
-                                        <h4 class="fs-5 title text-grey mt-4 lead fw-medium mb-2">
+                                        <h4 class="fs-5 title text-dark mt-4 fw-medium mb-2">
                                             Easy practice integration
                                         </h4>
                                         <p class="card__text s">
@@ -465,7 +466,7 @@
                 <div class="col-lg-6 ps-4 ps-lg-5">
                     <div class="text-center text-lg-start pt-4">
                         <p class="lead mb-0">CEREC</p>
-                        <h2 class="fs-2 text-gary fw-bold mb-3">What is CEREC?</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-3">What is CEREC?</h2>
                         <p class="">
                         <strong>CEREC is the short term for Chairside Economical Restoration of Esthetic Ceramics, or CEramic REConstruction.</strong></p>
                         <p>
@@ -489,7 +490,7 @@
     <section class="py-5">
         <div class="container mt-lg-3">
             <p class="lead text-center mb-0">Photos and videos</p>
-            <h2 class="fs-2 text-dark text-center fw-bold mb-3">Our Gallery</h2>
+            <h2 class="fs-1 text-primary text-center fw-bold mb-3">Our Gallery</h2>
             <div class="row g-2">
                 <div class="col-lg-4">
                     <figure class="mb-0">
@@ -542,7 +543,7 @@
     <!-- Testimional Section Start -->
     <section class="py-5" style="background-color: #F4F9FC">
         <div class="container mb-lg-4">
-            <h2 class="fs-2 text-dark text-center fw-bold mb-3">Testimonials</h2>
+            <h2 class="fs-1 text-primary text-center fw-bold mb-3">Testimonials</h2>
             <p class="col-lg-8 mx-auto text-center">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>

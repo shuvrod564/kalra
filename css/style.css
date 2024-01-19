@@ -241,10 +241,10 @@
   border-radius: 1rem !important;
   background-color: #FFFFFF;
   margin-bottom: 1.45rem;
-  min-height: 6rem;
+  min-height: 5rem;
 }
 .accordion .accordion-item .accordion-button {
-  box-shadow: rgb(87, 87, 87);
+  box-shadow: none;
   letter-spacing: 0.5px;
   color: #707070;
   font-weight: 600;
@@ -252,7 +252,7 @@
 }
 .accordion .accordion-item .accordion-button:not(.collapsed) {
   color: var(--brand);
-  box-shadow: rgb(87, 87, 87);
+  box-shadow: none;
 }
 .accordion .accordion-item .accordion-button:not(.collapsed)::after {
   background-image: var(--minus-circle-icon);

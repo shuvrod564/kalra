@@ -34,7 +34,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-dark fw-bold mb-1">TEETH WHITENING / BLEACHING AT KALRA DENTAL CARE</h2>
+                        <h2 class="fs-1 text-primary fw-bold mb-1">TEETH WHITENING / BLEACHING AT KALRA DENTAL CARE</h2>
                         <p class="mt-3">
                             Welcome to Kalra Dental Care, where your smile is our pride. Teeth whitening isn’t just about a brighter smile; it’s about regaining confidence and enjoying the little things in life, like laughing without hesitation. Here, we combine the art and science of dentistry to offer you the best in teeth whitening services.
                         </p>
@@ -51,7 +51,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Why Kalra Dental Care for Your Smile Makeover?</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Why Kalra Dental Care for Your Smile Makeover?</h2>
                         <p class="mt-3">
                             At Kalra Dental Care, we don’t just whiten teeth; we transform smiles. Our expert team, led by renowned dental specialists, uses the latest techniques and the safest methods to ensure you receive personalized care. Our commitment to excellence means we tailor each treatment to your unique dental profile.
                         </p>
@@ -73,7 +73,7 @@
                 <div class="col-lg-4 d-flex">
                     <div class="extra__card w-100">
                         <div class="caption__box py-3 px-4">
-                            <h3 class="fs-5 text-gary fw-medium">In-Office Brilliance</h3>
+                            <h3 class="fs-5 text-dark fw-medium">In-Office Brilliance</h3>
                             <p>
                                 Experience the magic of immediate results with our in-office bleaching. Using advanced techniques, we ensure your comfort and safety throughout the process
                             </p>
@@ -83,7 +83,7 @@
                 <div class="col-lg-4 d-flex">
                     <div class="extra__card w-100">
                         <div class="caption__box py-3 px-4">
-                            <h3 class="fs-5 text-gary fw-medium">At-Home Convenience</h3>
+                            <h3 class="fs-5 text-dark fw-medium">At-Home Convenience</h3>
                             <p>
                                 Prefer the comfort of your home? We offer professional-grade home whitening kits, complete with our guidance and supervision.
                             </p>
@@ -93,7 +93,7 @@
                 <div class="col-lg-4 d-flex">
                     <div class="extra__card w-100">
                         <div class="caption__box py-3 px-4">
-                            <h3 class="fs-5 text-gary fw-medium">In-Office vs. At-Home</h3>
+                            <h3 class="fs-5 text-dark fw-medium">In-Office vs. At-Home</h3>
                             <p>
                                 Each method has its charm. In-office treatments offer quick, dramatic results, while at-home kits provide flexibility. The choice depends on your lifestyle and preferences.
                             </p>
@@ -115,7 +115,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Customized Whitening for Every Smile</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Customized Whitening for Every Smile</h2>
                         <p class="mt-3">
                             Sensitive but Bright: For those with sensitive teeth, fear not. We use gentle methods that protect your enamel while delivering stunning results.
                         </p>
@@ -135,7 +135,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">The Journey to a Whiter Smile</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">The Journey to a Whiter Smile</h2>
                         <p class="mt-3">
                             We believe in transparency. Our step-by-step guide walks you through the procedure, from consultation to after-care. We discuss safety, what to expect, and how to maintain your new smile.
                         </p>
@@ -159,7 +159,7 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">An Investment in Your Smile</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">An Investment in Your Smile</h2>
                         <p class="mt-3">
                             Quality dental care is an investment. We provide a detailed cost breakdown and discuss financing options, ensuring our services are accessible to all.
                         </p>
@@ -176,7 +176,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Beyond Whitening: Embracing a Lasting Smile</h2>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Beyond Whitening: Embracing a Lasting Smile</h2>
                         <p class="mt-3">
                             A bright smile is a journey, not a one-time event. We equip you with tips and tricks for maintaining your radiance long after the treatment, from dietary advice to oral hygiene practices.
                         </p>

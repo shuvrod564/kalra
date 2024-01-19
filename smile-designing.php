@@ -34,8 +34,8 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-dark fw-bold mb-1">WELCOME TO SMILE DESIGNING AT KALRA DENTAL CARE</h2>
-                        <p class="text-gary fs-6 fw-semibold">Embracing the Art of Smiling with Expertise</p>
+                        <h2 class="fs-1 text-primary fw-bold mb-1">WELCOME TO SMILE DESIGNING AT KALRA DENTAL CARE</h2>
+                        <p class="text-dark fs-6 fw-semibold">Embracing the Art of Smiling with Expertise</p>
                         <p class="mt-3">
                             Welcome to Kalra Dental Care, where your smile is our canvas, and our expertise is your paintbrush. At the heart of a captivating smile lies the art of smile designing – a blend of science and aesthetics dedicated to enhancing the harmony and beauty of your teeth.
                         </p>
@@ -52,8 +52,8 @@
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Why Your Smile Matters</h2>
-                        <p class="text-gary fs-6 fw-semibold">A Gateway to Confidence and Wellbeing</p>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Why Your Smile Matters</h2>
+                        <p class="text-dark fs-6 fw-semibold">A Gateway to Confidence and Wellbeing</p>
                         <p class="mt-3">
                             Your smile is more than just a physical attribute; it’s a reflection of your confidence and emotional wellbeing. A bright, well-aligned smile can open doors to new opportunities, foster connections, and boost your self-esteem.
                         </p>
@@ -76,8 +76,8 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Smile Makeover Services – Tailored to You</h2>
-                        <p class="text-gary fs-6 fw-semibold">Crafting Personalized Smile Journeys</p>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Smile Makeover Services – Tailored to You</h2>
+                        <p class="text-dark fs-6 fw-semibold">Crafting Personalized Smile Journeys</p>
                         <p class="mt-3">
                             Each smile is unique, and so is our approach to smile designing. Whether it’s teeth whitening for that radiant shine or orthodontic solutions for perfect alignment, our services are tailored to meet your individual needs.
                         </p>
@@ -94,8 +94,8 @@
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Teeth Whitening: Brightening Your Smile</h2>
-                        <p class="text-gary fs-6 fw-semibold">Safe, Effective, and Transformative</p>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Teeth Whitening: Brightening Your Smile</h2>
+                        <p class="text-dark fs-6 fw-semibold">Safe, Effective, and Transformative</p>
                         <p class="mt-3">
                             Teeth whitening at Kalra Dental Care isn’t just about removing stains; it’s a transformative experience. Using state-of-the-art techniques, we ensure a safe and effective process, resulting in a naturally brighter smile.
                         </p>
@@ -118,8 +118,8 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">The Magic of Dental Veneers</h2>
-                        <p class="text-gary fs-6 fw-semibold">A Touch of Perfection</p>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">The Magic of Dental Veneers</h2>
+                        <p class="text-dark fs-6 fw-semibold">A Touch of Perfection</p>
                         <p class="mt-3">
                             Dental veneers are thin, custom-made shells designed to cover the front surface of teeth, instantly correcting discoloration, chips, and misalignment. They are your secret to a flawless, magazine-worthy smile.
                         </p>
@@ -136,8 +136,8 @@
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Invisalign: Revolutionizing Orthodontics</h2>
-                        <p class="text-gary fs-6 fw-semibold">Clear, Comfortable, and Convenient</p>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Invisalign: Revolutionizing Orthodontics</h2>
+                        <p class="text-dark fs-6 fw-semibold">Clear, Comfortable, and Convenient</p>
                         <p class="mt-3">
                             Gone are the days of traditional braces. Invisalign aligners offer a clear, comfortable, and convenient way to straighten your teeth, aligning your smile without the world knowing.
                         </p>
@@ -160,8 +160,8 @@
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Gum Contouring: Framing Your Smile</h2>
-                        <p class="text-gary fs-6 fw-semibold">The Unsung Hero of Aesthetic Dentistry</p>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Gum Contouring: Framing Your Smile</h2>
+                        <p class="text-dark fs-6 fw-semibold">The Unsung Hero of Aesthetic Dentistry</p>
                         <p class="mt-3">
                             Often overlooked, gums play a crucial role in smile aesthetics. Gum contouring can reshape your gum line, eliminating excess gum tissue that overshadows your teeth, thus framing your smile perfectly.
                         </p>
@@ -178,8 +178,8 @@
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
-                        <h2 class="fs-2 text-gary fw-bold mb-1">Your Journey Begins Here</h2>
-                        <p class="text-gary fs-6 fw-semibold">Consult, Create, and Cherish</p>
+                        <h2 class="fs-1 text-dark fw-bold mb-1">Your Journey Begins Here</h2>
+                        <p class="text-dark fs-6 fw-semibold">Consult, Create, and Cherish</p>
                         <p class="mt-3">
                             Embark on your smile designing journey with a personalized consultation at Kalra Dental Care. Let’s co-create a smile that not only looks stunning but feels genuinely yours.
                         </p>
