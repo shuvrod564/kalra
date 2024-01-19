@@ -133,7 +133,8 @@
   white-space: normal;
 }
 .wraper__section .card:hover {
-  transform: scale(1.15);
+  transform: translate(0.5rem, 1rem);
+  transition: all 0.3s ease-in-out;
 }
 
 .testi__card {
