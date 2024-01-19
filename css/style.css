@@ -55,7 +55,14 @@
 }
 
 .header__wrapper {
-  background-image: linear-gradient(rgb(51, 51, 51), rgb(0, 0, 0), rgb(75, 75, 75));
+  min-height: 550px;
+}
+.header__wrapper .text-primary {
+  color: var(--brand-light) !important;
+}
+.header__wrapper .thumbnail {
+  -o-object-position: center top;
+     object-position: center top;
 }
 
 .provied__wraper .service__card {

@@ -1,13 +1,14 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 :root {
-  --brand: #0086C6;
-  --grey: #000000;
-  --dark: #00468A;
+  --brand: #00468A;
+  --brand-light: #0086C6;
+  --yellow: #FC8D0B;
+  --dark: #000000;
   --border-color: #E3E3E3;
-  --body-text-color: #00272F;
+  --body-text-color: #525252;
   --white: #ffffff;
-  --body-font: "Montserrat", sans-serif;
+  --body-font: "Inter", sans-serif;
 }
 
 * {
@@ -41,12 +42,11 @@ body {
   padding-right: 0 !important;
 }
 
-.fw-medium {
-  font-weight: 500 !important;
-}
-
-.fw-semibold {
-  font-weight: 600 !important;
+.top__title {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: var(--brand-light);
+  margin-bottom: 0.25rem;
 }
 
 .lead-lg {
@@ -162,7 +162,6 @@ ul li {
   font-display: swap;
   color: var(--white);
   font-size: 1rem;
-  border-radius: var(--border-radius);
   padding: 0 1rem;
   justify-content: center;
   align-items: center;
@@ -182,12 +181,21 @@ ul li {
 }
 
 .btn-primary {
-  background-color: var(--dark);
-  border-color: var(--dark);
+  background-color: var(--brand);
+  border-color: var(--brand);
   color: var(--white);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: var(--grey);
+  background-color: var(--brand-light);
+  border-color: var(--brand-light);
+}
+.btn-primary.light {
+  background-color: var(--brand-light);
+  border-color: var(--brand-light);
+  color: var(--white);
+}
+.btn-primary.light:hover, .btn-primary.light:focus, .btn-primary.light:active {
+  background-color: var(--brand);
   border-color: var(--brand);
 }
 

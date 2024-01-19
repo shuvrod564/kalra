@@ -43,7 +43,7 @@
     <nav class="navbar navbar-expand-lg smart-scroll" id="mainNav">
         <div class="container postion-relative">   
             <a href="<?php echo $base_url;?>" class="navbar-brand p-0 m-0 d-inline-block" aria-label="Kalra">
-                <img src="<?php echo $base_url;?>assets/images/logo.svg" width="127" height="36" class="w-auto" alt="logo">
+                <img src="<?php echo $base_url;?>assets/images/logo.svg" width="211" height="66" class="w-auto" alt="logo">
             </a>
             
             

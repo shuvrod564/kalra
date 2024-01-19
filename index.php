@@ -18,64 +18,63 @@
 
     
     <!-- header section start -->
-    <header class="header__wrapper pt-3">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-6 text-center text-lg-start">
-                    <h1 class="fs-1 fw-bold">
-                        <span class="lg text-primary">TOMORROW’S DENTISTRY</span>
-                        <span class="md text-white">PRACTICED TODAY.</span>
-                        <span class="fs-4 fw-semibold text-white d-block">Precise, Meticulous, Human.</span>
-                    </h1>
-                    <p class="text-white">Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.</p>
-                    <div class="d-flex flex-wrap gap-4 justify-content-center justify-content-lg-start py-3">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-white height px-4" aria-label="Enquire Now">
-                            APPOINTMENT
-                        </button>  
-                        <a href="#" class="btn btn-outline-white blue height px-4 py-3" aria-label="+919987654321">
-                            +91 9987 654321
-                        </a>  
-                    </div>
-                </div><!--.//col-->
-                <div class="col-lg-6 mt-2">
-                    <img 
-                    src="assets/images/home/hero-bg.webp" 
-                    width="600" height="600"
-                    alt=""
-                    class="img-fluid hero__thamnail z-index: 0; w-100 h-100"
-                    >
-                </div><!--.//col-->
-            </div><!--.//row-->
-        </div><!--.//container-->
-        <div class="py-5" style="background: #535353;">
-            <div class="container text-center text-lg-start">
-                <form action="#" method="post" id="contactPageForm" class="row">
-                    <div class="col-lg-3">
-                        <label for="cname" class="mb-0 text-3b text-white">Full Name</label>
-                        <input type="text" name="name" id="cname" class="form-control py-3" placeholder="Enter Name">
-                        <small class="text-danger error" id="cname_error"></small>
-                    </div><!--.//col-->
-                    <div class="col-lg-3">
-                        <label for="cphone" class="mb-0 text-3b text-white">Phone No</label>
-                        <input type="text" name="phone" id="cphone" class="form-control py-3" placeholder="Enter Name">
-                        <small class="text-danger error" id="cphone_error"></small>
-                    </div><!--.//col--> 
-                    <div class="col-lg-3">
-                        <label for="cemail" class="mb-0 text-3b text-white">Select Service</label>
-                        <input type="text" name="email" id="cemail" class="form-control py-3" placeholder="Select Service">
-                        <small class="text-danger error" id="cemail_error"></small>
-                    </div><!--.//col-->
-                    <div class="col-lg-3 mb-0">
-                        <div class="mt-4">
-                            <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-primary height py-3 rounded-2 px-5" aria-label="Enquire Now">
-                                BOOK APPOINTMENT
+    <header class="header__wrapper py-4 d-flex align-items-center position-relative"> 
+        <img 
+            src="assets/images/home/hero-banner.webp" 
+            width="1903" height="600"
+            alt="Kalra Detail Care"
+            class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover thumbnail"
+        >
+        <div class="w-100"> 
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7 text-center text-lg-start z-index">
+                        <h1 class="display-5 fw-bold">
+                            <span class="text-primary">TOMORROW’S DENTISTRY</span>
+                            <span class="text-white">PRACTICED TODAY.</span>
+                        </h1>
+                        <p class="fs-4 fw-medium text-white mb-2">Precise, Meticulous, Human.</p>
+                        <p class="text-white mb-2">Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.</p>
+                        <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start py-3">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-white height px-4" aria-label="Enquire Now">
+                                APPOINTMENT
                             </button>  
+                            <a href="tel:+919987654321" class="btn btn-outline-white blue height px-4 " aria-label="+919987654321">
+                                +91 9987 654321
+                            </a>  
                         </div>
                     </div><!--.//col-->
-                </form>
-            </div>
+                     
+                </div><!--.//row-->
+        </div>
         </div><!--.//container-->
     </header>
+    <div class="py-5" style="background: #535353;">
+        <div class="container text-center text-lg-start">
+            <form action="#" method="post" id="contactPageForm" class="row g-3 align-items-end">
+                <div class="col-lg-3">
+                    <label for="cname" class="mb-1 d-block text-3b text-white">Full Name</label>
+                    <input type="text" name="name" id="cname" class="form-control py-3" placeholder="Enter Name">
+                    <small class="text-danger error" id="cname_error"></small>
+                </div><!--.//col-->
+                <div class="col-lg-3">
+                    <label for="cphone" class="mb-1 d-block text-3b text-white">Phone No</label>
+                    <input type="text" name="phone" id="cphone" class="form-control py-3" placeholder="Enter Name">
+                    <small class="text-danger error" id="cphone_error"></small>
+                </div><!--.//col--> 
+                <div class="col-lg-3">
+                    <label for="cemail" class="mb-1 d-block text-3b text-white">Select Service</label>
+                    <input type="text" name="email" id="cemail" class="form-control py-3" placeholder="Select Service">
+                    <small class="text-danger error" id="cemail_error"></small>
+                </div><!--.//col-->
+                <div class="col-lg-3">
+                    <button type="button" class="btn btn-primary light height py-3 rounded-2 px-5" aria-label="Enquire Now">
+                        BOOK APPOINTMENT
+                    </button>   
+                </div><!--.//col-->
+            </form>
+        </div>
+    </div><!--.//container-->
     <!-- header section end -->
 
     <!-- provide section Start -->
@@ -84,8 +83,8 @@
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-3 text-center text-lg-start">
                     <div class="mb-3 text-start text-lg-start text-md-center">
-                        <span class="fw-medium lead text-primary mt-3 mb-0">WHAT WE PROVIDE</span>
-                        <h2 class="fs-2 text-dark text-center text-lg-start fw-bold mb-3">OUR DENTAL SERVICES</h2>
+                        <span class="top__title">WHAT WE PROVIDE</span>
+                        <h2 class="fs-1 text-primary text-center text-lg-start fw-bold mb-3">OUR DENTAL SERVICES</h2>
                         <p class="text-center fw-medium text-lg-start">
                             Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.
                         </p>
@@ -159,7 +158,7 @@
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-4 text-center text-lg-start">
                     <div class="mb-3 text-start text-lg-start text-md-center">
-                        <span class="fw-medium lead text-primary mt-3 mb-0">ABOUT US</span>
+                        <span class="top__title">ABOUT US</span>
                         <h2 class="fs-2 text-dark text-center text-lg-start fw-bold mb-3">KALARA DENTAL CARE</h2>
                         <span class="lead text-grey fw-semibold mt-3 mb-o">ONE VISIT , ONE SMILE , ONE LIFETIME</span>
                         <p class="text-center fw-medium text-lg-start">
