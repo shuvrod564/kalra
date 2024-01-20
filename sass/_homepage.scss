@@ -63,33 +63,52 @@
 
 
 
-.provied__wraper {
-    
-    .service__card {
-        background-color: #F2F9FF;
+.service__card {
+    background-color: #F2F9FF;
+ 
+    .icon__box {
+        width: 4.25rem;
+        height: 4.25rem; 
 
-        .icon{
-            width: 2.6rem; 
-            opacity: 1;
+        img {
+            width: 1.875rem;height: auto;
+
+            &.teeth {
+                width: 2.5rem;
+            }
         }
-        .icon__box {
-             width: 4.25rem;
-             height: 4.25rem;
-             background-color: rgba(0, 135, 198, 1) !important;
-            
-         }
-         
-         .card__text {
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: normal;
+     }
+
+    .title {
+        min-height: 2.25rem;
+    }
+     
+     .card__text {
+        height: 6rem;
+    }
+
+    &.large{
+        box-shadow: 0px 3px 6px #00000029;
+
+        .caption {
+            margin-top: -2.5rem;position: relative;z-index: 11;
+
+            .title {
+                min-height: 3.25rem;
+            }
         }
-    } 
-    
+    }
+} 
+
+.excellenceCarousel {
+    .owl-stage-outer {
+        height: calc(100% + 30px);
+        margin: -15px;
+        padding: 15px;
+        width: calc(100% + 30px);
+    }
 }
+ 
 
 
 .about__wraper{
@@ -111,91 +130,93 @@
     border-radius: 2.375rem;
     overflow: hidden;
 
-    .height {
-        min-height: 4.5rem;
-        width: 45%;
+    .btn.height {
+        min-height: 4.5rem; 
         border-radius: 14px;
        
     }
 }
-
-
-.services__wrapper{
-    .icon__box {
-        width: 4.25rem;
-        height: 4.25rem;
-        background-color: rgba(0, 135, 198, 1) !important;margin-top: -4rem;
-        position: absolute;
-        
-    }
-    .card__text {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: normal;
-    }   
+.contact__info__box {
+    .icon { width: 3rem; }
 }
+@media (max-width:575px) {
+    .promo__wrapper {
+        border-radius: 1.5rem;
 
+        .btn.height {
+            min-height: 3.5rem;border-radius: .625rem;
+        }
+    }
+    .contact__info__box {
+        .icon {
+            width: 2rem;
+            img {
+                width: 1.25rem;height: auto;
+            }
+        }
+        .lead {
+            font-size: 1.067rem;
+        }
+    }
+}
+ 
 
 
 .wraper__section{
 
     .card{
-        box-shadow: rgba(87, 87, 87, 1) 0px 3px 20px;
+        box-shadow: 0px 3px 20px #57575729;
+        border: 1px solid #E5E5E5; 
+
         .icon__round {
             width: 4.25rem;
             height: 4.25rem;
             border-radius: 50%;
             background-color:#F0FAFE!important;
-        }    
-        .card__text{
-                display: -webkit-box;
-                -webkit-line-clamp: 3;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: normal;
-
-            }
+        }  
+        .title {
+            color: #414141;
+            min-height: 3rem;
+        }  
+        .card__text {
+            height: 6rem;
+        }
             
-            &:hover{
-                transform: translate(0.5rem ,1rem);
-                transition: all 0.3s ease-in-out;
-            }
+        &:hover{ 
+            box-shadow: 0px 3px 10px #57575707;
+            
+        }
     }
 }
 
 
-
+.testimionalSlider {
+    .owl-item {
+        padding-top: 4rem;
+    }
+}
 .testi__card{
     background: #FFFFFF;
     border-radius: 1.25rem;
     
-    .authore__box{
-        
-        .thumbnail{
-            border-radius: 50%;
-            width: 7rem;height: 7rem;
-            border: 1px solid #00468A;
-            padding: 0.3rem;
-            
-            
-        }
-        
+    .thumbnail{
+        border-radius: 50%;
+        width: 7rem;height: 7rem;
+        border: 1px solid #00468A;
+        padding: 0.3rem;
+        top: -3.5rem; 
     }
+    .rating {
+        width: 9rem !important;height: auto;
+    }
+    
+} 
+ 
+.form-control {
+    height: 3rem;border-color: #E0E0E0;
 }
-
-.heading{
-    font-size: 3.8rem !important;
-}
-
-.extra__btn{
-    border-bottom: 1px solid #0086C6; width: 14rem ;
-}
-
-
-.hero__thamnail {
-    background-color: #00000083;
+.large__form {
+    .form-control {
+        height: 3.5rem;
+    }
 }

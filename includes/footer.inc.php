@@ -1,44 +1,50 @@
 
     <!-- Footer Wrapper Start -->
     <footer style="background: #262626;"> 
-        <div class="pb-4 mb-4 pb-md-5 mb-lg-5 text-center text-lg-start">
+        <div class="pb-4 mb-4 pb-md-5 mb-lg-5">
             <div class="container"> 
-                <div class="row g-3">
+                <div class="row g-4 gy-5">
                     <div class="col-lg-5 text-center text-lg-start"> 
-                       <img src="assets/images/footer-logo.webp" class="img-fluid" width="250" height="135" alt="footer logo">
-                        <p class="text-white col-lg-10 mt-4 text-center text-lg-start">
+                       <a href="<?php echo $base_url;?>" class="d-inline-block logo">
+                            <img src="assets/images/logo-white.webp" class="img-fluid" width="250" height="135" alt="Kalra Dental Care">
+                       </a>
+                        <p class="text-white col-lg-10 mt-lg-3 text-center text-lg-start fs-15">
                             It is important that oral hygiene be carried out on a regular basis to enable prevention of dental disease.
                         </p>
                         <div class="mt-4">
                             <?php $classes="footer"; include('_social-links.inc.php'); ?>
                         </div>
                     </div><!--.//col-->
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                        <p class="fs-5 fw-semibold text-white extra__btn">Quick Links</p>        
-                        <ul class="links text-white"> 
-                            <li class="mb-2"><a href="#">Home</a></li>
-                            <li class="mb-2"><a href="#">About Us</a></li>
-                            <li class="mb-2"><a href="#">Our team</a></li>
-                            <li class="mb-2"><a href="#">Patients Safety</a></li>
-                            <li class="mb-2"><a href="#"></a>Facilities</li>           
-                        </ul>
-                    </div><!--.//col-->
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
-                        <p class="fs-5 fw-semibold text-white extra__btn">Our Services</p>        
-                        <ul class="links text-white"> 
-                            <li class="mb-2"><a href="#">Deep Scaling & Curettage</a></li>
-                            <li class="mb-2"><a href="#">Tooth Extraction</a></li>     
-                            <li class="mb-2"><a href="#">Composite Filling</a></li>
-                            <li class="mb-2"><a href="#">Root Canal Treatment</a></li>
-                            <li class="mb-2"><a href="#">Bridges & Crowns</a></li>      
-                            <li class="mb-2"><a href="#">Dentures</a></li>      
-                        </ul>
-                    </div><!--.//col-->
-                    <div class="ps-5 col-xl-2 col-lg-3 col-md-3 col-sm-12 col-6">
-                        <p class="fs-5 fw-semibold text-white extra__btn">Other Links</p>        
-                        <ul class="links text-white"> 
-                            <li class="mb-2"><a href="#">Dental Tourism</a></li>
-                        </ul>
+                    <div class="col-lg-7">
+                        <div class="row g-4"> 
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <p class="fs-5 fw-semibold text-white d-inline-block">Quick Links <span class="d-block bg-white w-50 mt-1 opacity-50" style="height: 1px;"></span></p>        
+                                <ul class="links text-white"> 
+                                    <li class="mb-2"><a href="#">Home</a></li>
+                                    <li class="mb-2"><a href="#">About Us</a></li>
+                                    <li class="mb-2"><a href="#">Our team</a></li>
+                                    <li class="mb-2"><a href="#">Patients Safety</a></li>
+                                    <li class="mb-2"><a href="#"></a>Facilities</li>           
+                                </ul>
+                            </div><!--.//col-->
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <p class="fs-5 fw-semibold text-white d-inline-block">Our Services <span class="d-block bg-white w-50 mt-1 opacity-50" style="height: 1px;"></span></p>        
+                                <ul class="links text-white"> 
+                                    <li class="mb-2"><a href="#">Deep Scaling & Curettage</a></li>
+                                    <li class="mb-2"><a href="#">Tooth Extraction</a></li>     
+                                    <li class="mb-2"><a href="#">Composite Filling</a></li>
+                                    <li class="mb-2"><a href="#">Root Canal Treatment</a></li>
+                                    <li class="mb-2"><a href="#">Bridges & Crowns</a></li>      
+                                    <li class="mb-2"><a href="#">Dentures</a></li>   
+                                </ul>
+                            </div><!--.//col-->
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                <p class="fs-5 fw-semibold text-white d-inline-block">Other Links <span class="d-block bg-white w-50 mt-1 opacity-50" style="height: 1px;"></span></p>        
+                                <ul class="links text-white"> 
+                                    <li class="mb-2"><a href="#">Dental Tourism</a></li>
+                                </ul>
+                            </div><!--.//col-->
+                        </div>
                     </div><!--.//col-->
                 </div><!--.//row-->
             </div><!--.//container-->

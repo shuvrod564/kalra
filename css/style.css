@@ -65,25 +65,43 @@
      object-position: center top;
 }
 
-.provied__wraper .service__card {
+.service__card {
   background-color: #F2F9FF;
 }
-.provied__wraper .service__card .icon {
-  width: 2.6rem;
-  opacity: 1;
-}
-.provied__wraper .service__card .icon__box {
+.service__card .icon__box {
   width: 4.25rem;
   height: 4.25rem;
-  background-color: rgb(0, 135, 198) !important;
 }
-.provied__wraper .service__card .card__text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
+.service__card .icon__box img {
+  width: 1.875rem;
+  height: auto;
+}
+.service__card .icon__box img.teeth {
+  width: 2.5rem;
+}
+.service__card .title {
+  min-height: 2.25rem;
+}
+.service__card .card__text {
+  height: 6rem;
+}
+.service__card.large {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+.service__card.large .caption {
+  margin-top: -2.5rem;
+  position: relative;
+  z-index: 11;
+}
+.service__card.large .caption .title {
+  min-height: 3.25rem;
+}
+
+.excellenceCarousel .owl-stage-outer {
+  height: calc(100% + 30px);
+  margin: -15px;
+  padding: 15px;
+  width: calc(100% + 30px);
 }
 
 .about__wraper {
@@ -100,30 +118,37 @@
   border-radius: 2.375rem;
   overflow: hidden;
 }
-.promo__wrapper .height {
+.promo__wrapper .btn.height {
   min-height: 4.5rem;
-  width: 45%;
   border-radius: 14px;
 }
 
-.services__wrapper .icon__box {
-  width: 4.25rem;
-  height: 4.25rem;
-  background-color: rgb(0, 135, 198) !important;
-  margin-top: -4rem;
-  position: absolute;
-}
-.services__wrapper .card__text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
+.contact__info__box .icon {
+  width: 3rem;
 }
 
+@media (max-width: 575px) {
+  .promo__wrapper {
+    border-radius: 1.5rem;
+  }
+  .promo__wrapper .btn.height {
+    min-height: 3.5rem;
+    border-radius: 0.625rem;
+  }
+  .contact__info__box .icon {
+    width: 2rem;
+  }
+  .contact__info__box .icon img {
+    width: 1.25rem;
+    height: auto;
+  }
+  .contact__info__box .lead {
+    font-size: 1.067rem;
+  }
+}
 .wraper__section .card {
-  box-shadow: rgb(87, 87, 87) 0px 3px 20px;
+  box-shadow: 0px 3px 20px rgba(87, 87, 87, 0.1607843137);
+  border: 1px solid #E5E5E5;
 }
 .wraper__section .card .icon__round {
   width: 4.25rem;
@@ -131,48 +156,70 @@
   border-radius: 50%;
   background-color: #F0FAFE !important;
 }
+.wraper__section .card .title {
+  color: #414141;
+  min-height: 3rem;
+}
 .wraper__section .card .card__text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
+  height: 6rem;
 }
 .wraper__section .card:hover {
-  transform: translate(0.5rem, 1rem);
-  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 3px 10px rgba(87, 87, 87, 0.0274509804);
+}
+
+.testimionalSlider .owl-item {
+  padding-top: 4rem;
 }
 
 .testi__card {
   background: #FFFFFF;
   border-radius: 1.25rem;
 }
-.testi__card .authore__box .thumbnail {
+.testi__card .thumbnail {
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
   border: 1px solid #00468A;
   padding: 0.3rem;
+  top: -3.5rem;
+}
+.testi__card .rating {
+  width: 9rem !important;
+  height: auto;
 }
 
-.heading {
-  font-size: 3.8rem !important;
+.form-control {
+  height: 3rem;
+  border-color: #E0E0E0;
 }
 
-.extra__btn {
-  border-bottom: 1px solid #0086C6;
-  width: 14rem;
+.large__form .form-control {
+  height: 3.5rem;
 }
 
-.hero__thamnail {
-  background-color: rgba(0, 0, 0, 0.5137254902);
-}
-
-.header__wraper {
+.page__header {
   background: #000;
   width: 100%;
   height: 17.5rem;
+}
+
+@media (max-width: 575px) {
+  .page__header {
+    height: 7rem;
+  }
+}
+.experienceCarousel .owl-stage-outer, .typesCarousel .owl-stage-outer {
+  height: calc(100% + 24px);
+  margin: -7px;
+  padding: 7px;
+  width: calc(100% + 24px);
+}
+.experienceCarousel .owl-stage, .typesCarousel .owl-stage {
+  display: flex;
+}
+.experienceCarousel .owl-stage .owl-item, .typesCarousel .owl-stage .owl-item {
+  display: flex;
+  padding-bottom: 1rem;
 }
 
 .nav-tabs .nav-link {
@@ -194,6 +241,7 @@
   position: absolute;
   bottom: -0.3rem;
   left: 0%;
+  z-index: 100;
 }
 .nav-tabs::after {
   content: "";
@@ -204,42 +252,52 @@
   border-radius: 6px;
 }
 
-.tab-content .experience__card {
-  border: 1px solid #E5E5E5;
-  box-shadow: rgb(87, 87, 87);
-  border-radius: 1rem;
+@media (max-width: 767px) {
+  .nav-tabs {
+    position: relative;
+  }
+  .nav-tabs .nav-link {
+    width: 50%;
+    flex: 0 0 50%;
+    font-size: 13px;
+  }
+  .nav-tabs .nav-link:nth-child(1), .nav-tabs .nav-link:nth-child(2) {
+    margin-bottom: 0.5rem !important;
+  }
+  .nav-tabs::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #D9D9D9;
+    border-radius: 6px;
+    position: absolute;
+    top: 3.25rem;
+    left: 0%;
+    z-index: 0;
+  }
 }
-.tab-content .experience__card .icon__round {
+.experience__card {
+  box-shadow: 0px 3px 20px rgba(87, 87, 87, 0.1607843137);
+  border: 1px solid #E5E5E5;
+  border-radius: 1rem;
+  line-height: 1.3;
+}
+.experience__card .icon__round {
   width: 4.25rem;
   height: 4.25rem;
   border-radius: 50%;
   background-color: #F0FAFE !important;
 }
-
-.others__card {
-  border: 1px solid #E5E5E5;
-  box-shadow: rgb(87, 87, 87);
-  border-radius: 1rem;
-}
-.others__card .icon__round {
-  width: 4.25rem;
-  height: 4.25rem;
-  border-radius: 50%;
-  background-color: #F0FAFE !important;
-}
-.others__card .card__text {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
+.experience__card .title.height {
+  min-height: 2.875rem;
 }
 
 .accordion .accordion-item {
-  border: 1px solid #E5E5E5;
   border-radius: 1rem !important;
   background-color: #FFFFFF;
+  box-shadow: 0px 3px 20px rgba(87, 87, 87, 0.1607843137);
+  border: 1px solid #E5E5E5 !important;
   margin-bottom: 1.45rem;
   min-height: 5rem;
 }

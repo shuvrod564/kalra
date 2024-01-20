@@ -1,5 +1,4 @@
-<?php
-    // $base_url = '192.168.1.4/soulistic/';
+<?php 
     $base_url = 'http://localhost/kalra/';
-    // $base_url = 'https://finteam.embraceindia.co.in/';
+    // $base_url = 'https://kalra.embraceindia.co.in/';
 ?>

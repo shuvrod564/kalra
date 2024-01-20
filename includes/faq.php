@@ -1,7 +1,8 @@
-    <section class="py-5">
+    <section class="py-5 bg-gradient mt-5">
         <div class="container"> 
-            <h2 class="fs-1 text-center text-dark fw-bold ">FAQs</h2>
-            <div class="faq__wrapper mx-auto col-lg-10"> 
+            <h2 class="fs-1 text-26 fw-bold text-center">FAQs</h2>
+            <p class="text-center col-lg-6 mx-auto">Got questions? We've got answers! Our FAQ section addresses your concerns, from recovery timelines to dietary recommendations post-surgery.</p>
+            <div class="faq__wrapper mx-auto col-lg-9"> 
                 <div class="accordion accordion-flush no__icons mt-3 mt-lg-4 mx-auto" id="accordionFaq1">
                     <div class="accordion-item">
                         <h3 class="accordion-header" id="flushProcess1">
