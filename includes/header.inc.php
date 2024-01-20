@@ -51,33 +51,31 @@
 
                 <ul class="navbar-nav d-none d-lg-flex align-items-center">    
                     <li class="nav-item"> 
-                        <a href="about-us.php" class="nav-link">    
+                        <a href="index.php" class="nav-link">    
                             Home 
                         </a>   
                     </li>         
+                    <li class="nav-item ms-lg-1 ms-xl-4"> 
+                        <a href="about.php" class="nav-link">    
+                            About Us
+                        </a>   
+                    </li>         
                     <li class="nav-item dropdown ms-lg-1 ms-xl-4"> 
-                        <a href="#" class="nav-link" id="drop1"
+                        <a href="about.php" class="nav-link" id="drop1"
                         data-bs-toggle="dropdown"
                         aria-haspopup="true"
                         aria-expanded="false">
-                            About Us 
+                            Services  
                         </a> 
                         <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                            <li class="mb-2"><a href="<?php echo $base_url;?>accounting-bookkeeping.php" class="dropdown-item fw-medium">Accounting & Bookkeeping</a></li>
-                            <li class="mb-2"><a href="<?php echo $base_url;?>business-start-up.php" class="dropdown-item fw-medium">Business Start-Up & Business Development</a></li>
-                            <li class="mb-2"><a href="<?php echo $base_url;?>company-formation.php" class="dropdown-item fw-medium">Company Formation</a></li>
-                            <li class="mb-2"><a href="<?php echo $base_url;?>payroll-management.php" class="dropdown-item fw-medium">Payroll Management</a></li>
-                            <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php" class="dropdown-item fw-medium">Financial Analysis & Business Advisory Services</a></li>
-                            <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php" class="dropdown-item fw-medium">VAT Services</a></li>
-                            <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php" class="dropdown-item fw-medium">Tax Planning and Preparation</a></li>
-                            <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php" class="dropdown-item fw-medium">Auditing Services</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>teeth-removal.php" class="dropdown-item fw-medium">Teeth Removal And Surgery</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>cteeth-whitening.php" class="dropdown-item fw-medium">CTeeth Whitening / Bleaching</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>smile-designing.php" class="dropdown-item fw-medium">Smile Designing</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>cosmetic-dental.php" class="dropdown-item fw-medium">Cosmetic Dental Treatments</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>root-canal-treatment.php" class="dropdown-item fw-medium">Root Canal Treatment</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>root-canal-treatment–1.php" class="dropdown-item fw-medium">Root Canal Treatment – 1</a></li> 
                         </ul> 
-                    </li>             
-                    <li class="nav-item ms-lg-1 ms-xl-4"> 
-                        <a href="#" class="nav-link"> 
-                            Services 
-                        </a>  
-                    </li>       
+                    </li>                   
                     <li class="nav-item ms-lg-1 ms-xl-4"> 
                         <a href="#" class="nav-link"> 
                             Before After 

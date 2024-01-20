@@ -246,7 +246,7 @@
             class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0 "
             width="1320" height="341"
         />
-        <div class="position-absolute top-0 start-0 w-100 h-100 z-2 bg-dark" style="opacity:.9"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 z-2 bg-primary" style="opacity:.9"></div>
         <div class=" py-5 z-index">
             <div class="row g-4 g-lg-5 align-items-center">
                 <div class="col-lg-6">
