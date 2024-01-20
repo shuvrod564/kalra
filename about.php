@@ -121,7 +121,7 @@
                 class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0 "
                 width="1320" height="341"
             />
-            <div class="position-absolute top-0 start-0 w-100 h-100 z-2 bg-dark" style="opacity:.9"></div>
+            <div class="position-absolute top-0 start-0 w-100 h-100 z-2 bg-primary" style="opacity: 0.82;"></div>
             <div class=" py-5 z-index">
                 <div class="row g-4 g-lg-5 align-items-center">
                     <div class="col-lg-6">
@@ -179,7 +179,7 @@
                 </div>
             </nav> 
             <div class="tab-content pt-4 pt-lg-5" id="nav-tabContent">
-                <h2 class="fs-4 text-dark fw-bold mb-4">Experience the gentle difference in our specialized services, including:</h2>
+                <h2 class="fs-4 text-dark fw-bold mb-4 text-center text-lg-start">Experience the gentle difference in our specialized services, including:</h2>
                 <div class="tab-pane" id="nav-tab1" role="tabpanel" aria-labelledby="nav-tab1-tab">
                     <div class="owl-carousel experienceCarousel">
                         <div class="experience__card mb-4 mb-lg-5">
