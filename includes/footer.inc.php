@@ -6,7 +6,7 @@
                 <div class="row g-4 gy-5">
                     <div class="col-lg-5 text-center text-lg-start"> 
                        <a href="<?php echo $base_url;?>" class="d-inline-block logo">
-                            <img src="assets/images/logo-white.webp" class="img-fluid" width="250" height="135" alt="Kalra Dental Care">
+                            <img src="<?php echo $base_url;?>assets/images/logo-white.webp" class="img-fluid" width="250" height="135" alt="Kalra Dental Care">
                        </a>
                         <p class="text-white col-lg-10 mt-lg-3 text-center text-lg-start fs-15">
                             It is important that oral hygiene be carried out on a regular basis to enable prevention of dental disease.

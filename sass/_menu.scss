@@ -28,7 +28,10 @@
             color: var(--grey); 
             font-weight: 500;  
             transition: all .3s ease-in-out; 
-  
+            
+            svg {
+                width: .875rem;height: .875rem;
+            }
 
             &:hover {
                 color: var(--brand);  
