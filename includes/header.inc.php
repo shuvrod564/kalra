@@ -57,9 +57,6 @@
                                 <li class="mb-2"><a href="<?php echo $base_url;?>dentures.php" class="dropdown-item fw-medium">Dentures</a></li> 
                                 <li class="mb-2"><a href="<?php echo $base_url;?>braces-treatment.php" class="dropdown-item fw-medium">Braces Treatment</a></li> 
                                 <li class="mb-2"><a href="<?php echo $base_url;?>tooth-bridge-and-crown-dentistry.php" class="dropdown-item fw-medium">Tooth Bridge And Crown Dentistry</a></li> 
-                                <!-- <li class="mb-2"><a href="<?php echo $base_url;?>mastering-your-smile-makeover.php" class="dropdown-item fw-medium">Mastering Your Smile Makeover With India’s Top Cosmetic Dentistry Treatments</a></li> 
-                                <li class="mb-2"><a href="<?php echo $base_url;?>unraveling-the-role-of-attachments.php" class="dropdown-item fw-medium">Unraveling The Role Of Attachments And Elastics In Invisalign Treatment</a></li> 
-                                <li class="mb-2"><a href="<?php echo $base_url;?>a-key-oral-health.php" class="dropdown-item fw-medium">A Key To Oral Health</a></li>  -->
                             </ul> 
                         </div>
                     </li>                   
@@ -76,8 +73,8 @@
                     <li class="nav-item ms-lg-1 ms-xl-4"> 
                         <a href="<?php echo $base_url;?>blog/" class="nav-link"> 
                             Blog 
-                        </a>  
-                    </li>       
+                        </a> 
+                    </li>    
                     <li class="nav-item ms-lg-1 ms-xl-4"> 
                         <a href="#" class="nav-link"> 
                             Contact Us 

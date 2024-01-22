@@ -134,7 +134,7 @@
                 font-size: 1rem;
 
                 &.btn__link {
-                    // width: calc(100% - 3rem);
+                
                     &::after {
                         content: '\002B';font-family: inherit;font-size: 1.5rem;line-height: 1;
                         color: var(--link-color);
@@ -176,6 +176,8 @@
     .navbar .dropdown{
         .dropdown-menu {
             display: block;
+            max-width: 70%;
+
         }
         &:hover {
             .dropdown-menu { 

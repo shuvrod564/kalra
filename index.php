@@ -90,7 +90,7 @@
                     <div class="mb-3 text-center text-xl-start">
                         <span class="top__title">WHAT WE PROVIDE</span>
                         <h2 class="fs-1 text-primary fw-bold mb-xl-3">OUR DENTAL SERVICES</h2>
-                        <p class="text-center fw-medium">
+                        <p class="fw-medium">
                             Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.
                         </p>
                         <div class="text-center text-xl-start mt-3 mt-lg-4 d-none d-xl-block">

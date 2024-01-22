@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div><!--.//row-->  
-            </div><!--.//container-fluid-->
+            </div><!--.//container-->
         </div>
     </footer>
     <!-- Footer Wrapper End -->
@@ -77,7 +77,6 @@
                 </div> 
             </div>
         </div> -->
-    </footer>
     <!-- Footer Wrapper End -->
      
  

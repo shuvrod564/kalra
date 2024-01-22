@@ -520,6 +520,7 @@ ul li {
 @media (min-width: 992px) {
   .navbar .dropdown .dropdown-menu {
     display: block;
+    max-width: 70%;
   }
   .navbar .dropdown:hover .dropdown-menu {
     transform: scaleY(1);
