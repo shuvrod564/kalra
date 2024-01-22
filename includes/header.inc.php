@@ -48,6 +48,16 @@
                             <li class="mb-2"><a href="<?php echo $base_url;?>cosmetic-dental-treatments.php" class="dropdown-item fw-medium">Cosmetic Dental Treatments</a></li>
                             <li class="mb-2"><a href="<?php echo $base_url;?>root-canal-treatment.php" class="dropdown-item fw-medium">Root Canal Treatment</a></li>
                             <li class="mb-2"><a href="<?php echo $base_url;?>preventive-treatments.php" class="dropdown-item fw-medium">Preventive Treatments</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>children’s-dentistry.php" class="dropdown-item fw-medium">Children’s Dentistry</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>dental-implants.php" class="dropdown-item fw-medium">Dental Implants</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>dental-filling.php" class="dropdown-item fw-medium">Dental Filling</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>gum-treatments.php" class="dropdown-item fw-medium">Gum Treatments</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>dentures.php" class="dropdown-item fw-medium">Dentures</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>braces-treatment.php" class="dropdown-item fw-medium">Braces Treatment</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>tooth-bridge-and-crown-dentistry.php" class="dropdown-item fw-medium">Tooth Bridge And Crown Dentistry</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>mastering-your-smile-makeover.php" class="dropdown-item fw-medium">Mastering Your Smile Makeover With India’s Top Cosmetic Dentistry Treatments</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>unraveling-the-role-of-attachments.php" class="dropdown-item fw-medium">Unraveling The Role Of Attachments And Elastics In Invisalign Treatment</a></li> 
+                            <li class="mb-2"><a href="<?php echo $base_url;?>a-key-oral-health.php" class="dropdown-item fw-medium">A Key To Oral Health</a></li> 
                         </ul> 
                     </li>                   
                     <li class="nav-item ms-lg-1 ms-xl-4"> 
@@ -105,6 +115,16 @@
                         <li class="mb-2"><a href="<?php echo $base_url;?>cosmetic-dental-treatments.php">Cosmetic Dental Treatments</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>root-canal-treatment.php">Root Canal Treatment</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>preventive-treatments.php">Preventive Treatments</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>children’s-dentistry.php">Children’s Dentistry</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>dental-implants.php">Dental Implants</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>dental-filling.php">Dental Filling</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>gum-treatments.php">Gum Treatments</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>dentures.php">Dentures</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>braces-treatment.php">Braces Treatment</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>tooth-bridge-and-crown-dentistry.php">Tooth Bridge And Crown Dentistry</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>mastering-your-smile-makeover.php">Mastering Your Smile Makeover With India’s Top Cosmetic Dentistry Treatments</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>unraveling-the-role-of-attachments.php">Unraveling The Role Of Attachments And Elastics In Invisalign Treatment</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>a-key-oral-health.php">A Key To Oral Health</a></li> 
                     </ul>
                 </li> 
                 <li> 
