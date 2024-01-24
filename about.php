@@ -17,12 +17,8 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <section class="page__header">
-        <div class="container-fluid">
-        
-        </div>
-    </section>
-    <!-- Header section End -->
+    <?php $title="About Us"; include_once('includes/page-header.inc.php');?>
+    <!-- Header section End --> 
 
     <!--about us section Start -->
     <section class="py-5 about__wraper">
@@ -298,7 +294,7 @@
         <div class="container">
             <div class="row g-4 gx-lg-5 align-items-center ">
                 <div class="col-lg-6">
-                    <img src="assets/images/about/expertise-and-services.webp" class="img-fluid w-100 object-fit-cover" width="624" height="415" alt="Expertise and Services">
+                    <img src="assets/images/global/dentist-chair.jpg" class="img-fluid w-100 object-fit-cover" width="624" height="415" alt="Expertise and Services">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <div class="py-lg-4  text-center text-lg-start"> 
@@ -313,7 +309,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-lg-4">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/about/expertise-and-services.webp" class="img-fluid w-100 object-fit-cover" width="624" height="415" alt="Expertise and Services">
+                    <img src="assets/images/global/Dentistry-Practiced-Today.avif" class="img-fluid w-100 object-fit-cover" width="624" height="415" alt="Expertise and Services">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <div class="py-lg-4  text-center text-lg-start"> 

@@ -17,16 +17,15 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <div class="page__header"></div>
-    <!-- Header section End -->
-
+    <?php $title="Dental Filling"; $image=""; include_once('includes/page-header.inc.php');?>
+    <!-- Header section End --> 
 
     <!-- Transform Your Smile section Start -->
     <section class="py-4 py-lg-5">
         <div class="container py-xl-4">
             <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="512" height="365" src="assets/images/services/jpg/Custom-Dentures.jpg" alt="Dr">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4  text-center text-lg-start"> 
@@ -47,7 +46,7 @@
         <div class="container">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Vital-Role-of-Dentures.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <div class="py-lg-4 text-center text-lg-start"> 
@@ -62,7 +61,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Custom-Fitted-Dentures.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <div class="py-lg-4 text-center text-lg-start"> 
@@ -77,7 +76,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Caring-for-Your-Dentures.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <div class="py-lg-4 text-center text-lg-start"> 
@@ -92,7 +91,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Advancements-in-Denture-Technology.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <div class="py-lg-4 text-center text-lg-start"> 
@@ -107,7 +106,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Implant-Supported-Dentures.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <div class="py-lg-4 text-center text-lg-start"> 
@@ -122,7 +121,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Journey-Towards-a-Renewed-Smile.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <div class="py-lg-4 text-center text-lg-start"> 

@@ -17,11 +17,7 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <section class="page__header">
-        <div class="container-fluid">
-        
-        </div>
-    </section>
+    <?php $title="Teeth Whitening"; include_once('includes/page-header.inc.php');?>
     <!-- Header section End -->
 
 
@@ -30,10 +26,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-lg-5 align-items-center ">
                 <div class="col-lg-5">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/home/dr-puneet-bhushan.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/white-teeth-closeup.avif" alt="Dr">
                 </div><!--//.col-->
                 <div class="col-lg-7">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h1 class="fs-1 text-primary fw-bold mb-3 text-uppercase">Teeth Whitening / Bleaching at Kalra Dental Care</h1>
                         <p class="fw-bold mb-2">Welcome to a Brighter Smile: Teeth Whitening at Kalra Dental Care</p>
                         <p class="mt-3">
@@ -96,10 +92,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-lg-5 align-items-center ">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/about/expertise-and-services.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/services/jpg/Customized-Whitening-for-Every-Smile.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-2 text-26 fw-bold mb-1">Customized Whitening for Every Smile</h2>
                         <p class="mb-2">
                             Sensitive but Bright: For those with sensitive teeth, fear not. We use gentle methods that protect your enamel while delivering stunning results.
@@ -117,7 +113,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-3 mt-md-4 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/about/expertise-and-services.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/services/jpg/An-Investment-in-Your-Smile.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 text-26 fw-bold mb-1">An Investment in Your Smile</h2>
@@ -133,7 +129,7 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-3 mt-md-4 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/about/expertise-and-services.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/services/jpg/Professional-Whitening.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 text-26 fw-bold mb-1">Natural vs. Professional Whitening: A Balanced View</h2>
@@ -163,10 +159,10 @@
         <div class="container pt-lg-4">
             <div class="row g-4 gx-lg-5 align-items-center ">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/about/expertise-and-services.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="485" src="assets/images/services/jpg/Dental-Insights-and-Tips.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-2 text-26 fw-bold mb-3">Dental Insights and Tips</h2>
                         <p class="mb-2">
                             Stay informed with our blog. From dental health tips to the latest in cosmetic dentistry, we keep you updated and engaged.

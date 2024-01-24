@@ -16,165 +16,93 @@
     <!-- Preloader, Main Navigation Menu --> 
     <?php $folder='inside'; include_once('../includes/header.inc.php'); ?> 
 
-    <!-- Header Wrapper Start -->
-    <header class="page__header d-flex align-items-center bgi py-5" style="background-image: url('<?php echo $base_url;?>assets/images/home/startup-meting.webp');background-position: center bottom;">
-        <div class="container-fluid py-3 py-sm-5 mt-md-5">
-            <h1 class="display-4 text-white fw-semibold text-center mb-0 pt-lg-5 text-uppercase">Blogs</h1>
-        </div>
-    </header>
-    <!-- Header Wrapper End -->
+    <!-- Header section Start -->
+    <?php $title="Blogs"; include_once('../includes/page-header.inc.php');?>
+    <!-- Header section End -->
 
     <!-- Blog Wrapper Start -->
     <section class="py-5">
-        <div class="container">
+        <div class="container py-lg-4">
             <div class="row g-3 g-xl-4">
-                <div class="col-lg-4">
-                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
-                        <a href="detail.php">
+                <div class="col-lg-4 col-md-6">
+                    <div class=" border bg-white rounded-3">
+                        <a href="mastering-your-smile-makeover.php">
                             <img 
                                 class="img-fluid w-100 rounded-3" 
-                                width="377" height="241" 
-                                src="<?php echo $base_url;?>assets/images/blog/blog-img-01.webp" 
+                                width="414" height="217" 
+                                src="images/mastering-your-smile-makeover-sm.webp" 
                                 alt="blog-img"
-                                >  
+                            >  
                         </a>
-                        <div class="pt-2"> 
-                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                        <div class="p-3"> 
+                            <p class="mb-3 opacity-25 fw-semibold">January 21, 2024</p>
                             <h3 class="lead fw-bold">
-                                <a href="detail.php" class="link">
-                                    Strategies to Stay Calm and Make Informed Decisions
+                                <a href="mastering-your-smile-makeover.php" class="link">
+                                    Mastering Your Smile Makeover With India’s Top Cosmetic Dentistry Treatments
                                 </a>
                             </h3>
                             <p class="fs-15 ellipsis-3">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                                Welcome to the realm of transformative smiles! At Kalra Dental Care, we understand that a smile makeover is not just a dental procedure; it's a journey towards a new you. Let's embark on an exploration of how our top-tier cosmetic dentistry treatments in India can redefine your smile and, indeed, your life.
                             </p>
                         </div>
                     </div>
                 </div><!--//.col--> 
-                <div class="col-lg-4">
-                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
-                        <a href="detail.php">
+                <div class="col-lg-4 col-md-6">
+                    <div class=" border bg-white rounded-3">
+                        <a href="treatment-at-kalra-dental-care.php">
                             <img 
                                 class="img-fluid w-100 rounded-3" 
-                                width="377" height="241" 
-                                src="<?php echo $base_url;?>assets/images/blog/blog-img-02.webp" 
+                                width="414" height="217" 
+                                src="images/treatment-at-kalra-dental-care-sm.webp" 
                                 alt="blog-img"
-                                >  
+                            >  
                         </a>
-                        <div class="pt-2"> 
-                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                        <div class="p-3"> 
+                            <p class="mb-3 opacity-25 fw-semibold">January 22, 2024</p>
                             <h3 class="lead fw-bold">
-                                <a href="detail.php" class="link">
-                                    Strategies to Stay Calm and Make Informed Decisions
+                                <a href="treatment-at-kalra-dental-care.php" class="link">
+                                    Unraveling the Role of Attachments and Elastics in Invisalign Treatment at Kalra Dental Care
                                 </a>
                             </h3>
                             <p class="fs-15 ellipsis-3">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                                Welcome to our latest blog at Kalra Dental Care, where we're diving deep into the intricacies of Invisalign treatment, specifically focusing on the often-overlooked yet crucial components: attachments and elastics.
                             </p>
                         </div>
                     </div>
                 </div><!--//.col--> 
-                <div class="col-lg-4">
-                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
-                        <a href="detail.php">
+                <div class="col-lg-4 col-md-6">
+                    <div class=" border bg-white rounded-3">
+                        <a href="oral-health.php">
                             <img 
                                 class="img-fluid w-100 rounded-3" 
-                                width="377" height="241" 
-                                src="<?php echo $base_url;?>assets/images/blog/blog-img-03.webp" 
+                                width="414" height="217" 
+                                src="images/oral-health-sm.webp" 
                                 alt="blog-img"
-                                >  
+                            >  
                         </a>
-                        <div class="pt-2"> 
-                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                        <div class="p-3"> 
+                            <p class="mb-3 opacity-25 fw-semibold">January 22, 2024</p>
                             <h3 class="lead fw-bold">
-                                <a href="detail.php" class="link">
-                                    Strategies to Stay Calm and Make Informed Decisions
+                                <a href="oral-health.php" class="link">
+                                    Importance Of Regular Dental Check-Ups: A Key To Oral Health
                                 </a>
                             </h3>
                             <p class="fs-15 ellipsis-3">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                                Welcome to our latest blog at Kalra Dental Care, where we're diving deep into the intricacies of Invisalign treatment, specifically focusing on the often-overlooked yet crucial components: attachments and elastics.
                             </p>
                         </div>
                     </div>
                 </div><!--//.col--> 
-                <div class="col-lg-4">
-                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
-                        <a href="detail.php">
-                            <img 
-                                class="img-fluid w-100 rounded-3" 
-                                width="377" height="241" 
-                                src="<?php echo $base_url;?>assets/images/blog/blog-img-01.webp" 
-                                alt="blog-img"
-                                >  
-                        </a>
-                        <div class="pt-2"> 
-                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
-                            <h3 class="lead fw-bold">
-                                <a href="detail.php" class="link">
-                                    Strategies to Stay Calm and Make Informed Decisions
-                                </a>
-                            </h3>
-                            <p class="fs-15 ellipsis-3">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                            </p>
-                        </div>
-                    </div>
-                </div><!--//.col--> 
-                <div class="col-lg-4">
-                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
-                        <a href="detail.php">
-                            <img 
-                                class="img-fluid w-100 rounded-3" 
-                                width="377" height="241" 
-                                src="<?php echo $base_url;?>assets/images/blog/blog-img-02.webp" 
-                                alt="blog-img"
-                                >  
-                        </a>
-                        <div class="pt-2"> 
-                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
-                            <h3 class="lead fw-bold">
-                                <a href="detail.php" class="link">
-                                    Strategies to Stay Calm and Make Informed Decisions
-                                </a>
-                            </h3>
-                            <p class="fs-15 ellipsis-3">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                            </p>
-                        </div>
-                    </div>
-                </div><!--//.col--> 
-                <div class="col-lg-4">
-                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
-                        <a href="detail.php">
-                            <img 
-                                class="img-fluid w-100 rounded-3" 
-                                width="377" height="241" 
-                                src="<?php echo $base_url;?>assets/images/blog/blog-img-03.webp" 
-                                alt="blog-img"
-                                >  
-                        </a>
-                        <div class="pt-2"> 
-                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
-                            <h3 class="lead fw-bold">
-                                <a href="detail.php" class="link">
-                                    Strategies to Stay Calm and Make Informed Decisions
-                                </a>
-                            </h3>
-                            <p class="fs-15 ellipsis-3">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                            </p>
-                        </div>
-                    </div>
-                </div><!--//.col--> 
+                 
             </div><!--//.row--> 
 
             <!-- Pagination -->
             <?php 
-                $firstArrow="false"; $lastArrow="true"; 
-                $prevPageUrl="index.php";
-                $nextPageUrl="page-2.php"; 
-                $active="1";
-                include_once('_pagination.inc.php'); 
+                // $firstArrow="false"; $lastArrow="true"; 
+                // $prevPageUrl="index.php";
+                // $nextPageUrl="page-2.php"; 
+                // $active="1";
+                // include_once('_pagination.inc.php'); 
             ?>
  
         </div><!--.//container-->

@@ -63,6 +63,8 @@ body {
 .transition { transition: all .3s ease-in-out; }
 .fw-medium { font-weight: 500; }
 .fw-semibold { font-weight: 600; }
+.z-1 { z-index: 11; }
+.z-2 { z-index: 22; }
 
 .text-primary { color: var(--brand) !important; }  
 .text-primary-light { color: var(--brand-light) !important; }  

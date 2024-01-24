@@ -90,7 +90,7 @@
                     <div class="mb-3 text-center text-xl-start">
                         <span class="top__title">WHAT WE PROVIDE</span>
                         <h2 class="fs-1 text-primary fw-bold mb-xl-3">OUR DENTAL SERVICES</h2>
-                        <p class="text-center fw-medium">
+                        <p class="fw-medium">
                             Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.
                         </p>
                         <div class="text-center text-xl-start mt-3 mt-lg-4 d-none d-xl-block">
@@ -106,13 +106,13 @@
                                     <img src="assets/images/icons/dantal-01.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
                                 </figure> 
                                 <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2 text-uppercase">
-                                    <a href="#">RESTORATIVE / GENERAL DENTISTRY</a>
+                                    <a href="dentures.php">RESTORATIVE / GENERAL DENTISTRY</a>
                                 </h3>
                                 <p class="card__text fs-15 overflow-auto">
                                     The goal of restorative dentistry is to restore the function and aesthetics of teeth that are broken, decaying, or missing. Fillings, crowns, bridges, implants, dentures, root canals, bonding, and veneers are just a few of the operations that are involved.
                                 </p>
                                 <div>
-                                    <a href="#" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
+                                    <a href="dentures.php" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
                                 </div>
                             </div><!--.//card-->       
                             <div class="service__card p-3 p-xl-4">
@@ -120,13 +120,13 @@
                                     <img src="assets/images/icons/dantal-02.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
                                 </figure> 
                                 <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2 text-uppercase">
-                                    <a href="#">COSMETIC DENTISTRY</a>
+                                    <a href="cosmetic-dental-treatments.php">COSMETIC DENTISTRY</a>
                                 </h3>
                                 <p class="card__text fs-15 overflow-auto">
                                     The goal of cosmetic dentistry is to improve the appearance of the teeth, gums, and smile. Dental implants for cosmetic purposes, gum contouring, crowns, veneers, bonding, orthodontics (such as Invisalign), and smile makeovers are among the procedures performed.
                                 </p>
                                 <div>
-                                    <a href="#" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
+                                    <a href="cosmetic-dental-treatments.php" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
                                 </div>
                             </div><!--.//card-->       
                             <div class="service__card p-3 p-xl-4">
@@ -134,13 +134,13 @@
                                     <img src="assets/images/icons/dantal-03.svg" width="42" height="23" class="img-fluid icon" alt="dantal">
                                 </figure> 
                                 <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2 text-uppercase">
-                                    <a href="#">DENTAL IMPLANT</a>
+                                    <a href="dental-implants.php">DENTAL IMPLANT</a>
                                 </h3>
                                 <p class="card__text fs-15 overflow-auto">
                                     Dental implant services include a comprehensive tooth replacement procedure. This include the initial evaluation and consultation to determine suitability, treatment planning, surgical implant insertion into the jawbone, osseointegration time, abutment placement, and the attachment of customised prosthetic teeth. The goal is to provide a safe and aesthetically pleasing tooth replacement option.
                                 </p>
                                 <div>
-                                    <a href="#" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
+                                    <a href="dental-implants.php" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
                                 </div>
                             </div><!--.//card-->       
                         </div><!--.//carousel-->   
@@ -272,7 +272,7 @@
                             Experience painless, single-sitting root canal procedures, made possible by advanced techniques and state-of-the-art technology. We deliver exceptional care that provides a comfortable, pain-free and effective solution in just one session.
                         </p>
                         <div>
-                            <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
+                            <a href="root-canal-treatment.php" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
                         </div>
                     </div>
                 </div><!--//.card-->
@@ -296,7 +296,7 @@
                             Specialised dental implant treatments, state-of-the-art methods and individualised attention can restore the appearance and functionality of your smile. Using premium materials and cutting-edge technology, experience a smooth procedure from consultation to implantation.
                         </p>
                         <div>
-                            <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
+                            <a href="dental-implants.php" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
                         </div>
                     </div>
                 </div><!--//.card-->
@@ -321,7 +321,7 @@
                             Premium orthodontic braces procedures intended to improve and align your smile. With efficient individualised treatment programmes and an emphasis on accuracy and attention, enjoy a smile that is straighter, healthier, and has a lasting improvement in your oral health.
                         </p>
                         <div>
-                            <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
+                            <a href="braces-treatment.php" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
                         </div>
                     </div>
                 </div><!--//.card--> 

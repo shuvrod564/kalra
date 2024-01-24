@@ -1,4 +1,4 @@
-<section class="py-5">
+<section class="py-5" id="appointment">
         <div class="container py-sm-3">
             <div class="row g-4 g-xl-5">
                 <div class="col-lg-6">
@@ -25,7 +25,7 @@
                                 </h3>
                                 <div class="d-flex gap-md-1 mt-sm-4">
                                     <figure class="mb-0 icon"> 
-                                        <img src="assets/images/icons/Location.svg" class="img-fluid" width="30" height="35" alt="Location">
+                                        <img src="<?php echo $base_url;?>assets/images/icons/Location.svg" class="img-fluid" width="30" height="35" alt="Location">
                                     </figure>
                                     <p class="mb-0 lead col text-50 fw-medium">
                                         3 KA 13, Pawarnpuri Main Road, Pawanpuri, Near SBBJ Bank, Bikaner, Rajasthan - 334003
@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="d-flex gap-md-1 mt-4">
                                     <figure class="mb-0 pt-2 icon">  
-                                        <img src="assets/images/icons/phone.svg" width="31" height="31" class="img-fluid" alt="">
+                                        <img src="<?php echo $base_url;?>assets/images/icons/phone.svg" width="31" height="31" class="img-fluid" alt="">
                                     </figure>
                                     <p class="mb-0 lead col text-50 fw-medium">
                                         <a href="tel:+91 98291 95898" class="text-50">+91 98291 95898</a> <br>
@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="d-flex gap-md-1 mt-4">
                                     <figure class="mb-0 icon">  
-                                        <img src="assets/images/icons/Page.svg" width="31" height="25" class="img-fluid" alt="">
+                                        <img src="<?php echo $base_url;?>assets/images/icons/Page.svg" width="31" height="25" class="img-fluid" alt="">
                                     </figure>
                                     <p class="mb-0 lead col text-50 fw-medium">
                                         enquiry@kalradentalcare.com

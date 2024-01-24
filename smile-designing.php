@@ -17,11 +17,7 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <section class="page__header">
-        <div class="container-fluid">
-        
-        </div>
-    </section>
+    <?php $title="SMILE DESIGNING"; include_once('includes/page-header.inc.php');?>
     <!-- Header section End -->
  
     <!-- Welcome To Smile section Start -->
@@ -29,10 +25,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="512" height="365" src="assets/images/services/smile-designing-at-kalra-dental-care.webp" alt="smile designing at kalra dental care">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h1 class="fs-2 text-primary fw-bold text-uppercase">WELCOME TO SMILE DESIGNING AT KALRA DENTAL CARE</h1>
                         <p class="text-dark fs-6 fw-semibold">Embracing the Art of Smiling with Expertise</p>
                         <p class="mt-3">
@@ -50,10 +46,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Why-Your-Smile-Matters.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Why Your Smile Matters</h2>
                         <p class="text-26 fs-6 fw-semibold">A Gateway to Confidence and Wellbeing</p>
                         <p class="mt-3">
@@ -65,10 +61,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Smile-Makeover-Services-Tailored-to-You.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Smile Makeover Services – Tailored to You</h2>
                         <p class="text-26 fs-6 fw-semibold">Crafting Personalized Smile Journeys</p>
                         <p class="mt-3">
@@ -80,10 +76,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Teeth-Whitening-Brightening-Your-Smile.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 orderlg-1">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold">Teeth Whitening: Brightening Your Smile</h2>
                         <p class="text-26 fs-6 fw-semibold">Safe, Effective, and Transformative</p>
                         <p class="mt-3">
@@ -95,10 +91,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/The-Magic-of-Dental-Veneers.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Magic of Dental Veneers</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">A Touch of Perfection</p>
                         <p class="">
@@ -110,10 +106,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Revolutionizing-Orthodontics.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Invisalign: Revolutionizing Orthodontics</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">Clear, Comfortable, and Convenient</p>
                         <p>
@@ -125,10 +121,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Gum-Contouring.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Gum Contouring: Framing Your Smile</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">The Unsung Hero of Aesthetic Dentistry</p>
                         <p>
@@ -138,24 +134,21 @@
                 </div><!--//.col-->
             </div><!--//.row-->
 
-            <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
-                <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
-                </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
-                        <h2 class="fs-1 text-26 fw-bold mb-3">Your Journey Begins Here</h2>
-                        <p class="text-26 fs-6 fw-semibold mb-2">Consult, Create, and Cherish</p>
-                        <p>
-                            Embark on your smile designing journey with a personalized consultation at Kalra Dental Care. Let’s co-create a smile that not only looks stunning but feels genuinely yours.
-                        </p>
-                    </div>
-                </div><!--//.col-->
-            </div><!--//.row-->
+            
         </div><!--//.container-->
     </section>
     <!-- Smile Matters End -->
 
+    <!-- Promo Section start -->
+    <div class="mt-lg-5 mt-4"> 
+        <?php 
+            $heading="Your Journey Begins Here";
+            $boldText="Consult, Create, and Cherish";
+            $description="Embark on your smile designing journey with a personalized consultation at Kalra Dental Care. Let’s co-create a smile that not only looks stunning but feels genuinely yours."; 
+            include('includes/promo-section.inc.php'); 
+        ?>
+    </div>
+    <!-- Promo Section End --> 
     
     <!-- FAQ’S section Start -->
     <?php include_once('includes/faq.php'); ?> 

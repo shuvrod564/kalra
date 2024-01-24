@@ -15,21 +15,20 @@
     
     <!-- Preloader, Main Navigation Menu --> 
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
-
+ 
     <!-- Header section Start -->
-    <div class="page__header"></div>
+    <?php $title="Dental Implants"; include_once('includes/page-header.inc.php');?>
     <!-- Header section End -->
-
-
+ 
     <!-- Transform section Start -->
     <section class="py-4 py-lg-5">
         <div class="container py-xl-4">
             <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="512" height="365" src="assets/images/services/jpg/dental-implant.avif" alt="Dr">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4 "> 
                         <h1 class="fs-2 text-primary fw-bold text-uppercase">Transform Your Smile with Kalra Dental Care’s Dental Implants</h1> 
                         <p class="mt-3 text-dark">
                             At Kalra Dental Care, we understand the transformative power of a confident smile. Dental implants represent not just a pinnacle of dental innovation but a gateway to renewed self-confidence and oral health. Our dedicated team is here to guide you through this life-changing journey, offering tailor-made solutions with a touch of compassion and expertise.
@@ -47,10 +46,10 @@
         <div class="container">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Revolution-of-Dental-Implants.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Revolution of Dental Implants</h2>
                         <p class="text-26 fs-6 fw-semibold">What Are Dental Implants?</p>
                         <p class="mt-3">
@@ -62,10 +61,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Understanding-the-Treatment-Journey.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Customized Implant Solutions at Kalra Dental</h2>
                         <p class="text-26 fs-6 fw-semibold">Titanium: The Core of Strength and Compatibility</p>
                         <p class="mt-3">   
@@ -77,10 +76,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Single-Tooth-to-Full-Smile-Transformations.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Single Tooth to Full Smile Transformations</h2>
                         <p class="mt-3">
                             Whether it’s replacing a single lost tooth or a complete set, dental implants offer flexibility to suit every need. At Kalra Dental Care, we assess your unique situation to recommend the best course of action, be it a single implant or full mouth reconstruction, ensuring the end result is as functional as it is aesthetically pleasing.
@@ -91,10 +90,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/The-Journey-of-Implantation.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">The Journey of Implantation: A Step-by-Step Guide</h2>
                         <p class="text-26 fs-6 fw-semibold">The Dental Implant Procedure: Precision and Care</p>
                         <p class="mt-3">
@@ -106,10 +105,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Art-of-Balancing-Cost-and-Quality.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Navigating Bone Grafting</h2>
                         <p class="mt-3">
                             In cases where bone density is insufficient, bone grafting becomes an essential prelude to implant placement. This process, though it may extend the treatment timeline, is crucial for a successful implant. We utilize advanced techniques to ensure this process is as efficient and effective as possible.
@@ -120,10 +119,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Life-with-Dental-Implants.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Life with Dental Implants: Aftercare and Beyond</h2>
                         <p class="text-26 fs-6 fw-semibold">Ensuring Longevity: Care and Maintenance</p>
                         <p class="mt-3">
@@ -135,10 +134,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Understanding-the-Impacts.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Understanding the Impacts and Making Informed Decisions</h2>
                         <p class="text-26 fs-6 fw-semibold">The Trade-offs and Considerations</p>
                         <p class="mt-3">
@@ -150,10 +149,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Journey-Towards-a-Renewed-Smile.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Your Smile, Our Commitment</h2>
                         <p class="mt-3">
                             At Kalra Dental Care, our commitment goes beyond dental procedures; we commit to enhancing your quality of life. Dental implants are a substantial investment in your oral health, and we are here to ensure that this investment brings you a lifetime of smiles.

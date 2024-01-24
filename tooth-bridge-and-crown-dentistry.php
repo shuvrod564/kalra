@@ -17,8 +17,8 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <div class="page__header"></div>
-    <!-- Header section End -->
+    <?php $title="Tooth Bridge"; $image=""; include_once('includes/page-header.inc.php');?>
+    <!-- Header section End --> 
 
 
     <!-- Transformative Tooth section Start -->
@@ -26,10 +26,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Tooth-Bridge.jpg" alt="Dr">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4 "> 
                         <h1 class="fs-2 text-primary fw-bold text-uppercase">Transformative Tooth Bridge and Crown Solutions at Kalra Dental Care</h1> 
                         <p class="mt-3 text-dark">
                             Welcome to Kalra Dental Care, where advanced dental artistry meets personalized care. Our dedicated team specializes in tooth bridge and crown dentistry, offering solutions that not only restore functionality but also enhance the beauty of your smile. Let's explore the multifaceted world of bridges and crowns, and how they can be the key to rejuvenating your dental health.
@@ -47,10 +47,10 @@
         <div class="container">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Essence-of-Bridges-and-Crowns.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Essence of Bridges and Crowns in Dental Restoration</h2>
                         <p class="text-26 fs-6 fw-semibold">Bridging Gaps, Restoring Smiles</p>
                         <p class="mt-3">
@@ -66,10 +66,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Tailoring-Perfection.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Customization: Tailoring Perfection</h2>
                         <p class="text-26 fs-6 fw-semibold">Crafting Personalized Dental Prosthetics</p>
                         <p class="mt-3">   
@@ -81,10 +81,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Navigating-the-Durability-and-Care.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Navigating the Durability and Care of Dental Prosthetics</h2>
                         <p class="text-26 fs-6 fw-semibold">Ensuring Long-Lasting Results</p>
                         <p class="mt-3">
@@ -96,10 +96,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Advanced-Techniques-in-Bridge.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Advanced Techniques in Bridge and Crown Dentistry</h2>
                         <p class="mt-3">
                             At Kalra Dental Care, we stay at the forefront of dental technology. Our advanced techniques in bridge and crown dentistry not only improve the precision of our work but also enhance patient comfort during the treatment process.
@@ -110,10 +110,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Understanding-the-Treatment-Journey.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Understanding the Treatment Journey</h2>
                         <p class="text-26 fs-6 fw-semibold">From Consultation to a Radiant Smile</p>
                         <p class="mt-3">
@@ -125,10 +125,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Art-of-Balancing-Cost-and-Quality.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Art of Balancing Cost and Quality</h2>
                         <p class="text-26 fs-6 fw-semibold">Making Informed Financial Decisions</p>
                         <p class="mt-3">
@@ -140,10 +140,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Journey-Towards-a-Renewed-Smile.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Your Partner in Dental Health</h2>
                         <p class="mt-3">
                             At Kalra Dental Care, we are more than just dental professionals; we are your partners in achieving and maintaining optimal dental health. Whether you're considering a bridge, a crown, or both, our team is dedicated to providing you with solutions that enhance both the function and aesthetics of your smile.

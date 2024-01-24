@@ -17,19 +17,18 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <div class="page__header"></div>
+    <?php $title="Gum Treatments"; include_once('includes/page-header.inc.php');?>
     <!-- Header section End -->
-
-
+ 
     <!--Comprehensive Gum Treatments section Start -->
     <section class="py-4 py-lg-5">
         <div class="container py-xl-4">
             <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Gum-Treatments.avif" alt="Dr">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4 "> 
                         <h1 class="fs-2 text-primary fw-bold text-uppercase">Comprehensive Gum Treatments for Optimal Oral Health at    Kalra Dental Care</h1> 
                         <p class="mt-3 text-dark">
                             Welcome to Kalra Dental Care, where we understand that the foundation of a perfect smile begins with healthy gums. Our commitment to excellence extends beyond teeth to encompass comprehensive gum care, ensuring that your oral health is maintained in its entirety.
@@ -47,10 +46,10 @@
         <div class="container">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Crucial-Role-of-Healthy-Gums.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Crucial Role of Healthy Gums</h2>
                         <p class="text-26 fs-6 fw-semibold">Understanding Gum Health</p>
                         <p class="mt-3">
@@ -62,10 +61,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Treatments-for-Gum-Disease.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Innovative Treatments for Gum Disease</h2>
                         <p class="text-26 fs-6 fw-semibold">Battling Gingivitis and Periodontitis</p>
                         <p class="mt-3">   
@@ -77,10 +76,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Non-Surgical-Routes-to-Recovery.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Non-Surgical Routes to Recovery</h2>
                         <p class="mt-3">
                             For many gum conditions, non-surgical treatments can be highly effective. Procedures like scaling and root planing remove plaque and tartar from below the gum line, addressing the root cause of gum disease without invasive surgery.
@@ -91,10 +90,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Advanced-Gum-Care-Techniques.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Advanced Gum Care Techniques</h2>
                         <p class="text-26 fs-6 fw-semibold">Revolutionizing Treatment with Laser Gum Therapy</p>
                         <p class="mt-3">
@@ -110,10 +109,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/preventive-treatment.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Importance of Preventive Care</h2>
                         <p class="text-26 fs-6 fw-semibold">Oral Hygiene: The First Line of Defense</p>
                         <p class="mt-3">
@@ -125,10 +124,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Embrace-Innovation-with-Invisalign.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Significance of Regular Dental Visits</h2>
                         <p class="mt-3">
                             Routine dental check-ups play a vital role in early detection and prevention of gum diseases. These visits allow our team to spot early signs of gum problems and intervene before they escalate.
@@ -139,10 +138,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Navigating-Treatment-Options.avif" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Navigating Treatment Options</h2>
                         <p class="text-26 fs-6 fw-semibold">Balancing Cost and Effectiveness</p>
                         <p class="mt-3">
@@ -154,10 +153,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Journey-Towards-a-Renewed-Smile.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Your Partner in Gum Health</h2>
                         <p class="mt-3">
                             At Kalra Dental Care, our approach to gum treatments is holistic, focusing not just on treating symptoms but on promoting overall gum health. Whether you’re dealing with early-stage gingivitis or more advanced periodontitis, our team is equipped to provide the care you need.

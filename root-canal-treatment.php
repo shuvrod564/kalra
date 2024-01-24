@@ -17,7 +17,7 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <div class="page__header"></div>
+    <?php $title="ROOT CANAL TREATMENT"; include_once('includes/page-header.inc.php');?>
     <!-- Header section End -->
 
      <!-- Welcome Section Start -->
@@ -25,10 +25,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/root-canal-treatment.webp" alt="root canal treatment">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h1 class="fs-2 text-primary fw-bold text-uppercase">EXPERT ROOT CANAL TREATMENT AT KALRA DENTAL CARE</h1> 
                         <p class="mt-3 text-dark">
                             Welcome to Kalra Dental Care, where advanced dental science meets compassionate care. Understanding the apprehensions and myths surrounding root canal treatments, we’ve dedicated ourselves to a patient-first approach, ensuring each procedure is as comfortable as it is effective. 
@@ -46,10 +46,10 @@
         <div class="container">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Root-Canal-Therapy.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Essence of Root Canal Therapy</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">Root Canal: A Lifesaver for Your Tooth</p>
                         <p>
@@ -61,10 +61,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/When-Do-You-Need-a-Root-Canal.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">When Do You Need a Root Canal?</h2>
                         <p class="mt-3">
                             Understanding the signs that indicate the need for a root canal is crucial. Symptoms like severe toothache, prolonged sensitivity to hot or cold, discoloration of the tooth, and swelling or tenderness in the nearby gums often point towards the need for this treatment. At Kalra Dental, we believe in thorough diagnostics to ensure a root canal is exactly what you need.
@@ -75,10 +75,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Kalra-Dental-Pain-Free-Approach.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Kalra Dental’s Pain-Free Approach</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">Advanced Techniques for Comfort</p>
                         <p>
@@ -90,10 +90,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="446" src="assets/images/services/Utilizing-Cutting-Edge-Technology.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Utilizing Cutting-Edge Technology</h2>
                         <p>
                             nnovation is at the heart of our root canal treatments. We utilize the latest in dental technology, such as digital imaging and state-of-the-art sterilization, to make the procedure efficient and effective. This technology not only enhances precision but also significantly reduces recovery time.
@@ -109,7 +109,7 @@
     <!-- Essence of Root section End -->
    
     <!-- The Procedure section start -->
-    <section class="py-2">
+    <section class="py-4 pb-lg-5">
         <div class="container">
             <h2 class="fs-1 text-26 fw-bold mb-5 text-center">The Procedure: What to Expect</h2>
             <div class="row g-4">
@@ -151,12 +151,12 @@
     <!-- Kalra Dental Care section Start -->
     <section class="pt-5">
         <div class="container">
-            <div class="row g-4 gx-lg-5 align-items-center ">
+            <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/home/dr-puneet-bhushan.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="512" height="512" src="assets/images/services/Why-Kalra-Dental-Care.webp" alt="Why Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-1">Why Kalra Dental Care?</h2>
                         <p class="text-26 fs-6 fw-semibold">The Unsung Hero of Aesthetic Dentistry</p>
                         <p class="mt-3">

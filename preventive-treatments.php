@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="<?php echo $base_url;?>assets/images/favicon.ico" type="image/x-icon"> 
-    <title>Root Canal Treatment – 1</title>
+    <title>PREVENTIVE DENTAL CARE</title>
     
     <!-- All Stylesheets -->
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
@@ -15,9 +15,9 @@
     
     <!-- Preloader, Main Navigation Menu --> 
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
-
+ 
     <!-- Header section Start -->
-    <div class="page__header"></div>
+    <?php $title="PREVENTIVE DENTAL CARE"; include_once('includes/page-header.inc.php');?>
     <!-- Header section End -->
 
     <!-- Welcome Section Start -->
@@ -25,10 +25,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-xxl-5 align-items-center ">
                 <div class="col-lg-5 mt-md-0">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="512" height="365" src="assets/images/services/jpg/preventive-treatment.jpg" alt="Dr">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
-                    <div class="py-lg-4  text-center text-lg-start"> 
+                    <div class="py-lg-4 "> 
                         <h1 class="fs-2 text-primary fw-bold text-uppercase">PROACTIVE AND COMPREHENSIVE PREVENTIVE DENTAL CARE AT KALRA DENTAL CARE</h1> 
                         <p class="mt-3 text-dark">
                             Welcome to Kalra Dental Care, where advanced dental science meets compassionate care. Understanding the apprehensions and myths surrounding root canal treatments, we’ve dedicated ourselves to a patient-first approach, ensuring each procedure is as comfortable as it is effective.
@@ -46,10 +46,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/root-canal-treatment.webp" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Essence of Root Canal Therapy</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">Root Canal: A Lifesaver for Your Tooth</p>
                         <p>
@@ -108,10 +108,10 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Advancements-in-Denture-Technology.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Specialized Preventive Care</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">Gum Disease Prevention: Keeping Your Gums Healthy</p>
                         <p>
@@ -127,10 +127,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Screening-Procedures.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Advanced Diagnostic and Screening Procedures</h2>
                         <p class="text-26 fs-6 fw-semibold mb-1">The Role of Dental X-Rays and Examinations</p>
                         <p>
@@ -146,10 +146,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Empowering-You-in-Oral-Health.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Education and Counseling: Empowering You in Oral Health</h2>
                         <p class="text-26 fs-6 fw-semibold mb-2">Oral Hygiene Education: A Cornerstone of Prevention</p>
                         <p>
@@ -161,10 +161,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Nutritional-Counseling-for-Oral-Health.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Nutritional Counseling for Oral Health</h2> 
                         <p>
                             Your diet plays a significant role in your oral health. We offer nutritional counseling, advising you on foods that benefit your teeth and gums, and those to avoid to prevent decay and other dental issues. 
@@ -175,10 +175,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Personalized-Dental-Hygiene-Plans.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Personalized Dental Hygiene Plans</h2> 
                         <p>
                             Every mouth is different, and so are our dental hygiene plans. We create customized plans based on your unique dental needs, ensuring you receive the most effective and personalized preventive care possible. 
@@ -189,10 +189,10 @@
 
             <div class="row g-4 gx-lg-5 mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Why-Choose-Kalra-Dental-Care.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="text-center text-lg-start"> 
+                    <div class=""> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Why Choose Kalra Dental Care for Preventive Treatments?</h2> 
                         <p class="mb-2">
                             Choosing Kalra Dental Care means opting for a team dedicated to your oral health. Our state-of-the-art technology, combined with a warm and caring approach, ensures that your preventive dental care is in the best hands. 
@@ -209,10 +209,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Trade-offs-and-Challenges.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <div class="py-lg-4 text-center text-lg-start"> 
+                    <div class="py-lg-4"> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">The Trade-offs and Challenges in Preventive Dentistry</h2> 
                         <p>
                             While preventive dentistry offers numerous benefits, understanding its trade-offs and challenges is crucial. One common challenge is overcoming the anxiety associated with dental visits. We address this by creating a welcoming and soothing environment, combined with our gentle approach to care. 
@@ -226,10 +226,10 @@
 
             <div class="row g-4 gx-lg-5 align-items-center mt-2 mt-sm-3 mt-lg-5">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/dental-care.webp" alt="Kalra Dental Care">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/services/jpg/Journey-Towards-a-Renewed-Smile.jpg" alt="Kalra Dental Care">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <div class="text-center text-lg-start"> 
+                    <div class=""> 
                         <h2 class="fs-1 text-26 fw-bold mb-3">Considering the Impact of Decisions in Dental Health</h2> 
                         <p class="mb-2">
                             Every decision made in the realm of dental health has its impacts. Skipping regular check-ups might seem inconsequential, but it can lead to larger issues down the line. Similarly, choosing the right treatment options can significantly affect your long-term oral health.

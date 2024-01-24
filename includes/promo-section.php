@@ -1,4 +1,4 @@
-<section class="promo__wrapper py-lg-3 position-relative">
+<div class="promo__wrapper py-lg-3 position-relative">
     <img  
         srcset="assets/images/home/startup-meting.webp 575w,
         assets/images/home/startup-meting.webp 992w,
@@ -31,4 +31,4 @@
             </div><!--//.col-->
         </div><!--//.row-->
     </div><!--//.container-->
-</section>
+</div>

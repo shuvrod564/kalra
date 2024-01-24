@@ -119,6 +119,14 @@ body {
   font-weight: 600;
 }
 
+.z-1 {
+  z-index: 11;
+}
+
+.z-2 {
+  z-index: 22;
+}
+
 .text-primary {
   color: var(--brand) !important;
 }
@@ -405,6 +413,8 @@ ul li {
 .navbar .nav-item .nav-link svg {
   width: 0.875rem;
   height: 0.875rem;
+  position: relative;
+  top: -2px;
 }
 .navbar .nav-item .nav-link:hover {
   color: var(--brand);
@@ -443,10 +453,7 @@ ul li {
   color: var(--brand);
   background-color: #e9ecef;
 }
-.navbar .dropdown .dropdown-menu .dropdown-item:not(:last-child) {
-  border-bottom: 1px solid #eee;
-}
-.navbar .dropdown .dropdown-menu .active .dropdown-item {
+.navbar .dropdown .dropdown-menu .active > .dropdown-item {
   color: var(--brand);
   border-left: 0.25rem solid var(--brand);
   background-color: #e9ecef;

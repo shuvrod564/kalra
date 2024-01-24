@@ -1,4 +1,4 @@
-<section class="">
+<div class="">
     <div class="container ">
         <div class="promo__wrapper py-5 px-3 px-sm-4 px-md-5 position-relative">
         <img  
@@ -20,6 +20,11 @@
                             DENTAL TOURISM BIKANER
                         <?php } ?>
                     </h2>
+                    <?php if(isset($boldText)) { ?>
+                    <p class="text-white text-center text-lg-start fw-bold mb-1 lead">
+                        <?php echo $boldText; ?>
+                    </p>  
+                    <?php } ?>  
                     <p class="text-white text-center text-lg-start">
                         <?php if(isset($description)) { ?>
                             <?php echo $description; ?>
@@ -30,10 +35,10 @@
                 </div><!--//.col-->
                 <div class="col-lg-4">
                     <div class="btns d-flex flex-wrap flex-column gap-3 gap-sm-4 justify-content-center">
-                        <a href="#" class="btn__service btn btn-outline-white px-4 height col z-index " aria-label="LET’S GET STARTED.">
+                        <a href="#appointment" class="btn__service btn btn-outline-white px-4 height col z-index " aria-label="LET’S GET STARTED.">
                             <span class="fw-semibold">LET’S GET STARTED.</span> 
                         </a>  
-                        <a href="#" class="btn__service btn btn-white px-4 height col py-2" aria-label="CONTACT US">
+                        <a href="contact.php" class="btn__service btn btn-white px-4 height col py-2" aria-label="CONTACT US">
                             <span class="fw-semibold">CONTACT US</span> 
                         </a>  
                     </div>
@@ -41,4 +46,4 @@
             </div><!--//.row-->
         </div><!--//.container-->
     </div>
-</section> 
+</div> 

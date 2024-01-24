@@ -30,7 +30,7 @@
             transition: all .3s ease-in-out; 
             
             svg {
-                width: .875rem;height: .875rem;
+                width: .875rem;height: .875rem;position: relative;top: -2px;
             }
 
             &:hover {
@@ -72,13 +72,9 @@
  
                 &:hover, &:focus, &:active {
                     color: var(--brand); background-color: #e9ecef;
-                } 
- 
-                &:not(:last-child) {
-                    border-bottom: 1px solid #eee;
-                }
+                }  
             }
-            .active .dropdown-item {
+            .active > .dropdown-item {
                 color: var(--brand);border-left: .25rem solid var(--brand);
                 background-color: #e9ecef;
             }

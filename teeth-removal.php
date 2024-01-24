@@ -17,11 +17,7 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <!-- Header section Start -->
-    <section class="page__header">
-        <div class="container-fluid">
-        
-        </div>
-    </section>
+    <?php $title="TEETH REMOVAL AND SURGERY"; include_once('includes/page-header.inc.php');?>
     <!-- Header section End -->
 
     <!-- Comprehensive section Start -->
@@ -29,7 +25,7 @@
         <div class="container py-xl-4">
             <div class="row g-4 gx-xl-5 align-items-center ">
                 <div class="col-lg-5">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/global/kalra-dental-care-sm.webp" alt="Dr">
+                    <img class="img-fluid w-100 object-fit-cover" width="512" height="365" src="assets/images/services/teeth-removal-and-surgery-service.webp" alt="TEETH REMOVAL AND SURGERY SERVICES">
                 </div><!--//.col-->
                 <div class="col-lg-7 ">
                     <div class="py-lg-4"> 
