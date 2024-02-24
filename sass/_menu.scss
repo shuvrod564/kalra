@@ -34,7 +34,7 @@
             }
 
             &:hover {
-                color: var(--brand);  
+                color: var(--brand-light);  
 
                 .caret { transform: rotate(-180deg); }
             }  
@@ -102,7 +102,7 @@
     
 
     .navbar-toggler {   
-        color: var(--dark);
+        color: #ffff;
         &:focus {
             box-shadow: none;
             outline: none;
@@ -115,7 +115,7 @@
         box-shadow: 0 3px 4px rgba($color: #000000, $alpha: 0.15);
         transition: all 0.3s ease-in-out; 
 		animation: mymove 1s ease-in-out;
-        // padding:  0; 
+       
     }
 } 
  
@@ -190,12 +190,6 @@
 }
  
  
- 
-// @media (max-width:1300px) {  
-//     .navbar .nav-item .nav-link {
-//         font-size: .875rem; 
-//     } 
-// }
 
 @media (max-width:1200px) {  
     .navbar {   

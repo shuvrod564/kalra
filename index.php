@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="<?php echo $base_url;?>assets/images/favicon.ico" type="image/x-icon"> 
-    <title>Kalra</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
+    <title>Innovare Construction</title>
     
     <!-- All Stylesheets -->
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
@@ -18,515 +18,668 @@
 
     
     <!-- header section start -->
-    <header class="header__wrapper py-4 d-flex align-items-end align-items-sm-center position-relative"> 
+    <header class="header__wrapper py-4 d-flex align-items-end align-items-sm-center position-relative">
         <img 
-            srcset="assets/images/home/hero-banner-sm.webp 575w, 
-                assets/images/home/hero-banner-md.webp 992w,
-                assets/images/home/hero-banner-lg.webp 1500w,
-                assets/images/home/hero-banner.webp 2000w" 
             src="assets/images/home/hero-banner.webp" 
-            sizes="(max-width:575px) 450px, (max-width:992px) 1000px, (max-width:1500px) 1400px"
             width="1903" height="600"
-            alt="Kalra Detail Care"
+            alt=""
             class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover thumbnail"
         >
-        <div class="w-100"> 
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-7 text-center text-md-start z-index">
-                        <h1 class="display-5 fw-bold">
-                            <span class="text-primary">TOMORROW’S DENTISTRY</span>
-                            <span class="text-white">PRACTICED TODAY.</span>
-                        </h1>
-                        <p class="fs-4 fw-medium text-white mb-2">Precise, Meticulous, Human.</p>
-                        <p class="text-white mb-2 col-lg-9 col-md-8">Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.</p>
-                        <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start py-3">
-                            <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-white height px-4" aria-label="Enquire Now">
-                                APPOINTMENT
-                            </button>  
-                            <a href="tel:+919987654321" class="btn btn-outline-white blue height px-4 " aria-label="+919987654321">
-                                +91 9987 654321
-                            </a>  
-                        </div>
-                    </div><!--.//col-->
-                     
-                </div><!--.//row-->
-            </div>
-        </div><!--.//container-->
-    </header>
-    <div class="py-5" style="background: #535353;">
-        <div class="container">
-            <form action="#" method="post" id="contactPageForm" class="row g-3 align-items-end large__form">
-                <div class="col-lg-3 col-md-6">
-                    <label for="cname" class="mb-1 d-block text-3b text-white">Full Name</label>
-                    <input type="text" name="name" id="cname" class="form-control py-3" placeholder="Enter Name">
-                    <small class="text-danger error" id="cname_error"></small>
-                </div><!--.//col-->
-                <div class="col-lg-3 col-md-6">
-                    <label for="cphone" class="mb-1 d-block text-3b text-white">Phone No</label>
-                    <input type="text" name="phone" id="cphone" class="form-control py-3" placeholder="Enter Name">
-                    <small class="text-danger error" id="cphone_error"></small>
-                </div><!--.//col--> 
-                <div class="col-lg-3 col-md-6">
-                    <label for="cemail" class="mb-1 d-block text-3b text-white">Select Service</label>
-                    <input type="text" name="email" id="cemail" class="form-control py-3" placeholder="Select Service">
-                    <small class="text-danger error" id="cemail_error"></small>
-                </div><!--.//col-->
-                <div class="col-lg-3 col-md-6">
-                    <button type="button" class="btn btn-primary light height py-3 rounded-2 px-5 w-100" aria-label="Enquire Now">
-                        BOOK APPOINTMENT
-                    </button>   
-                </div><!--.//col-->
-            </form>
+        <div class="position-absolute text-center text-lg-start extra__box p-2 p-sm-3 p-lg-4 bottom-0 end-0">
+            <h2 class="fs-3 text-white fw-semibold mb-0">Welcome To Innovare Constructions</h2>
+            <p class="lead text-white">At Innovare Constructions, we’re not just building spaces;</p>
         </div>
-    </div><!--.//container-->
+    </header>
     <!-- header section end -->
 
-    <!-- provide section Start -->
-    <section class="provied__wraper py-5 scroller">
-        <div class="container">
-            <div class="row g-4 gx-lg-5">
-                <div class="col-xl-3">
-                    <div class="mb-3 text-center text-xl-start">
-                        <span class="top__title">WHAT WE PROVIDE</span>
-                        <h2 class="fs-1 text-primary fw-bold mb-xl-3">OUR DENTAL SERVICES</h2>
-                        <p class="fw-medium">
-                            Experience personalized care, enhanced precision, and remarkable results that will leave you smiling with confidence.
-                        </p>
-                        <div class="text-center text-xl-start mt-3 mt-lg-4 d-none d-xl-block">
-                            <a href="#" class="btn btn-primary fw-semibold px-4 rounded-0 py-2"  aria-label="VIEW ALL">VIEW ALL</a> 
-                        </div>
-                    </div>
-                </div><!--//.col-->
-                <div class="col-xl-9">
-                    <div class="ps-lg-4"> 
-                        <div class="owl-carousel provideSlider"> 
-                            <div class="service__card p-3 p-xl-4">
-                                <figure class="m-0 icon__box bg-primary-light d-flex align-items-center justify-content-center">
-                                    <img src="assets/images/icons/dantal-01.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
-                                </figure> 
-                                <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2 text-uppercase">
-                                    <a href="#">RESTORATIVE / GENERAL DENTISTRY</a>
-                                </h3>
-                                <p class="card__text fs-15 overflow-auto">
-                                    The goal of restorative dentistry is to restore the function and aesthetics of teeth that are broken, decaying, or missing. Fillings, crowns, bridges, implants, dentures, root canals, bonding, and veneers are just a few of the operations that are involved.
-                                </p>
-                                <div>
-                                    <a href="#" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
-                                </div>
-                            </div><!--.//card-->       
-                            <div class="service__card p-3 p-xl-4">
-                                <figure class="m-0 icon__box bg-yellow d-flex align-items-center justify-content-center">
-                                    <img src="assets/images/icons/dantal-02.svg" width="42" height="56" class="img-fluid icon" alt="dantal">
-                                </figure> 
-                                <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2 text-uppercase">
-                                    <a href="#">COSMETIC DENTISTRY</a>
-                                </h3>
-                                <p class="card__text fs-15 overflow-auto">
-                                    The goal of cosmetic dentistry is to improve the appearance of the teeth, gums, and smile. Dental implants for cosmetic purposes, gum contouring, crowns, veneers, bonding, orthodontics (such as Invisalign), and smile makeovers are among the procedures performed.
-                                </p>
-                                <div>
-                                    <a href="#" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
-                                </div>
-                            </div><!--.//card-->       
-                            <div class="service__card p-3 p-xl-4">
-                                <figure class="m-0 icon__box bg-primary d-flex align-items-center justify-content-center">
-                                    <img src="assets/images/icons/dantal-03.svg" width="42" height="23" class="img-fluid icon" alt="dantal">
-                                </figure> 
-                                <h3 class="fs-6 title text-dark mt-4 lead fw-bold mb-2 text-uppercase">
-                                    <a href="#">DENTAL IMPLANT</a>
-                                </h3>
-                                <p class="card__text fs-15 overflow-auto">
-                                    Dental implant services include a comprehensive tooth replacement procedure. This include the initial evaluation and consultation to determine suitability, treatment planning, surgical implant insertion into the jawbone, osseointegration time, abutment placement, and the attachment of customised prosthetic teeth. The goal is to provide a safe and aesthetically pleasing tooth replacement option.
-                                </p>
-                                <div>
-                                    <a href="#" class="link fw-medium fs-15"  aria-label="READ MORE">READ MORE</a> 
-                                </div>
-                            </div><!--.//card-->       
-                        </div><!--.//carousel-->   
-                    </div>
-                    <div class="text-center mt-3 mt-lg-4 d-xl-none">
-                        <a href="#" class="btn btn-primary fw-semibold px-4 rounded-0 py-2"  aria-label="VIEW ALL">VIEW ALL</a> 
-                    </div>
-                </div><!--//.col-->
-            </div><!--//.row-->
-        </div><!--//.container-->
-    </section>
-    <!-- provide section End -->
-        
-    <!--about us section Start -->
-    <section class="about__wraper py-5">
-        <div class="container">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-xxl-5 col-lg-6 text-center text-lg-start">
-                    <div class="mb-3 text-center text-lg-start text-md-center">
-                        <span class="top__title">ABOUT US</span>
-                        <h2 class="fs-1 text-primary text-center text-lg-start fw-bold">KALARA DENTAL CARE</h2>
-                        <p class="lead text-dark fw-semibold">ONE VISIT , ONE SMILE , ONE LIFETIME</p>
-                        <p class="fs-15 text-dark">
-                            Located in the centre of Bikaner, Kalra Dental Care offers a top medical facility committed to providing top-notch dental care. Our organisation, which is well-known for its dedication to patient care, has a staff of skilled and sympathetic dentists. These professionals are skilled at providing complete care, from simple examinations to intricate dental operations, guaranteeing that patients' oral health receives the highest priority. The institution takes great satisfaction in using modern techniques and cutting-edge equipment to provide the best possible dental care.
-                        </p>
-                        <div class="text-center text-lg-start mt-3 mt-lg-4">
-                            <a href="about.php" class="btn btn-primary fw-semibold px-4 rounded-0 py-2" aria-label="KNOW MORE">KNOW MORE</a> 
-                        </div>
-                    </div>
-                </div><!--//.col-->
-                <div class="col-xxl-7 col-lg-6">
-                    <div class="row g-3"> 
-                        <div class="col-xxl-6 col-lg-12 col-md-6">
-                            <div class=""> 
-                                <div class="about__card">
-                                    <div class="icon__round d-flex text-center align-items-center justify-content-center">
-                                        <figure class="m-0">
-                                            <img src="assets/images/icons/round.svg" width="40" height="40" class="img-fluid icon" alt="">
-                                        </figure>
-                                    </div>
-                                    <h4 class="title text-dark mt-4 lead fw-semibold mb-2">
-                                        Our Mission
-                                    </h4>
-                                    <p>
-                                        Aware people on oral health so as to help in early diagnosis and treatment of diseases at initial stages thus to limit the further complications.
-                                    </p>
-                                </div><!--.//card-->       
-                            </div>
-                        </div><!--//.col-->
-                        <div class="col-xxl-6 col-lg-12 col-md-6">
-                            <div class=""> 
-                                <div class="about__card">
-                                    <div class="icon__round d-flex align-items-center justify-content-center">
-                                        <figure class="m-0">
-                                            <img src="assets/images/icons/ellipse.svg" width="40" height="40" class="img-fluid icon" alt="">
-                                        </figure>
-                                    </div>
-                                    <h4 class="title text-dark mt-4 lead fw-semibold mb-2">
-                                        Our Vision
-                                    </h4>
-                                    <p>
-                                        Provide the highest quality dental care as an outstanding hospital chain through exceptional services to our community people.
-                                    </p>
-                                </div><!--.//card-->       
-                            </div>
-                        </div><!--//.col-->
-                    </div>
-                </div>
-            </div><!--//.row-->
-        </div><!--//.container-->
-    </section>
-    <!--about us section End -->
-
-    <!--  Dr section Start -->
-    <section class="py-5">
+    <!--  Welcome section Start -->
+    <section class="py-5 bg-primary">
         <div class="container py-xl-5">
             <div class="row g-4 g-xxl-5">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 object-fit-cover" width="624" height="624" src="assets/images/home/dr-puneet-bhushan.webp" alt="DR. PUNEET BHUSHAN KALRA">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="636" src="assets/images/home/welcome-home.webp" alt="">
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex align-items-center">
-                    <div class="py-lg-2  text-center text-lg-start"> 
-                        <h2 class="fs-1 text-primary fw-bold">DR. PUNEET BHUSHAN KALRA</h2>
-                        <p class="text-dark fw-semibold">MDS, <i>PERIODONTOLOGY AND ORAL IMPLANTOLOGY</i></p>
-                        <p class="text-dark fs-15 mb-2">
-                            With over twenty years of experience, Dr. Puneet Kalra has devoted his professional life to treating people and easing their dental agony. Dr. Kalra started his own dental clinic in 2000 and began an 18-year career in private practice after graduating with distinction from Rural Dental College, Pravanagar, Loni, Maharashtra, in the second year of his BDS programme in 1996. Then, in 2018, they enrolled in an MDS programme at Surendera Dental College in Sriganganagar, Rajasthan, with a focus on oral implantology and periodontology. He finished the programme in 2021, achieving distinction in the first year of study.
+                    <div class="py-lg-2 text-white  text-center text-lg-start"> 
+                        <p class="top__title text-white fw-semibold lead-lg">WELCOME TO</p>
+                        <h2 class="fs-1 fw-bold spacing-x">INNOVARE CONSTRUCTIONS</h2>
+                        <p class=" mt-3">
+                            At Innovare Constructions, we’re not just building spaces; we’re crafting your future. Our dedication is to not only meet but exceed your expectations, ensuring every project is handled with the utmost professionalism and care. This ethos is embedded in every layer of our operations, from the initial consultation to the final handover of your project. We understand that embarking on a construction project, be it commercial, residential, or anything in between, is a significant step towards realizing a dream for many of our clients. That’s why we approach every task with a blend of precision, creativity, and a deep understanding of our clients’ visions.
                         </p>
-                        <p class="text-dark fs-15">
-                            Kalra Dental Care, Dental Implant, Laser & Digital Dentistry Centre, provides individuals with a wide range of general dentistry services, such as esthetic fillings, advanced gum disease treatments, and routine cleanings. With state-of-the-art equipment like CBCT, Digital OPG, Primescan, and Primemill, chair-side zirconia crowns and bridges can be created in about an hour, and customised 3D printed dental solutions like crowns, aligners, and dentures can be similarly created. With a goal of bringing high-quality digital dentistry to every region of the state, Dr. Kalra’s purpose is to bring quality dental care to neglected communities. He advocates for individualised treatment and has a single-day, single-visit digital dentistry solution in mind.
-                        </p>
-                        <div>
-                            <img src="assets/images/home/signature.webp" width="210" height="27" alt="signature">
+                        <div class="text-center text-lg-start mt-4 mt-lg-5">
+                            <a href="#" class="btn btn-outline-white fw-semibold px-4 rounded-0 py-2" aria-label="READ MORE">READ MORE</a> 
                         </div>
-                        <h3 class="fs-5 text-primary text-center text-lg-start fw-bold mt-3">DR. PUNEET BHUSHAN KALRA</h3>
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
         </div><!--//.container-->
     </section>
-    <!--  Dr section End -->
-      
-    <!-- Promo Section start -->
-    <?php include('includes/promo-section.inc.php'); ?>
-    <!-- Promo Section End --> 
+    <!--  Welcome section End -->
 
-    <!-- center excellence section start --> 
-    <section class="py-5 scroller">
-        <div class="container pt-lg-3"> 
-            <p class="top__title text-center">WHAT WE DO</p>
-            <h2 class="fs-1 text-primary text-center fw-bold mb-3 mb-lg-4">CENTRE OF EXCELLENCE</h2>
-            <div class="owl-carousel excellenceCarousel">
-                <div class="border bg-white rounded-3 service__card large">
-                    <div class="">
-                        <img 
-                            class="img-fluid w-100 rounded-3" 
-                            width="419" height="176" 
-                            src="assets/images/home/close-up.webp" 
-                            alt="SINGLE SITTING ROOT CANAL (PAINLESS)"
-                        >  
-                    </div>
-                    <div class="px-3 pb-3 px-lg-4 caption"> 
-                        <figure class="m-0 icon__box bg-primary-light d-flex align-items-center justify-content-center">
-                            <img src="assets/images/icons/dantal-01.svg" width="40" height="53" class="img-fluid icon" alt="SINGLE SITTING ROOT CANAL (PAINLESS)">
-                        </figure> 
-                        <h3 class="title text-dark mt-4 lead fw-bold mb-2">
-                            SINGLE SITTING ROOT CANAL (PAINLESS)
-                        </h3>
-                        <p class="card__text fs-15 overflow-auto">
-                            Experience painless, single-sitting root canal procedures, made possible by advanced techniques and state-of-the-art technology. We deliver exceptional care that provides a comfortable, pain-free and effective solution in just one session.
-                        </p>
-                        <div>
-                            <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
+    <!-- Explore Our Services Start --> 
+    <section class="py-5 bg-primary scroller">
+        <div class="container">
+            <h2 class="fs-3 text-center spacing-x text-white pb-5">EXPLORE OUR SERVICES</h2>
+            <div class="owl-carousel exploreSlider">
+                <div class="service__card position-relative active p-3 p-lg-4"> 
+                    <div class="z-index pt-lg-4">
+                        <div class="my-4">
+                            <h3 class="fs-5 title fw-semibold"> 
+                                <a class="text-white" href="#">COMMERCIAL CONSTRUCTION</a> 
+                            </h3>
+                            <p class="card__text fw-medium lead-sm mt-4 text-white overflow-auto">Our team specializes in bringing commercial visions to life. From office buildings to retail spaces, we ensure every project is completed on time, within budget, and beyond expectations.</p>
                         </div>
+                        <a href="#" class="icon"> <img src="assets/images/icons/right-arrow.svg" alt=""></a>
+                    </div> 
+                    <div class="overlay__wrap bgi w-100 h-100 position-absolute top-0 start-0" style="background-image: url('assets/images/home/about__bg.webp');box-shadow: inset 0 0 0 800px rgba(0, 0, 0, 0.66);">
                     </div>
-                </div><!--//.card-->
-                <div class="border bg-white rounded-3 service__card large">
-                    <div>
-                        <img 
-                            class="img-fluid w-100 rounded-3" 
-                            width="419" height="176" 
-                            src="assets/images/home/portrait-female.webp" 
-                            alt="DENTAL IMPLANTS"
-                        >  
-                    </div>
-                    <div class="px-3 pb-3 px-lg-4 caption"> 
-                        <figure class="m-0 icon__box bg-yellow d-flex align-items-center justify-content-center">
-                            <img src="assets/images/icons/dantal-02.svg" width="39" height="53" class="img-fluid icon" alt="DENTAL IMPLANTS">
-                        </figure> 
-                        <h3 class="title text-dark mt-4 lead fw-bold mb-2">
-                            DENTAL IMPLANTS
-                        </h3>
-                        <p class="card__text fs-15 overflow-auto">
-                            Specialised dental implant treatments, state-of-the-art methods and individualised attention can restore the appearance and functionality of your smile. Using premium materials and cutting-edge technology, experience a smooth procedure from consultation to implantation.
-                        </p>
-                        <div>
-                            <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
+                </div><!--//.service__card-->
+                <div class="service__card position-relative active p-3 p-lg-4"> 
+                    <div class="z-index pt-lg-4">
+                        <div class="my-4">
+                            <h3 class="fs-5 title fw-semibold"> 
+                                <a class="text-white" href="#">RESIDENTIAL CONSTRUCTION</a> 
+                            </h3>
+                            <p class="card__text fw-medium lead-sm mt-4 text-white overflow-auto">Your home should be a reflection of your individuality. At Innovare, we understand this, which is why we take great care in constructing residential spaces that feel as unique as you are.</p>
                         </div>
+                        <a href="#" class="icon"><img src="assets/images/icons/right-arrow.svg" alt=""></a>
+                    </div> 
+                    <div class="overlay__wrap bgi w-100 h-100 position-absolute top-0 start-0" style="background-image: url('assets/images/home/about__bg.webp');box-shadow: inset 0 0 0 800px rgba(0, 0, 0, 0.66);">
                     </div>
-                </div><!--//.card-->
-                <div class="border bg-white rounded-3 service__card large">
-                    <div>
-                        <img 
-                            class="img-fluid w-100 rounded-3" 
-                            width="419" height="176" 
-                            src="assets/images/home/close-up.webp" 
-                            alt="ORTHODONTIC BRACES"
-                        >  
-                    </div>
-                    <div class="px-3 pb-3 px-lg-4 caption"> 
-                        <figure class="m-0 icon__box bg-primary d-flex align-items-center justify-content-center">
-                            <img src="assets/images/icons/dantal-03.svg" width="53" height="29" class="img-fluid icon teeth" alt="ORTHODONTIC BRACES">
-                        </figure>
-                        
-                        <h3 class="title text-dark mt-4 lead fw-bold mb-2">
-                            ORTHODONTIC BRACES
-                        </h3>
-                        <p class="card__text fs-15 overflow-auto">
-                            Premium orthodontic braces procedures intended to improve and align your smile. With efficient individualised treatment programmes and an emphasis on accuracy and attention, enjoy a smile that is straighter, healthier, and has a lasting improvement in your oral health.
-                        </p>
-                        <div>
-                            <a href="#" class="fw-semibold"  aria-label="READ MORE">READ MORE</a> 
+                </div><!--//.service__card-->
+                <div class="service__card position-relative active p-3 p-lg-4"> 
+                    <div class="z-index pt-lg-4">
+                        <div class="my-4">
+                            <h3 class="fs-5 title fw-semibold"> 
+                                <a class="text-white" href="#">PWD WORKS</a> 
+                            </h3>
+                            <p class="card__text fw-medium lead-sm mt-4 text-white overflow-auto">We are committed to creating accessible spaces for all. Our expertise in PWD works ensures inclusivity and functionality in every design.</p>
                         </div>
+                        <a href="#" class="icon"> <img src="assets/images/icons/right-arrow.svg" alt=""></a>
+                    </div> 
+                    <div class="overlay__wrap bgi w-100 h-100 position-absolute top-0 start-0" style="background-image: url('assets/images/home/about__bg.webp');box-shadow: inset 0 0 0 800px rgba(0, 0, 0, 0.66);">
                     </div>
-                </div><!--//.card--> 
+                </div><!--//.service__card-->
             </div><!--//.owl-carousel-->
         </div><!--//.container-->
-    </section><!-- center excellence section end -->
-     
-    <!-- What Cerec Section Start -->
-    <section class="py-sm-5 scroller"> 
-        <div class="container">
-            <div class="row g-4 gx-xl-5 align-items-center">
-                <div class="col-lg-5 order-lg-2">
-                    <div class="text-center text-lg-start pt-4">
-                        <p class="lead mb-0">CEREC</p>
-                        <h2 class="fs-1 text-26 fw-bold mb-3">What is CEREC?</h2>
-                        <p class="">
-                        <strong>CEREC is the short term for Chairside Economical Restoration of Esthetic Ceramics, or CEramic REConstruction.</strong></p>
-                        <p>
-                            CAD/CAM (computer aided design/computer aided manufacturing) technology to take impressions quickly and generate a precisely fitted filling so you can leave Discovery Dental sooner.
+    </section>
+    <!-- Explore Our Services End --> 
+
+    <!-- Innovare Constructions section Start -->
+    <section class="py-5 bg-primary">
+        <div class="container py-xl-5">
+            <div class="row g-4 g-xxl-5">
+                <div class="col-lg-6 order-lg-2">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="811" src="assets/images/home/best-home.webp" alt="">
+                </div><!--//.col-->
+                <div class="col-lg-6 order-lg-1 d-flex align-items-center">
+                    <div class="py-lg-2 text-white text-center text-lg-start"> 
+                        <h2 class="fs-1 fw-bold spacing-x">INNOVARE CONSTRUCTIONS</h2>
+                        <p class=" mt-3">
+                            At Innovare Constructions, our philosophy is deeply rooted in the power of connections. As a cherished family-owned enterprise, we place immense value on family principles, mirroring these ideals in every facet of our client interactions and business operations. Our commitment extends beyond mere transactions; we endeavor to forge lasting relationships, understanding that every project we undertake is a personal journey for our clients. This belief in strong, personal connections is what sets us apart, guiding us to tailor our services to reflect the unique visions and aspirations of those we serve.
                         </p>
-                        <div class="btns mt-3">
-                            <div class="mt-4">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#enquireModal" class="btn btn-dark height py-3 rounded-3 px-5" aria-label="KNOW MORE">
-                                    KNOW MORE
-                                </button>  
-                            </div>
-                        </div>  
+                        <p class=" mt-3">
+                            Our journey paints a story of humble beginnings, fueled by an unwavering passion and dedication. It’s a narrative of transformation, from a modest startup to a beacon of excellence within the construction industry. This journey has been shaped by a continuous pursuit of growth, not just in scale but in the mastery of our craft. Our evolution is marked by an enduring commitment to innovation, quality, and the cultivation of a skilled team that shares our vision and values. As we look back on our path to becoming an industry leader, it’s clear that our foundation of family values, combined with our passion for construction, has been instrumental in our success. It’s this unique blend that enables us to create not just buildings, but legacies.
+                        </p>
+                        <div class="text-center text-lg-start mt-4 mt-lg-5">
+                            <a href="#" class="btn btn-outline-white fw-semibold px-4 rounded-0 py-2" aria-label="KNOW MORE">KNOW MORE</a> 
+                        </div>
                     </div>
                 </div><!--//.col-->
-                <div class="col-lg-7 order-lg-1">
-                    <div class="wraper__section">
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="card transition mt-lg-5">
-                                    <div class="p-3 p-lg-4">
-                                        <div class="icon__round d-flex align-items-center justify-content-center">
-                                            <figure class="m-0">
-                                                <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
-                                            </figure>
-                                        </div>
-                                        <h4 class="fs-5 title text-dark mt-4  fw-medium mb-2">
-                                            Growing patient satisfaction and practice image
-                                        </h4>
-                                        <p class="card__text fs-15 overflow-auto">
-                                            Offers patients the convenience of high-quality restorations and a modern treatment in a single visit. No impression trays, fewer injections, and abstinence of temporaries lead to patient recommendations.
-                                        </p>
-                                    </div>
-                                </div><!--.//card-->   
-                                <div class="card transition mt-4">
-                                    <div class="p-3 p-lg-4">
-                                        <div class="icon__round d-flex align-items-center justify-content-center">
-                                            <figure class="m-0">
-                                                <img src="assets/images/icons/growing.svg" width="40" height="40" class="img-fluid icon" alt="">
-                                            </figure>
-                                        </div>
-                                        <h4 class="fs-5 title text-dark mt-4  fw-medium mb-2">
-                                            Clinical safety and full quality control
-                                        </h4>
-                                        <p class="card__text fs-15 overflow-auto">
-                                            CEREC users are in control of the whole workflow, from scanning to the completed restoration. This leads to clinically reliable results with no surprises and no extensive reworking. Every part of the latest CEREC system works in seamless harmony with the others, like a perfectly synchronized team.
-                                        </p>
-                                    </div>
-                                </div><!--.//card-->     
-                            </div><!--./col-->
-                            <div class="col-md-6">
-                                <div class="card transition">
-                                    <div class="p-3 p-lg-4">
-                                        <div class="icon__round d-flex align-items-center justify-content-center">
-                                            <figure class="m-0">
-                                                <img src="assets/images/icons/expansion.svg" width="40" height="40" class="img-fluid icon" alt="">
-                                            </figure>
-                                        </div>
-                                        <h4 class="fs-5 title text-dark mt-4  fw-medium mb-2">
-                                            Expansion of the range of indications
-                                        </h4>
-                                        <p class="card__text fs-15 overflow-auto">
-                                            From bridges to crowns, from abutments to veneers: Expand the range of indications with CEREC seamless and validated workflows for restorative, implantology and orthodontics. The added value remains in your dental office and increases profitability.
-                                        </p>
-                                    </div>
-                                </div><!--.//card--> 
-                                <div class="card transition tran mt-4">
-                                    <div class="p-3 p-lg-4">
-                                        <div class="icon__round d-flex align-items-center justify-content-center">
-                                            <figure class="m-0">
-                                                <img src="assets/images/icons/expansion.svg" width="40" height="40" class="img-fluid icon" alt="">
-                                            </figure>
-                                        </div>
-                                        <h4 class="fs-5 title text-dark mt-4 fw-medium mb-2">
-                                            Easy practice integration
-                                        </h4>
-                                        <p class="card__text fs-15 overflow-auto">
-                                            The integration of CEREC into your practice is fully supported, so you can start to streamline workflows straight away. Automated workflows between the intraoral scanner, design software, milling machine and furnace allow for treatment steps to be delegated to the practice team and increase efficiency.
-                                        </p>
-                                    </div>
-                                </div><!--.//card-->     
-                            </div><!--./col--> 
-                        </div><!--.//row--> 
-                    </div><!--.//werper__section--> 
-                </div><!--.//col-->
-               
-            </div><!--.//row-->        
-        </div><!--.//container-->
-    </section>
-    <!-- What Cerec Section End -->
-
-    <!-- Our Gallery section Start -->
-    <section class="py-5">
-        <div class="container mt-lg-3">
-            <p class="lead text-center mb-0">Photos and videos</p>
-            <h2 class="fs-1 text-primary text-center fw-bold mb-3">Our Gallery</h2>
-            <div class="row g-2">
-                <div class="col-md-6 d-flex">
-                    <figure class="mb-0 d-flex w-100">
-                        <img 
-                            class="img-fluid w-100 border" 
-                            width="642" height="512" 
-                            src="assets/images/gallery/gallery-01.webp" 
-                            alt="Kalra Dental Care Gallery"
-                        >
-                    </figure> 
-                </div><!--//.col-->
-                <div class="col-md-6">
-                    <div class="row g-2">
-                        <div class="col-md-6"> 
-                            <div class="gallery__item border-0"> 
-                                <figure class="mb-0">
-                                    <img 
-                                        class="img-fluid w-100" 
-                                        width="313" height="252" 
-                                        src="assets/images/gallery/gallery-02.webp" 
-                                        alt="Kalra Dental Care Gallery"
-                                    >   
-                                </figure>
-                            </div>
-                            <div class="gallery__item border-0 mt-2"> 
-                                <figure class="mb-0">
-                                    <img 
-                                        class="img-fluid w-100" 
-                                        width="313" height="252" 
-                                        src="assets/images/gallery/gallery-03.webp" 
-                                        alt="Kalra Dental Care Gallery"
-                                    >   
-                                </figure>
-                            </div> 
-                        </div>
-                        <div class="col-md-6">
-                            <figure class="mb-0">
-                                <img 
-                                    class="img-fluid w-100 border" 
-                                    width="316" height="512" 
-                                    src="assets/images/gallery/gallery-04.webp" 
-                                    alt="Kalra Dental Care Gallery"
-                                >
-                            </figure> 
-                        </div>
-                    </div>
-                </div><!--//.col--> 
-            </div><!--//.row--> 
-        </div><!---//.container-->
-    </section>
-    <!-- Our Gallery section End -->
-
-
-    <!-- Testimional Section Start -->
-    <section class="py-5" style="background-color: #F4F9FC">
-        <div class="container mb-lg-4">
-            <h2 class="fs-1 text-primary text-center fw-bold mb-3">Testimonials</h2>
-            <p class="col-lg-8 mx-auto text-center">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
-            <div class="owl-carousel testimionalSlider mt-4 mt-md-5"> 
-                <div class="testi__card pt-5 position-relative">
-                    <div class="thumbnail position-absolute start-50 translate-middle-x">
-                        <img 
-                            class="img-fluid rounded-circle" 
-                            width="100" height="101" 
-                            src="assets/images/home/testimonial.webp" 
-                            alt=""
-                        >
-                    </div>
-                    <div class="caption p-4"> 
-                        <p class="fst-italic">
-                            “Dude, your stuff is the bomb! Your company is truly upstanding and is behind its product 100%. Man, this thing is getting better and better as I learn more about it. Buy this now. “
-                        </p>
-                        <div class="round__box d-flex d-block align-items-center justify-content-center">
-                            <p class="text-white fw-semibold mb-0">5.0</p>
-                        </div>
-                        <div class="d-flex gap-3 align-items-center">
-                            <img src="assets/images/home/star-logo.webp" class="img-fluid rating" width="160" height="" alt="star"> 
-                            <div class="col">
-                                <p class="lead text-primary fw-bold mb-0 lh-1">- Lorne V.</p>
-                                <p class="fs-15 mb-0">Customer</p>
-                            </div>
-                        </div> 
-                    </div> 
-                </div>
-            </div><!--//.testi__card-->
+            </div><!--//.row-->
         </div><!--//.container-->
     </section>
-    <!-- Testmional Section End -->
+    <!-- Innovare Constructions section End -->
+
+    <!-- Why Partner Services Start --> 
+    <section class="py-5 bg-primary scroller">
+        <div class="container"> 
+            <h2 class="fs-3 text-center text-white spacing-x pb-5">WHY PARTNER WITH INNOVARE?</h2>
+            <div class="carousel__wrapper">
+                <div class="owl-carousel exploreSlider">
+                    <div class="item text-white">
+                        <div class="services__card">
+                            <div class="height">
+                                <div class="my-4">
+                                    <h3 class="fs-5 title fw-semibold"> 
+                                        <a class="text-white" href="#">CLIENT-CENTRIC APPROACH</a> 
+                                    </h3>
+                                    <p class="card__text fw-medium lead-sm mt-4 overflow-auto">At Innovare Constructions, your satisfaction is not just a goal; it’s our driving force. We believe in a client-centric approach, placing your needs and preferences at the core of every decision and strategy. This personalized touch ensures that each project we undertake is aligned with your vision, guaranteeing a final product that exceeds expectations. Our commitment to understanding and adapting to your unique requirements is what makes our partnership truly collaborative and fulfilling.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--//.item-->
+                    <div class="item text-white">
+                        <div class="services__card">
+                            <div class="height">
+                                <div class="my-4">
+                                    <h3 class="fs-5 title fw-semibold"> 
+                                        <a class="text-white" href="#">CLIENT-CENTRIC APPROACH</a> 
+                                    </h3>
+                                    <p class="card__text fw-medium lead-sm mt-4 overflow-auto">At Innovare Constructions, your satisfaction is not just a goal; it’s our driving force. We believe in a client-centric approach, placing your needs and preferences at the core of every decision and strategy. This personalized touch ensures that each project we undertake is aligned with your vision, guaranteeing a final product that exceeds expectations. Our commitment to understanding and adapting to your unique requirements is what makes our partnership truly collaborative and fulfilling.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--//.item-->
+                    <div class="item text-white">
+                        <div class="services__card">
+                            <div class="height">
+                                <div class="my-4">
+                                    <h3 class="fs-5 title fw-semibold"> 
+                                        <a class="text-white" href="#">QUALITY AND CRAFTSMANSHIP</a> 
+                                    </h3>
+                                    <p class="card__text fw-medium lead-sm mt-4 overflow-auto">Quality and craftsmanship are the hallmarks of Innovare Constructions. Our dedication to excellence is evident in every cut, join, and finish. We take immense pride in our meticulous attention to detail and our unwavering commitment to delivering superior quality in all aspects of our work. By choosing Innovare, you are assured of a project that not only meets the highest standards of construction but also stands as a testament to the skill and dedication of our team.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--//.item-->
+                    <div class="item text-white">
+                        <div class="services__card">
+                            <div class="height">
+                                <div class="my-4">
+                                    <h3 class="fs-5 title fw-semibold"> 
+                                        <a class="text-white" href="#">INNOVATION AT EVERY STEP</a> 
+                                    </h3>
+                                    <p class="card__text fw-medium lead-sm mt-4 overflow-auto">Innovation lies at the core of our operations. At Innovare Constructions, we continuously strive to push the boundaries of traditional construction methods and materials. Our pursuit of innovation is a commitment to not just keeping pace with industry advancements but leading the charge. From leveraging the latest in sustainable building practices to employing cutting-edge technologies, we ensure that innovation permeates every step of our construction process. This forward-thinking approach is what enables us to deliver projects that are not only aesthetically pleasing and functional but also future-ready.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--//.item-->
+                </div><!--//.owl-carousel-->
+            </div><!--//.carousel__weraper-->
+        </div><!--//.container-fluid-->
+    </section>
+    <!-- Why Partner Services end -->
     
-    <!--Make Appointment section Start -->
-    <?php include_once('includes/make-mppointment.php'); ?> 
-    <!--Make Appointment section End -->
-    
+    <!-- Client View Services Start -->
+    <section class="py-5 bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-white d-flex align-items-center gap-3">
+                        <h2 class="display-4 fw-bold">820+</h2>
+                        <h3 class="fs-5 fw-bold">CLIENT SATISFACTION GUARANTEED</h3>
+                    </div>
+                </div><!--//.col-->
+                <div class="col-lg-4">
+                    <div class="text-white d-flex align-items-center gap-3">
+                        <h2 class="display-4 fw-bold">650+</h2>
+                        <h3 class="fs-5 fw-bold">EMPLOYEE ON WORLDWIDE</h3>
+                    </div>
+                </div><!--//.col-->
+                <div class="col-lg-4">
+                    <div class="text-white d-flex align-items-center gap-3">
+                        <h2 class="display-4 fw-bold">987+</h2>
+                        <h3 class="fs-5 fw-bold col-7">PROJECTS COMPLETED ON 60 COUNTRIES</h3>
+                    </div>
+                </div><!--//.col-->
+            </div><!--//row-->
+        </div><!--//.container-->
+        <div class="container-fluid mt-5">
+            <img src="assets/images/home/3d-rendering.webp" class="img-fluid" width="6441662" heig554ht="587" alt="">
+        </div><!--//.container-fluid-->
+    </section>
+    <!-- Client View Services End -->
+
+    <!-- Why Choose Us section Start -->
+    <section class="py-4 bg-primary">
+        <div class="container py-xl-5">
+            <div class="row g-4 g-xxl-5">
+                <div class="col-lg-6">
+                    <img class="img-fluid w-100 object-fit-cover" width="624" height="367" src="assets/images/home/about.webp" alt="">
+                </div><!--//.col-->
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="py-lg-2 text-white  text-center text-lg-start"> 
+                        <h2 class="fs-1 fw-bold spacing-x">WHY CHOOSE US</h2>
+                        <p class="mt-3">
+                            Choosing Innovare Constructions is a decision to embrace unparalleled quality, cutting-edge innovation, and a deeply personalized construction experience. Our ethos is centered around not just meeting, but exceeding your expectations, transforming your vision into reality with minimal stress. Our approach is tailored, recognizing the unique aspirations of each client and meticulously crafting spaces that resonate with their vision.
+                        </p>
+                    </div>
+                </div><!--//.col-->
+            </div><!--//.row-->
+        </div><!--//.container-->
+    </section>
+    <!-- Why Choose Us section End -->
+
+    <!-- Our Vision section Start -->
+    <section class=" py-3 promo__wraper bg-primary scroller">
+        <div class="container">
+            <div class="row g-4 g-xxl-5">
+                <div class="col-lg-6">
+                    <div class="services__card text-white">
+                        <div class="my-4">
+                            <h3 class="fs-5 title fw-semibold"> 
+                                <a class="text-white" href="#">OUR VISION</a> 
+                            </h3>
+                            <p class="card__text fw-medium lead-sm mt-4 overflow-auto">Our vision is to ascend as the premier construction brand, distinguished by our unwavering commitment to quality, innovation, and the well-being of our community and staff. We strive to set new standards in the construction industry, driving forward with the ambition to innovate and excel in every project undertaken.</p>
+                        </div>
+                    </div>
+                </div><!--//.col-->
+                <div class="col-lg-6">
+                    <div class="services__card text-white">
+                        <div class="my-4">
+                            <h3 class="fs-5 title fw-semibold"> 
+                                <a class="text-white" href="#">OUR MISSION</a> 
+                            </h3>
+                            <p class="card__text fw-medium lead-sm mt-4 overflow-auto">Our mission is grounded in a profound understanding of our clients’ needs, ensuring the delivery of high-caliber buildings within the agreed timeframe and budget. We aim to cultivate enduring relationships, built on trust and the consistent delivery of exceptional results. This commitment to understanding, quality, and long-term partnership is what fuels our mission, guiding us toward our vision of being the contractor of choice, renowned for our innovative solutions and dedication to excellence.</p>
+                        </div>
+                    </div>
+                </div><!--//.col-->
+            </div><!--//.row-->
+        </div><!--//.container-->
+    </section>
+    <!-- Our Vision section End -->
+
+    <!-- Successful Projects Start -->
+    <section class="py-5 bg-primary">
+        <div class="container">  
+            <h2 class="h2 text-uppercase text-white text-center">OUR SUCCESSFUL PROJECTS</h2>
+            <nav class="mt-4 text-white">
+                <div class="nav nav-tabs mx-auto border-0 justify-content-center" id="nav-tab" role="tablist">
+                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab1-tab" data-bs-toggle="tab" data-bs-target="#nav-tab1" type="button" role="tab" aria-controls="nav-tab1" aria-selected="true">Commercial Highlights</button>
+                    <button class="nav-link border-0 m-0 lead fw-bold active" id="nav-tab2-tab" data-bs-toggle="tab" data-bs-target="#nav-tab2" type="button" role="tab" aria-controls="nav-tab2" aria-selected="false">Residential Highlights</button>
+                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab3-tab" data-bs-toggle="tab" data-bs-target="#nav-tab3" type="button" role="tab" aria-controls="nav-tab3" aria-selected="false">Unique Interior Designs</button>
+                    <button class="nav-link border-0 m-0 lead fw-bold" id="nav-tab4-tab" data-bs-toggle="tab" data-bs-target="#nav-tab4" type="button" role="tab" aria-controls="nav-tab4" aria-selected="false">Transformative Landscaping</button>
+                </div>
+            </nav>
+            <div class="tab-content pt-4 pt-lg-5" id="nav-tabContent">
+                <p class="text-white text-center mb-5">Our portfolio includes a wide range of successful commercial projects, each showcasing our commitment to quality and innovation.</p> 
+                <div class="tab-pane" id="nav-tab1" role="tabpanel" aria-labelledby="nav-tab1-tab">
+                    <div class="row g-2">
+                        <div class="col-lg-6">
+                            <div class="position-relative">
+                                <img src="assets/images/home/gallery/gallery-01.webp" class="img-fluid" width="644" height="554" alt="">
+                                <div class="bg-primary position-absolute p-2 p-sm-3 p-lg-4 bottom-0 end-0" style="width: 52%;">
+                                    <h2 class="lead-lg text-white fw-semibold mb-0">Dileep & Nitha</h2>
+                                    <p class="d-block fs-12 text-white">Kalarkode, Alappuzha</p>
+                                    <p class="fs-13 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <div class="">
+                                        <a href="#" class="text-white fs-15" aria-label="KNOW MORE">KNOW MORE</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-02.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-03.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-04.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                    </div><!--.//row-->
+                </div><!--.//tab_pane_1-->
+
+                <div class="tab-pane fade fade show active" id="nav-tab2" role="tabpanel" aria-labelledby="nav-tab2-tab">
+                    <div class="row g-2">
+                        <div class="col-lg-6">
+                            <div class="position-relative">
+                                <img src="assets/images/home/gallery/gallery-01.webp" class="img-fluid" width="644" height="554" alt="">
+                                <div class="bg-primary position-absolute p-2 p-sm-3 p-lg-4 bottom-0 end-0" style="width: 52%;">
+                                    <h2 class="lead-lg text-white fw-semibold mb-0">Dileep & Nitha</h2>
+                                    <p class="d-block fs-12 text-white">Kalarkode, Alappuzha</p>
+                                    <p class="fs-13 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <div class="">
+                                        <a href="#" class="text-white fs-15" aria-label="KNOW MORE">KNOW MORE</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-02.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-03.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-04.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                    </div><!--.//row-->
+                </div><!--.//tab_pane_2-->
+
+                <div class="tab-pane fade" id="nav-tab3" role="tabpanel" aria-labelledby="nav-tab3-tab">
+                    <div class="row g-2">
+                        <div class="col-lg-6">
+                            <div class="position-relative">
+                                <img src="assets/images/home/gallery/gallery-01.webp" class="img-fluid" width="644" height="554" alt="">
+                                <div class="bg-primary position-absolute p-2 p-sm-3 p-lg-4 bottom-0 end-0" style="width: 52%;">
+                                    <h2 class="lead-lg text-white fw-semibold mb-0">Dileep & Nitha</h2>
+                                    <p class="d-block fs-12 text-white">Kalarkode, Alappuzha</p>
+                                    <p class="fs-13 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <div class="">
+                                        <a href="#" class="text-white fs-15" aria-label="KNOW MORE">KNOW MORE</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-02.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-03.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-04.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                    </div><!--.//row-->
+                </div><!--.//tab_pane_3-->
+
+                <div class="tab-pane fade" id="nav-tab4" role="tabpanel" aria-labelledby="nav-tab4-tab">
+                    <div class="row g-2">
+                        <div class="col-lg-6">
+                            <div class="position-relative">
+                                <img src="assets/images/home/gallery/gallery-01.webp" class="img-fluid" width="644" height="554" alt="">
+                                <div class="bg-primary position-absolute p-2 p-sm-3 p-lg-4 bottom-0 end-0" style="width: 52%;">
+                                    <h2 class="lead-lg text-white fw-semibold mb-0">Dileep & Nitha</h2>
+                                    <p class="d-block fs-12 text-white">Kalarkode, Alappuzha</p>
+                                    <p class="fs-13 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <div class="">
+                                        <a href="#" class="text-white fs-15" aria-label="KNOW MORE">KNOW MORE</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-02.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-03.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="assets/images/home/gallery/gallery-04.webp" class="img-fluid" width="644" height="554" alt="">
+                            </div>
+                        </div><!--.//col-->
+                    </div><!--.//row-->
+                </div><!--.//tab_pane_4-->
+            </div><!--.//tab__content-->
+              
+        </div><!--.//container--> 
+    </section>
+    <!-- Successful Projects End -->
+
+    <!-- Testminal Section Start -->
+    <section class="py-5 bg-primary">
+        <div class="container">
+            <h2 class="fs-3 text-center text-white spacing-x pb-5">WHAT OUR HAPPY CLIENTS SAYS</h2> 
+            <div class="owl-carousel testimonialSlider mt-4 mt-md-5">
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                        >
+                        <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                    </div>
+                </div><!--//.testi__card-->
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                        >
+                        <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                    </div>
+                </div><!--//.testi__card-->
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                        >
+                        <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                    </div>
+                </div><!--//.testi__card-->
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                        >
+                        <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                    </div>
+                </div><!--//.testi__card-->
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                            >
+                            <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                        </div>
+                </div><!--//.testi__card-->
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                        >
+                        <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                    </div>
+                </div><!--//.testi__card-->
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                        >
+                        <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                    </div>
+                </div><!--//.testi__card-->
+                <div class="testi__card text-white d-flex align-items-center p-4 p-lg-5">
+                    <div class="">
+                        <h4 class="lead text-grey mb-0 fw-semibold spacing-x">GREAT INTERIOR WORK</h4>
+                        <p class="mt-3 mb-0">
+                            There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        </p>
+                    </div>
+                    <div class="ps-4 col-4">
+                        <img 
+                            class="img-fluid rounded-circle img__wrap mx-auto" 
+                            width="88" height="88" 
+                            src="assets/images/home/gallery/mila-peters.webp" class="img-fluid"
+                            alt="Student"
+                            >
+                            <p class="lead text-grey mb-0 fw-semibold spacing-x text-center">MILA PETERS</p>
+                        </div>
+                    </div><!--//.testi__card-->
+                </div><!--.//carousel-->
+            </div><!--//.container-->
+    </section>
+    <!-- Testminal Section End -->
+        
+    <!-- Blogs Services Start --> 
+    <section class="py-5 bg-primary">
+            <div class="container"> 
+                <h2 class="fs-3 text-center text-white spacing-x pb-5">LATEST BLOGS</h2>
+                <div class="blog__wrapper text-white">
+                    <div class="owl-carousel exploreSlider">
+                        <div class="services__card">
+                            <div class="height">
+                                <div class="my-4">
+                                    <p class="mb-4">NOVEMBER 14, 2023</p>
+                                    <h3 class="fs-3 title fw-semibold"> 
+                                        Transforming spaces for maximum utility 
+                                    </h3>
+                                    <p class="fw-medium lead-sm mt-4">Ever felt like your living or working space could be more functional and efficient? In this blog series, we explore the art of transforming spaces for maximum utility. From clever storage solutions to innovative…</p>
+                                </div>
+                            </div>
+                            <div class="icon mt-4 mt-lg-5 d-flex align-items-center gap-2">
+                                <a href="#" class="text-white" aria-label="Read More">Read More</a> 
+                                <img src="assets/images/icons/right-arrow.svg" class="img-fluid" width="28" height="16" alt="">
+                            </div>
+                        </div>
+                        <div class="services__card">
+                            <div class="height">
+                                <div class="my-4">
+                                    <p class="mb-4">NOVEMBER 14, 2023</p>
+                                    <h3 class="fs-3 title fw-semibold"> 
+                                        Transforming spaces for maximum utility 
+                                    </h3>
+                                    <p class="fw-medium lead-sm mt-4">Ever felt like your living or working space could be more functional and efficient? In this blog series, we explore the art of transforming spaces for maximum utility. From clever storage solutions to innovative…</p>
+                                </div>
+                            </div>
+                            <div class="icon mt-4 mt-lg-5 d-flex align-items-center gap-2">
+                                <a href="#" class="text-white" aria-label="Read More">Read More</a>
+                                <img src="assets/images/icons/right-arrow.svg" class="img-fluid" width="28" height="16" alt=""> 
+                            </div>
+                        </div>
+                        <div class="services__card">
+                            <div class="height">
+                                <div class="my-4">
+                                    <p class="mb-4">NOVEMBER 14, 2023</p>
+                                    <h3 class="fs-3 title fw-semibold"> 
+                                        Transforming spaces for maximum utility 
+                                    </h3>
+                                    <p class="fw-medium lead-sm mt-4">Ever felt like your living or working space could be more functional and efficient? In this blog series, we explore the art of transforming spaces for maximum utility. From clever storage solutions to innovative…</p>
+                                </div>
+                            </div>
+                            <div class="icon mt-4 mt-lg-5 d-flex align-items-center gap-2">
+                                <a href="#" class="text-white" aria-label="Read More">Read More</a> 
+                                <img src="assets/images/icons/right-arrow.svg" class="img-fluid" width="28" height="16" alt="">
+                            </div>
+                        </div>
+                    </div><!--//.owl-carousel-->
+                </div><!--//.blog__weraper-->
+            </div><!--//.container-fluid-->
+    </section>
+    <!-- Blogs Services end -->
+
+    <!-- Lets Discuss section Start -->
+    <section class="py-5 bg-primary">
+        <div class="container">
+            <div class="row g-4 g-xl-5">
+                <div class="col-lg-6">
+                    <div class="text-center text-white text-lg-start">
+                        <h2 class="display-4">
+                            LET’S DISCUSS <span class="d-block"></span> NEXT PROJECTS
+                        </h2>
+                        <p class="pb-lg-5 mt-4">
+                            The talent at Mrittik runs wide and deep. Across many markets, geographies and typologies, our team members are some of the finest professionals in the industry.. We’ve grouped our work into five categories: places, venues, spaces, experiences and events.
+                        </p> 
+                    </div>
+                </div><!--./col-->
+                <div class="col-lg-6">
+                    <form class="form-bg" id="contact-form" method="post" action="contact-from.php">
+                        <div class="messages"></div>
+                        <div class="controls row g-3">
+                            <div class="col-12 pb-4 mb-1">
+                                <div class="form-group">
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="YOUR NAME">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 pb-4 mb-1">
+                                <div class="form-group">
+                                    <input id="form_email" type="email" name="email" class="form-control"
+                                    placeholder="YOUR EMAIL" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 pb-4 mb-1">
+                                <div class="form-group">
+                                    <input id="form_phone" type="text" name="phone" class="form-control"
+                                    placeholder="YOUR PHONE NO">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-1">
+                                <div class="form-group pb-4">
+                                    <textarea id="form_message" name="message" class="form-control"
+                                    placeholder="YOUR MESSAGE" rows="4"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center text-lg-start">
+                                <a href="#formWrapp" class="btn btn-white fw-semibold py-3 px-5 rounded-4">SEND MAIL</a>
+                            </div>
+                        </div>
+                    </form>
+                </div><!--./col--> 
+            </div><!--.//row-->
+        </div><!--.//container-->
+    </section> 
+    <!-- Lets Discuss section End -->
+
     <!-- Footer and Script List --> 
     <?php $folder='root'; include_once('includes/footer.inc.php'); ?> 
  

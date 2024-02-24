@@ -2,10 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 :root {
-  --brand: #00468A;
+  --brand: #131313;
   --brand-light: #0086C6;
   --yellow: #FC8D0B;
   --dark: #000000;
+  --gray: #525252;
   --border-color: #E3E3E3;
   --body-text-color: #525252;
   --white: #ffffff;
@@ -56,6 +57,10 @@ body {
 
 .lead-sm {
   font-size: 1.125rem;
+}
+
+.lead-md {
+  font-size: 1.25rem;
 }
 
 .fs-12 {
@@ -175,7 +180,7 @@ a {
   color: var(--dark);
 }
 a:hover {
-  color: var(--brand);
+  color: var(--brand-light) !important;
 }
 
 a.text-50:hover, a.text-50:focus, a.text-50:active {
@@ -263,7 +268,7 @@ ul li {
   color: var(--grey);
 }
 .btn-white:hover, .btn-white:focus {
-  background-color: var(--brand);
+  background-color: var(--gray);
   border-color: var(--dark);
   color: var(--white);
 }
@@ -407,7 +412,7 @@ ul li {
   height: 0.875rem;
 }
 .navbar .nav-item .nav-link:hover {
-  color: var(--brand);
+  color: var(--brand-light);
 }
 .navbar .nav-item .nav-link:hover .caret {
   transform: rotate(-180deg);
@@ -463,7 +468,7 @@ ul li {
   transform: rotate(-180deg);
 }
 .navbar .navbar-toggler {
-  color: var(--dark);
+  color: white;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none;
@@ -555,8 +560,8 @@ footer a:hover {
 .social__links li a {
   width: 2.5rem;
   height: 2.5rem;
-  border-radius: 0.5rem;
-  background-color: var(--white);
+  border-radius: 50%;
+  border: 1px solid white;
   color: var(--dark);
 }
 .social__links li a svg {
@@ -564,7 +569,7 @@ footer a:hover {
   height: 1.125rem;
 }
 .social__links li a svg path {
-  fill: var(--dark);
+  fill: white;
   transition: all 0.3s ease-in-out;
 }
 .social__links li a:hover, .social__links li a:focus, .social__links li a:active {

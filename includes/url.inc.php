@@ -1,4 +1,4 @@
 <?php 
-    $base_url = 'http://localhost/kalra/';
-    // $base_url = 'https://kalra.embraceindia.co.in/';
+    $base_url = 'http://localhost/innovare-construction/';
+    // $base_url = 'https://innovare-construction.embraceindia.co.in/';
 ?>

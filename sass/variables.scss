@@ -3,10 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
  
 :root { 
-    --brand: #00468A;  
+    --brand: #131313;  
     --brand-light: #0086C6;   
     --yellow: #FC8D0B;
     --dark: #000000; 
+    --gray: #525252; 
     --border-color: #E3E3E3;  
     --body-text-color: #525252; 
     --white: #ffffff; 
@@ -48,6 +49,7 @@ body {
 .top__title { font-size: 1.125rem;text-transform: uppercase;color: var(--brand-light);margin-bottom: .25rem; } 
 .lead-lg { font-size: 1.375rem; }
 .lead-sm { font-size: 1.125rem; }
+.lead-md { font-size: 1.25rem; }
 .fs-12 { font-size: 12px; }
 .fs-13 { font-size: 13px; }
 .fs-15 { font-size: .937rem; }  
@@ -90,7 +92,7 @@ a {
     color: var(--dark);
 
     &:hover {
-        color: var(--brand);
+        color: var(--brand-light) !important;
     }
 }
 a.text-50 {
@@ -164,7 +166,7 @@ ul {
     color: var(--grey);
     
     &:hover, &:focus {
-        background-color: var(--brand);
+        background-color: var(--gray);
         border-color: var(--dark);color: var(--white);
         svg { color: var(--white); }
     } 

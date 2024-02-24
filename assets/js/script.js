@@ -47,7 +47,7 @@ function topFunction() {
  
 
   // Bottom Section Service Slider Activaton Script (Homepage)
-  $(".provideSlider").owlCarousel({
+  $(".exploreSlider").owlCarousel({
     autoplay: false, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -70,7 +70,7 @@ function topFunction() {
     } 
   });
  
-  $(".excellenceCarousel").owlCarousel({
+  $(".testimonialSlider").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -87,8 +87,8 @@ function topFunction() {
         0: { items: 1 },
         576: { items: 1 },
         768: { items: 2  },
-        992: { items: 3 }, 
-        1200: { items: 3 },  
+        992: { items: 2 }, 
+        1200: { items: 2 },  
          
     } 
   });

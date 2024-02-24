@@ -1,67 +1,70 @@
 
     <!-- Footer Wrapper Start -->
     <footer style="background: #262626;"> 
-        <div class="pb-4 mb-4 pb-md-5 mb-lg-5">
-            <div class="container"> 
-                <div class="row g-4 gy-5">
-                    <div class="col-lg-5 text-center text-lg-start"> 
-                       <a href="<?php echo $base_url;?>" class="d-inline-block logo">
-                            <img src="<?php echo $base_url;?>assets/images/logo-white.webp" class="img-fluid" width="250" height="135" alt="Kalra Dental Care">
-                       </a>
-                        <p class="text-white col-lg-10 mt-lg-3 text-center text-lg-start fs-15">
-                            It is important that oral hygiene be carried out on a regular basis to enable prevention of dental disease.
-                        </p>
-                        <div class="mt-4">
-                            <?php $classes="footer"; include('_social-links.inc.php'); ?>
+        <div class="mb-2 pb-md-3">
+            <div class="container">
+                <div class="">
+                    <div class="d-flex justify-content-between">
+                        <a href="#" class="d-inline-block logo">
+                                <img src="assets/images/logo.svg" class="img-fluid" width="250" height="135" alt="">
+                        </a>
+                        <div class="ps-5">
+                            <a href="tel:+919987654321" class="fs-2 d-inline-flex align-items-center gap-2 fs-15 fw-semibold text-white" aria-label="(+91) 998 - 765 - 4321">
+                                <img src="assets/images/icons/phone-call.svg" width="44" height="44" alt="phone">
+                                <span>(+91) 998 - 765 - 4321</span>
+                            </a>
                         </div>
+                    </div> 
+                    <span class="d-block bg-white mt-5 opacity-50" style="height: 1px;"></span>
+                </div> 
+                <div class="row g-4 align-items-center"> 
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-3 mt-5">      
+                        <ul class="links text-white"> 
+                            <li class="mb-2"><a href="#">Home</a></li>
+                            <li class="mb-2"><a href="#">About Us</a></li>
+                            <li class="mb-2"><a href="#">Services</a></li>
+                            <li class="mb-2"><a href="#">Gallery</a></li>
+                            <li class="mb-2"><a href="#">Blog</a></li>           
+                            <li class="mb-2"><a href="#">Contacts</a></li>       
+                        </ul>
                     </div><!--.//col-->
-                    <div class="col-lg-7">
-                        <div class="row g-4"> 
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                                <p class="fs-5 fw-semibold text-white d-inline-block">Quick Links <span class="d-block bg-white w-50 mt-1 opacity-50" style="height: 1px;"></span></p>        
-                                <ul class="links text-white"> 
-                                    <li class="mb-2"><a href="#">Home</a></li>
-                                    <li class="mb-2"><a href="#">About Us</a></li>
-                                    <li class="mb-2"><a href="#">Our team</a></li>
-                                    <li class="mb-2"><a href="#">Patients Safety</a></li>
-                                    <li class="mb-2"><a href="#"></a>Facilities</li>           
-                                </ul>
-                            </div><!--.//col-->
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                                <p class="fs-5 fw-semibold text-white d-inline-block">Our Services <span class="d-block bg-white w-50 mt-1 opacity-50" style="height: 1px;"></span></p>        
-                                <ul class="links text-white"> 
-                                    <li class="mb-2"><a href="#">Deep Scaling & Curettage</a></li>
-                                    <li class="mb-2"><a href="#">Tooth Extraction</a></li>     
-                                    <li class="mb-2"><a href="#">Composite Filling</a></li>
-                                    <li class="mb-2"><a href="#">Root Canal Treatment</a></li>
-                                    <li class="mb-2"><a href="#">Bridges & Crowns</a></li>      
-                                    <li class="mb-2"><a href="#">Dentures</a></li>   
-                                </ul>
-                            </div><!--.//col-->
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-6">
-                                <p class="fs-5 fw-semibold text-white d-inline-block">Other Links <span class="d-block bg-white w-50 mt-1 opacity-50" style="height: 1px;"></span></p>        
-                                <ul class="links text-white"> 
-                                    <li class="mb-2"><a href="#">Dental Tourism</a></li>
-                                </ul>
-                            </div><!--.//col-->
-                        </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-5 mt-5">      
+                        <p class="text-white fw-medium lead-sm mb-1">Email</p>
+                        <a href="#" class="text-white">innovarecojnstruction@gmail.com</a>
+                        <p class="text-white fw-medium lead-sm mt-3 mb-1">Phone</p>
+                        <a href="#" class="text-white">+91 9987654321 <span class="d-block">+91 9987654321</span></a>
+                        <p class="text-white fw-medium lead-sm mt-3 mb-1">Address</p>
+                        <a href="#" class="text-white">3 Madison Street,Kerala 688522</a>
                     </div><!--.//col-->
-                </div><!--.//row-->
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-4 mt-5">
+                        <p class="text-white fw-medium lead-sm mt-3 mb-1">Services</p>           
+                        <ul class="links text-white"> 
+                            <li class="mb-2"><a href="#">Commercial Construction</a></li>
+                            <li class="mb-2"><a href="#">Residential Construction</a></li>
+                            <li class="mb-2"><a href="#">Services</a></li>
+                            <li class="mb-2"><a href="#">PWD Works</a></li>
+                            <li class="mb-2"><a href="#">Interior Design</a></li>           
+                            <li class="mb-2"><a href="#">Landscaping</a></li>       
+                        </ul>
+                    </div><!--.//col-->
+                </div>
             </div><!--.//container-->
         </div>
         
-        <div class="copyright__wrapp py-3 mt-4 position-relative" style="background: #2B2B2B;">
+        <div class="copyright__wrapp py-2 mt-3 position-relative">
             <div class="container"> 
-                <div class="row g-2 align-items-center">
-                    <div class="col-md-12"> 
-                        <div class="text-center mb-0 text-white fw-medium">
-                            &copy; <?php echo date('Y'); ?> fin team | Designed by
-                            <a href="#" target="_blank" class="d-inline text-white">
-                                 Techpullers
-                            </a>
-                        </div>
+                <span class="d-block bg-white mb-5 opacity-50" style="height: 1px;"></span>
+                <div class="d-flex justify-content-between">
+                    <div class="mb-4">
+                        <?php $classes="footer"; include('_social-links.inc.php'); ?>
                     </div>
-                </div><!--.//row-->  
+                    <div class="mt-2 text-white fw-medium">
+                        &copy; <?php echo date('Y'); ?> fin team | Designed by
+                        <a href="#" target="_blank" class="d-inline text-white">
+                                Techpullers.com
+                        </a>
+                    </div>
+                </div> 
             </div><!--.//container-->
         </div>
     </footer>

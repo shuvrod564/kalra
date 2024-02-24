@@ -20,13 +20,13 @@ footer {
     li { 
         a {
             width: 2.5rem;
-            height: 2.5rem;border-radius: .5rem;
-            background-color: var(--white);
+            height: 2.5rem;border-radius: 50%;
+            border: 1px solid #ffff;
             color: var(--dark);
 
             svg { width: 1.125rem;height: 1.125rem; 
                 path {
-                    fill: var(--dark);transition: all .3s ease-in-out;
+                    fill: #ffff;transition: all .3s ease-in-out;
                 }
             }
 
